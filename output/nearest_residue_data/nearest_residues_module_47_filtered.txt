@@ -1,0 +1,16 @@
+Filtered nearest residue data for "Module47" loops ('HL_GNAA', 'IL_C-loop'):
+
+Loop group: 1
+4V8P_D1:1024-1029_1071-1074 (FASTA)
+4V8P_D1:1025-1030_1072-1075 (PDB)
+
+4V8P_D1:1152-1158 (FASTA)
+4V8P_D1:1153-1159 (PDB)
+
+D1 (Ciliates(Pr, rRNA 26S                      )
+C3 (Ciliates(Pr, rRNA 5S                       ) [Total: 5, Protein: 0] : 'C3'101(A), 'C3'102(G), 'C3'103(U), 'C3'104(C), 'C3'316(HOH)
+CH (Eukaryota , 60S Ribo-Prot L10             ) [Total: 19, Protein: 19] : CH4(ARG), CH8(CYS), CH9(TYR), CH13(LYS), CH14(GLY), CH15(LYS), CH16(PRO), CH17(TYR), CH18(PRO), CH20(SER), CH22(TYR), CH23(ASN), CH98(ARG), CH99(ILE), CH100(ASN), CH115(MET), CH118(ALA), CH119(PHE), CH120(GLY)
+CM (Eukaryota , 60S Ribo-Prot L5              ) [Total: 4, Protein: 4] : CM10(LYS), CM11(ALA), CM14(LYS), CM15(ARG)
+CP (Eukaryota , 60S Ribo-Prot L21             ) [Total: 1, Protein: 1] : CP12(ARG)
+
+

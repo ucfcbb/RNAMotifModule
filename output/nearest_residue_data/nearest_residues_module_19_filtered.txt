@@ -1,0 +1,52 @@
+Filtered nearest residue data for "Module19" loops ('HL_GNAA', 'IL_Kink-turn'):
+
+Loop group: 1
+4V8P_D1:1657-1662 (FASTA)
+4V8P_D1:1658-1663 (PDB)
+
+4V8P_D1:1734-1740_1750-1756 (FASTA)
+4V8P_D1:1735-1741_1751-1757 (PDB)
+
+D1 (Ciliates(Pr, rRNA 26S                      )
+CO (Eukaryota , RPL19                         ) [Total: 3, Protein: 3] : CO110(ARG), CO117(LYS), CO118(HIS)
+CY (Eukaryota , RPL37A                        ) [Total: 4, Protein: 4] : CY41(PHE), CY42(CYS), CY44(LYS), CY59(PRO)
+DG (Eukaryota , RPL30                         ) [Total: 20, Protein: 20] : DG24(THR), DG25(LEU), DG26(GLY), DG27(TYR), DG28(LYS), DG29(SER), DG30(THR), DG32(LYS), DG47(ASN), DG48(CYS), DG49(PRO), DG52(ARG), DG74(ASN), DG83(LYS), DG84(TYR), DG85(HIS), DG86(ARG), DG87(CYS), DG88(SER), DG89(THR)
+DL (Eukaryota , RPL34                         ) [Total: 7, Protein: 7] : DL53(LEU), DL54(ASN), DL55(GLY), DL74(VAL), DL75(SER), DL76(ARG), DL84(HIS)
+DN (Eukaryota , RPL27                         ) [Total: 14, Protein: 14] : DN15(GLN), DN16(GLY), DN17(ARG), DN18(PHE), DN36(ARG), DN38(PHE), DN73(LYS), DN74(TYR), DN75(VAL), DN76(ASN), DN78(ASN), DN79(HIS), DN107(LYS), DN111(ARG)
+
+
+Loop group: 2
+3NVI_F:3-6_13-19 (FASTA)
+3NVI_F:5-8_15-21 (PDB)
+
+3NVI_F:7-12 (FASTA)
+3NVI_F:9-14 (PDB)
+
+F  (Archaea   , Box C/D small nucleolar       )
+C  (Archaea   , NOP5/NOP56 related protein    ) [Total: 15, Protein: 15] : C288(SER), C291(GLN), C331(LYS), C334(ARG), C335(ALA), C338(GLY), C339(LYS), C342(ILE), C361(GLU), C365(ARG), C368(GLU), C369(ILE), C371(GLU), C372(LYS), C373(TYR)
+D  (Archaea   , 50S Ribo-Prot L7Ae            ) [Total: 22, Protein: 22] : D34(ARG), D35(LYS), D36(GLY), D37(THR), D38(ASN), D39(GLU), D40(THR), D42(LYS), D46(ARG), D57(ASP), D58(VAL), D59(ASP), D60(PRO), D63(ILE), D84(LYS), D93(ILE), D94(GLU), D95(VAL), D96(ALA), D97(ALA), D98(ALA), D99(SER)
+
+
+Loop group: 3
+1RLG_D:4-7_14-20 (FASTA)
+1RLG_D:5-8_15-21 (PDB)
+
+1RLG_D:8-13 (FASTA)
+1RLG_D:9-14 (PDB)
+
+D  (Archaea   , K-Turn, C/D RNA               )
+B  (Archaea   , 50S Ribo-Prot L7Ae            ) [Total: 22, Protein: 22] : B29(LYS), B30(LYS), B31(GLY), B32(THR), B33(ASN), B34(GLU), B35(THR), B37(LYS), B41(ARG), B52(ASP), B53(VAL), B54(ASP), B55(PRO), B58(ILE), B79(LYS), B88(ILE), B89(GLU), B90(VAL), B91(PRO), B92(CYS), B93(ALA), B94(SER)
+
+
+Loop group: 4
+3NMU_E:13-16_23-29 (FASTA)
+3NMU_E:14-17_24-30 (PDB)
+
+3NMU_E:17-22 (FASTA)
+3NMU_E:18-23 (PDB)
+
+E  (Archaea   , Box C/D small nucleolar, RNA (3)
+B  (Archaea   , NOP5/NOP56 related protein    ) [Total: 13, Protein: 13] : B287(SER), B288(SER), B291(GLN), B331(LYS), B334(ARG), B335(ALA), B338(GLY), B339(LYS), B342(ILE), B365(ARG), B368(GLU), B372(LYS), B373(TYR)
+C  (Archaea   , 50S Ribo-Prot L7Ae            ) [Total: 23, Protein: 23] : C32(LYS), C34(ARG), C35(LYS), C36(GLY), C37(THR), C38(ASN), C39(GLU), C40(THR), C42(LYS), C46(ARG), C57(ASP), C58(VAL), C59(ASP), C60(PRO), C63(ILE), C84(LYS), C93(ILE), C94(GLU), C95(VAL), C96(ALA), C97(ALA), C98(ALA), C99(SER)
+
+

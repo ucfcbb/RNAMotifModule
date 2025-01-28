@@ -1,0 +1,20 @@
+Nearest residue data for "Module53" loops ('HL_GNGA', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+7QI4_A:68-74_82-87 (FASTA)
+7QI4_A:1739-1745_1753-1758 (PDB)
+
+7QI4_A:75-81 (FASTA)
+7QI4_A:1746-1752 (PDB)
+
+A  (          ,                               )
+3  (          ,                               ) [Total: 37, Protein: 28] : '3'94(LEU), '3'95(THR), '3'96(TYR), '3'97(PHE), '3'98(SER), '3'99(ALA), '3'100(ARG), '3'101(LYS), '3'102(GLY), '3'103(LYS), '3'104(ARG), '3'105(LYS), '3'106(THR), '3'107(VAL), '3'108(LYS), '3'109(ALA), '3'110(VAL), '3'111(ILE), '3'112(ASP), '3'113(ARG), '3'157(LEU), '3'160(LYS), '3'161(MET), '3'162(THR), '3'163(THR), '3'164(SER), '3'165(PHE), '3'166(TRP), '3'306(HOH), '3'309(HOH), '3'312(HOH), '3'313(HOH), '3'314(HOH), '3'320(HOH), '3'322(HOH), '3'333(HOH), '3'334(HOH)
+Ay (          ,                               ) [Total: 1, Protein: 0] : Ay76(A)
+F  (          ,                               ) [Total: 4, Protein: 3] : F162(TYR), F163(TYR), F164(MET), F460(HOH)
+H  (          ,                               ) [Total: 19, Protein: 17] : H57(GLU), H58(ARG), H59(TRP), H60(TRP), H61(LYS), H62(VAL), H63(PRO), H64(LEU), H65(ALA), H66(GLY), H67(GLU), H69(ARG), H72(ARG), H74(HIS), H76(ARG), H77(HIS), H81(LYS), H305(HOH), H309(HOH)
+M  (          ,                               ) [Total: 54, Protein: 40] : M64(ARG), M65(LEU), M66(GLY), M67(PHE), M68(GLU), M70(GLY), M71(GLN), M72(THR), M73(PRO), M74(PHE), M75(TYR), M76(ILE), M77(ARG), M80(LYS), M84(ASN), M85(GLU), M86(GLY), M87(HIS), M88(SER), M89(PHE), M130(GLN), M131(PRO), M132(LEU), M133(LYS), M134(ARG), M136(TYR), M180(ASP), M181(PRO), M182(ARG), M183(SER), M184(LEU), M185(ASP), M186(ILE), M187(VAL), M188(CYS), M189(LYS), M196(ARG), M198(GLN), M201(PRO), M265(ILE), M402(HOH), M405(HOH), M424(HOH), M425(HOH), M427(HOH), M428(HOH), M434(HOH), M439(HOH), M449(HOH), M452(HOH), M454(HOH), M457(HOH), M464(HOH), M466(HOH)
+X  (          ,                               ) [Total: 24, Protein: 22] : X46(HIS), X49(LYS), X50(PHE), X51(LYS), X53(ASN), X54(PRO), X55(LYS), X56(ASN), X57(GLY), X58(GLN), X59(ARG), X60(GLU), X61(ARG), X62(VAL), X63(GLU), X91(TYR), X93(ASN), X94(ASN), X95(ASP), X96(LYS), X97(LEU), X98(SER), X304(HOH), X312(HOH)
+i  (          ,                               ) [Total: 36, Protein: 26] : i77(PRO), i78(ILE), i79(TRP), i80(LEU), i81(ARG), i82(GLY), i83(TRP), i84(LYS), i85(GLY), i86(ASN), i88(LEU), i89(GLN), i90(ARG), i91(CYS), i92(ILE), i93(ARG), i94(LYS), i95(ARG), i96(LYS), i97(MET), i114(ILE), i115(ARG), i118(TYR), i119(LYS), i122(ASN), i123(ARG), i305(HOH), i312(HOH), i313(HOH), i314(HOH), i318(HOH), i320(HOH), i327(HOH), i329(HOH), i337(HOH), i342(HOH)
+q  (          ,                               ) [Total: 2, Protein: 2] : q50(TRP), q55(ARG)
+
+

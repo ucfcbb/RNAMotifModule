@@ -1,0 +1,10 @@
+>8FR8_A:1444-1446_1432-1436
+CGC...GCCAG
+#info=basepair
+0-4,H/W,trans
+2-6,S/W,cis
+#info=stacking
+0-2,upward
+3-4,upward
+6-7,upward
+2-7,outward

@@ -1,0 +1,16 @@
+>8GLP_L5:3807-3810_3780-3791
+CGCG...CCAAAUGCCUCG
+#info=basepair
+4-7,S/W,cis
+6-13,H/W,cis
+10-12,S/W,trans
+#info=stacking
+0-1,inward
+4-5,upward
+1-5,downward
+3-5,outward
+6-10,inward
+6-15,outward
+7-9,inward
+11-12,upward
+12-13,inward

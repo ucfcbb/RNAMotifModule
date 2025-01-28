@@ -1,0 +1,11 @@
+>1S72_0:2349-2353_2329-2331
+CGAAG...CAG
+#info=basepair
+1-6,S/H,trans
+#info=stacking
+0-1,upward
+2-3,downward
+5-6,upward
+1-5,inward
+6-7,upward
+4-6,outward

@@ -1,0 +1,16 @@
+>1S72_0:2594-2600_2550-2553_2578-2580
+AUUAAAG...CAUC...GUG
+#info=basepair
+1-5,W/H,trans
+2-4,S/H,trans
+4-10,S/S,cis
+4-11,S/S,trans
+6-12,H/W,cis
+#info=stacking
+0-1,upward
+1-2,upward
+3-4,upward
+4-5,upward
+6-10,outward
+11-12,upward
+5-13,upward

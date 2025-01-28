@@ -1,0 +1,48 @@
+Filtered nearest residue data for "Module18" loops ('IL_Sarcin-ricin', 'IL_Tandem-shear'):
+
+Loop group: 1
+5J7L_AA:1415-1418_1480-1483 (FASTA)
+5J7L_AA:1416-1419_1481-1484 (PDB)
+
+5J7L_AA:886-893_904-909 (FASTA)
+5J7L_AA:887-894_905-910 (PDB)
+
+AA (Bacteria  , rRNA 16S                      )
+AL (Bacteria  , 30S Ribo-Prot S12             ) [Total: 3, Protein: 3] : AL18(LYS), AL22(PRO), AL94(ARG)
+DA (Bacteria  , rRNA 23S                      ) [Total: 11, Protein: 0] : DA1947(C), DA1948(G), DA1949(G), DA1958(C), DA1959(G), DA1960(A), DA1961(C), DA3915(HOH), DA4385(HOH), DA5942(HOH), DA6780(HOH)
+
+
+Loop group: 2
+4V88_A6:1110-1117_1128-1133 (FASTA)
+4V88_A6:1111-1118_1129-1134 (PDB)
+
+4V88_A6:1652-1655_1743-1746 (FASTA)
+4V88_A6:1653-1656_1744-1747 (PDB)
+
+A6 (Fungi     , rRNA 18S                      )
+A5 (Eukaryota , 25S rRNA                      ) [Total: 11, Protein: 0] : 'A5'2125(A), 'A5'2290(C), 'A5'2291(A), 'A5'2292(U), 'A5'2293(C), 'A5'2301(U), 'A5'2302(G), 'A5'2303(A), 'A5'2304(C), 'A5'3403(OHX), 'A5'3412(MG)
+CX (Eukaryota , 40S Ribo-Prot S23-A           ) [Total: 7, Protein: 7] : CX30(LYS), CX31(LYS), CX34(LEU), CX36(THR), CX40(SER), CX42(PRO), CX121(ARG)
+Dn (Eukaryota , 60S Ribo-Prot L41-A           ) [Total: 6, Protein: 6] : Dn6(ARG), Dn10(THR), Dn14(LYS), Dn17(ARG), Dn21(ARG), Dn24(SER)
+
+
+Loop group: 3
+4LFB_A:1398-1401_1458-1461 (FASTA)
+4LFB_A:1416-1419_1481-1484 (PDB)
+
+4LFB_A:864-871_882-887 (FASTA)
+4LFB_A:887-894_905-910 (PDB)
+
+A  (Bacteria  , rRNA 16S                      )
+L  (Bacteria  , Ribo-Prot S12                 ) [Total: 2, Protein: 2] : L21(LYS), L97(ARG)
+
+
+Loop group: 4
+3DIL_A:18-21_69-72 (FASTA)
+3DIL_A:19-22_70-73 (PDB)
+
+3DIL_A:21-29_62-69 (FASTA)
+3DIL_A:22-30_63-70 (PDB)
+
+A  (Riboswitch, Lysine Riboswitch             )
+
+

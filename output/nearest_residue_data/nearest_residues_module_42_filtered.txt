@@ -1,0 +1,12 @@
+Filtered nearest residue data for "Module42" loops ('HL_GNAA', 'IL_Tandem-shear'):
+
+Loop group: 1
+4V9F_0:2865-2868_2873-2876 (FASTA)
+4V9F_0:2873-2876_2881-2884 (PDB)
+
+4V9F_0:2868-2873 (FASTA)
+4V9F_0:2876-2881 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+
+

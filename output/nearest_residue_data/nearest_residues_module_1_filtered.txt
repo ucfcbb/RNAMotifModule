@@ -1,0 +1,10 @@
+Filtered nearest residue data for "Module1" loops ('IL_E-loop', 'IL_Kink-turn'):
+
+Loop group: 1
+4V9F_0:13-18_509-514 (FASTA)
+4V9F_0:21-26_517-522 (PDB)
+
+4V9F_0:1304-1311_1330-1334 (FASTA)
+4V9F_0:1312-1319_1338-1342 (PDB)
+
+0  (Archaea   , rRNA 23S                      )

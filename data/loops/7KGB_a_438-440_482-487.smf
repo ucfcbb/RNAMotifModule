@@ -1,0 +1,14 @@
+>7KGB_a:438-440_482-487
+CAC...GAGAAG
+#info=basepair
+1-4,W/W,cis
+5-8,S/H,cis
+#info=stacking
+0-1,upward
+1-2,upward
+1-8,outward
+3-4,upward
+4-5,upward
+5-7,upward
+6-7,downward
+7-8,downward

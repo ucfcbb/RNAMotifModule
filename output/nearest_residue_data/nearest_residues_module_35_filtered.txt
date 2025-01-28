@@ -1,0 +1,35 @@
+Filtered nearest residue data for "Module35" loops ('HL_GNAA', 'HL_GNGA', 'IL_Tandem-shear'):
+
+Loop group: 1
+7RQB_1A:2360-2363_2374-2377 (FASTA)
+7RQB_1A:2350-2353_2364-2367 (PDB)
+
+7RQB_1A:652-657 (FASTA)
+7RQB_1A:629-634 (PDB)
+
+7RQB_1A:664-670 (FASTA)
+7RQB_1A:641-647 (PDB)
+
+1A (          ,                               )
+10 (          ,                               ) [Total: 14, Protein: 13] : '10'32(ARG), '10'33(ALA), '10'34(GLY), '10'35(ASN), '10'36(ILE), '10'39(ARG), '10'53(MET), '10'54(GLY), '10'55(ARG), '10'56(ASP), '10'58(THR), '10'60(PHE), '10'62(LEU), '10'104(MG)
+16 (          ,                               ) [Total: 2, Protein: 2] : '16'41(PRO), '16'44(ARG)
+18 (          ,                               ) [Total: 12, Protein: 9] : '18'15(LYS), '18'16(ILE), '18'17(THR), '18'18(ALA), '18'39(LYS), '18'42(ARG), '18'43(GLN), '18'46(ARG), '18'47(LYS), '18'104(MPD), '18'203(HOH), '18'221(HOH)
+1P (          ,                               ) [Total: 6, Protein: 5] : '1P'65(ARG), '1P'66(GLY), '1P'67(MET), '1P'77(ARG), '1P'79(ARG), '1P'349(HOH)
+
+
+Loop group: 2
+4WF9_X:2376-2379_2390-2393 (FASTA)
+4WF9_X:2377-2380_2391-2394 (PDB)
+
+4WF9_X:673-678 (FASTA)
+4WF9_X:674-679 (PDB)
+
+4WF9_X:685-691 (FASTA)
+4WF9_X:686-692 (PDB)
+
+X  (Bacteria  , rRNA 23S                      )
+3  (Bacteria  , 50S Ribo-Prot L35             ) [Total: 4, Protein: 4] : '3'15(LYS), '3'16(ARG), '3'17(THR), '3'39(LYS)
+I  (Bacteria  , 50S Ribo-Prot L15             ) [Total: 7, Protein: 7] : I58(PHE), I59(ARG), I60(ARG), I61(LEU), I62(PRO), I63(LYS), I64(ARG)
+T  (Bacteria  , 50S Ribo-Prot L27             ) [Total: 12, Protein: 12] : T40(THR), T41(GLY), T42(GLY), T43(SER), T44(ILE), T47(ARG), T62(GLY), T63(GLY), T64(ASP), T66(THR), T68(PHE), T70(LYS)
+
+

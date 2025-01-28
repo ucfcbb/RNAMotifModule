@@ -1,0 +1,13 @@
+>7QI4_AA:815-819_537-541
+GCCCU...AUAUC
+#info=basepair
+1-3,S/H,cis
+1-5,W/H,trans
+6-9,W/H,cis
+3-9,W/S,cis
+#info=stacking
+0-1,upward
+2-3,upward
+3-4,upward
+5-9,upward
+6-8,upward

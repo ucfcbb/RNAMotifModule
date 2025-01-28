@@ -1,0 +1,14 @@
+>8FR8_A:436-437_354-362
+UC...GUGAGAAAA
+#info=basepair
+2-8,S/H,trans
+3-9,W/H,cis
+3-10,W/H,cis
+1-9,S/W,cis
+#info=stacking
+0-1,upward
+3-8,outward
+5-6,upward
+7-8,inward
+8-9,outward
+9-10,upward

@@ -1,0 +1,10 @@
+>8A98_S1:1704-1706_1764-1769
+CAG...CGGUCG
+#info=basepair
+0-8,W/W,trans
+1-4,H/H,cis
+#info=stacking
+1-2,outward
+1-8,inward
+2-4,downward
+3-4,inward

@@ -1,0 +1,15 @@
+>1S72_0:1488-1492_1509-1512_1670-1672_1451-1453
+GGAAA...UGCC...GUC...GUC
+#info=basepair
+2-8,S/S,cis
+3-7,S/S,cis
+1-13,W/H,trans
+#info=stacking
+0-1,upward
+2-3,upward
+4-6,outward
+6-7,upward
+7-8,upward
+10-11,upward
+12-13,upward
+13-14,upward

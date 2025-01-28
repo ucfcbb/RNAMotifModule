@@ -1,0 +1,41 @@
+Filtered nearest residue data for "Module30" loops ('IL_Rope-sling', 'IL_Tandem-shear', 'IL_reverse-Kink-turn'):
+
+Loop group: 1
+5J7L_DA:1003-1010_1149-1150 (FASTA)
+5J7L_DA:1004-1011_1150-1151 (PDB)
+
+5J7L_DA:1023-1029_1123-1139 (FASTA)
+5J7L_DA:1024-1030_1124-1140 (PDB)
+
+5J7L_DA:2466-2469_2479-2482 (FASTA)
+5J7L_DA:2467-2470_2480-2483 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+D5 (Bacteria  , 50S Ribo-Prot L36             ) [Total: 10, Protein: 7] : 'D5'4(ARG), 'D5'5(ALA), 'D5'6(SER), 'D5'8(LYS), 'D5'21(GLY), 'D5'37(GLN), 'D5'38(GLY), 'D5'201(HOH), 'D5'202(HOH), 'D5'205(HOH)
+DD (Bacteria  , 50S Ribo-Prot L3              ) [Total: 5, Protein: 4] : DD150(MEQ), DD151(THR), DD152(PRO), DD154(LYS), DD156(PHE)
+DK (Bacteria  , 50S Ribo-Prot L13             ) [Total: 45, Protein: 34] : DK24(THR), DK25(LEU), DK26(GLY), DK27(ARG), DK30(THR), DK33(ALA), DK34(ARG), DK37(ARG), DK39(LYS), DK44(TYR), DK64(VAL), DK65(THR), DK68(LYS), DK72(LYS), DK74(TYR), DK75(TYR), DK76(HIS), DK77(HIS), DK79(GLY), DK80(HIS), DK81(ILE), DK82(GLY), DK83(GLY), DK84(ILE), DK100(VAL), DK103(ILE), DK104(ALA), DK105(VAL), DK106(LYS), DK107(GLY), DK108(MET), DK109(LEU), DK110(PRO), DK111(LYS), DK301(HOH), DK302(HOH), DK304(HOH), DK307(HOH), DK309(HOH), DK316(HOH), DK322(HOH), DK324(HOH), DK341(HOH), DK345(HOH), DK356(HOH)
+DN (Bacteria  , 50S Ribo-Prot L16             ) [Total: 11, Protein: 9] : DN44(ARG), DN47(GLU), DN48(ALA), DN51(ARG), DN55(ARG), DN119(LEU), DN122(ALA), DN123(LYS), DN127(LYS), DN361(HOH), DN365(HOH)
+DR (Bacteria  , 50S Ribo-Prot L20             ) [Total: 12, Protein: 11] : DR59(GLN), DR62(ILE), DR63(ALA), DR66(ASN), DR70(ARG), DR75(SER), DR76(TYR), DR77(SER), DR78(LYS), DR81(ASN), DR85(LYS), DR352(HOH)
+
+
+Loop group: 2
+4V8P_D1:1199-1206_1351-1352 (FASTA)
+4V8P_D1:1200-1207_1352-1353 (PDB)
+
+4V8P_D1:1221-1231_1325-1339 (FASTA)
+4V8P_D1:1222-1232_1326-1340 (PDB)
+
+4V8P_D1:2823-2826_2836-2839 (FASTA)
+4V8P_D1:2824-2827_2837-2840 (PDB)
+
+D1 (Ciliates(Pr, rRNA 26S                      )
+C3 (Ciliates(Pr, rRNA 5S                       ) [Total: 4, Protein: 0] : 'C3'84(U), 'C3'86(G), 'C3'88(G), 'C3'89(G)
+CB (Eukaryota , Ribo-Prot L3                  ) [Total: 4, Protein: 4] : CB254(HIS), CB255(PRO), CB257(ARG), CB259(ARG)
+CH (Eukaryota , 60S Ribo-Prot L10             ) [Total: 10, Protein: 10] : CH30(ARG), CH67(ALA), CH70(ILE), CH74(LYS), CH78(LYS), CH154(ARG), CH156(LYS), CH157(ALA), CH158(LYS), CH161(GLY)
+CI (Eukaryota , 60S Ribo-Prot L13A            ) [Total: 23, Protein: 23] : CI15(LEU), CI16(GLY), CI17(ARG), CI20(SER), CI23(ALA), CI24(LYS), CI27(LEU), CI55(GLU), CI58(ASN), CI59(LYS), CI60(TRP), CI61(MET), CI62(ASN), CI69(VAL), CI78(ILE), CI81(ARG), CI82(ALA), CI83(VAL), CI85(GLY), CI86(MET), CI87(LEU), CI88(PRO), CI93(LYS)
+CV (Eukaryota , 60S Ribo-Prot L7              ) [Total: 1, Protein: 1] : CV208(ARG)
+DH (Eukaryota , RPL35A                        ) [Total: 11, Protein: 11] : DH21(THR), DH25(ARG), DH26(SER), DH27(LYS), DH36(LEU), DH45(LYS), DH81(HIS), DH82(GLY), DH83(ASN), DH84(ASN), DH86(VAL)
+DK (Eukaryota , UBIQUITIN-60S Ribo-Prot L40   ) [Total: 6, Protein: 4] : DK113(ARG), DK114(LYS), DK115(CYS), DK116(GLY), DK201(MG), DK302(HOH)
+DX (Eukaryota , RPL18A                        ) [Total: 4, Protein: 4] : DX2(VAL), DX12(ASP), DX17(LYS), DX178(ARG)
+
+

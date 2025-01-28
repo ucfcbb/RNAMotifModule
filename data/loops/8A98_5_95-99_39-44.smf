@@ -1,0 +1,13 @@
+>8A98_5:95-99_39-44
+CUGAA...CAUGAG
+#info=basepair
+3-6,W/S,trans
+1-7,S/S,trans
+1-9,H/H,trans
+#info=stacking
+0-1,inward
+3-4,outward
+5-6,upward
+3-7,upward
+8-9,upward
+9-10,upward

@@ -1,0 +1,16 @@
+>4P95_A:97-100_111-119
+GUGG...CGUAACAUC
+#info=basepair
+0-8,S/S,trans
+1-10,W/W,trans
+6-8,S/H,trans
+8-12,S/S,cis
+#info=stacking
+0-1,upward
+1-2,upward
+2-10,downward
+3-5,outward
+4-5,upward
+5-6,upward
+7-8,upward
+10-12,outward

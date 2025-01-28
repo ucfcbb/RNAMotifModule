@@ -1,0 +1,12 @@
+>7QI4_AA:640-648_629-630
+GCUACAAAG...CC
+#info=basepair
+0-7,S/S,cis
+7-10,S/S,trans
+#info=stacking
+0-8,upward
+1-2,upward
+2-6,inward
+3-5,outward
+9-10,upward
+8-10,outward

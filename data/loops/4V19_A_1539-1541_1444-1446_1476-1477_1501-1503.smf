@@ -1,0 +1,12 @@
+>4V19_A:1539-1541_1444-1446_1476-1477_1501-1503
+CAU...AAA...UG...CAG
+#info=basepair
+1-4,H/S,trans
+#info=stacking
+1-2,upward
+3-4,upward
+0-4,inward
+5-7,outward
+5-8,downward
+6-7,upward
+1-10,outward

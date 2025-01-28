@@ -1,0 +1,10 @@
+>8GLP_L5:4748-4750_4947-4950
+CGG...CGUG
+#info=basepair
+1-4,W/W,trans
+#info=stacking
+0-1,upward
+1-2,upward
+1-6,outward
+3-4,inward
+4-6,outward

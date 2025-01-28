@@ -1,0 +1,17 @@
+>1S72_0:2316-2321_2416-2419_2375-2379
+CCUAUG...GUGG...UUGAC
+#info=basepair
+0-9,W/W,cis
+1-8,W/W,cis
+3-11,W/W,trans
+3-13,H/H,trans
+5-10,W/W,cis
+5-13,-/-,hbond
+#info=stacking
+3-5,outward
+6-12,inward
+8-13,outward
+12-14,outward
+0-1,upward
+8-9,upward
+10-11,upward

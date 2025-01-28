@@ -1,0 +1,63 @@
+Filtered nearest residue data for "Module8" loops ('HL_GNAA', 'HL_GNAA'):
+
+Loop group: 1
+4V9F_0:1460-1466 (FASTA)
+4V9F_0:1468-1474 (PDB)
+
+4V9F_0:1854-1859 (FASTA)
+4V9F_0:1862-1867 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+1  (Archaea   , 50S Ribo-Prot L37e            ) [Total: 12, Protein: 6] : '1'41(LYS), '1'42(SER), '1'43(ALA), '1'44(LYS), '1'45(ARG), '1'48(TYR), '1'206(HOH), '1'209(HOH), '1'210(HOH), '1'230(HOH), '1'242(HOH), '1'249(HOH)
+A  (Archaea   , 50S Ribo-Prot L2P             ) [Total: 5, Protein: 5] : A3(ARG), A7(GLN), A10(GLY), A11(ARG), A221(PRO)
+M  (Archaea   , 50S Ribo-Prot L15e            ) [Total: 28, Protein: 16] : M36(ALA), M66(SER), M68(ARG), M71(SER), M72(ALA), M73(ARG), M74(LYS), M75(ARG), M76(ARG), M93(ARG), M95(LYS), M100(VAL), M103(GLU), M104(ARG), M107(ARG), M125(ARG), M301(HOH), M322(HOH), M333(HOH), M353(HOH), M361(HOH), M373(HOH), M376(HOH), M381(HOH), M385(HOH), M394(HOH), M396(HOH), M432(HOH)
+
+
+Loop group: 2
+5J7L_AA:1075-1080 (FASTA)
+5J7L_AA:1076-1081 (PDB)
+
+5J7L_AA:861-866 (FASTA)
+5J7L_AA:862-867 (PDB)
+
+AA (Bacteria  , rRNA 16S                      )
+AB (Bacteria  , 30S Ribo-Prot S2              ) [Total: 2, Protein: 2] : AB174(LYS), AB178(ASN)
+AE (Bacteria  , 30S Ribo-Prot S5              ) [Total: 15, Protein: 14] : AE21(VAL), AE22(SER), AE23(LYS), AE30(ILE), AE32(SER), AE34(THR), AE50(TYR), AE52(LYS), AE89(HIS), AE90(THR), AE91(GLY), AE134(ILE), AE135(ASN), AE138(ARG), AE205(HOH)
+
+
+Loop group: 3
+4V5O_BA:1055-1060 (FASTA)
+4V5O_BA:1056-1061 (PDB)
+
+4V5O_BA:1267-1272 (FASTA)
+4V5O_BA:1268-1273 (PDB)
+
+BA (Ciliates(Pr, rRNA 18S                      )
+B5 (Eukaryota , Ribo-Prot S26E CONTAINING PROTE) [Total: 2, Protein: 2] : 'B5'2(PRO), 'B5'3(VAL)
+BB (Eukaryota , RPS0E                         ) [Total: 1, Protein: 1] : BB135(TYR)
+BE (Eukaryota , Ribo-Prot S5 CONTAINING PROTEIN) [Total: 13, Protein: 13] : BE87(VAL), BE88(GLN), BE89(LYS), BE98(ARG), BE100(LYS), BE116(TRP), BE118(VAL), BE163(SER), BE164(GLY), BE165(SER), BE167(ARG), BE210(ASN), BE213(LYS)
+
+
+Loop group: 4
+4V88_A6:1083-1088 (FASTA)
+4V88_A6:1084-1089 (PDB)
+
+4V88_A6:1295-1300 (FASTA)
+4V88_A6:1296-1301 (PDB)
+
+A6 (Fungi     , rRNA 18S                      )
+CA (Eukaryota , 40S Ribo-Prot S0-A            ) [Total: 1, Protein: 1] : CA138(TYR)
+CC (Eukaryota , 40S Ribo-Prot S2              ) [Total: 14, Protein: 14] : CC86(VAL), CC87(GLN), CC88(LYS), CC95(ARG), CC97(ARG), CC99(LYS), CC117(THR), CC161(LYS), CC162(CYS), CC163(GLY), CC164(SER), CC208(GLU), CC209(ASN), CC212(LYS)
+Ca (Eukaryota , 40S Ribo-Prot S26-A           ) [Total: 3, Protein: 3] : Ca2(PRO), Ca3(LYS), Ca89(ARG)
+
+
+Loop group: 5
+3Q1Q_B:283-288 (FASTA)
+3Q1Q_B:284-289 (PDB)
+
+3Q1Q_B:76-82 (FASTA)
+3Q1Q_B:77-83 (PDB)
+
+B  (Bacteria  , Ribozyme, Ribonuclease P      )
+
+

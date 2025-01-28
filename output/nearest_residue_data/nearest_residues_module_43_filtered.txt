@@ -1,0 +1,15 @@
+Filtered nearest residue data for "Module43" loops ('HL_GNAA', 'IL_Rope-sling'):
+
+Loop group: 1
+4V9F_0:1093-1100_1246-1247 (FASTA)
+4V9F_0:1101-1108_1254-1255 (PDB)
+
+4V9F_0:568-573 (FASTA)
+4V9F_0:576-581 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+6  (Archaea   , 50S Ribo-Prot LX              ) [Total: 5, Protein: 5] : '6'26(PRO), '6'27(ASN), '6'30(VAL), '6'33(GLU), '6'34(ARG)
+J  (Archaea   , 50S Ribo-Prot L13P            ) [Total: 12, Protein: 10] : J24(SER), J27(ALA), J28(GLU), J31(LEU), J85(GLY), J86(MET), J87(LEU), J88(PRO), J91(LYS), J93(ARG), J313(HOH), J315(HOH)
+W  (Archaea   , 50S Ribo-Prot L30P            ) [Total: 1, Protein: 0] : W303(HOH)
+
+

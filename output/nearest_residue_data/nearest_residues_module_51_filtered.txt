@@ -1,0 +1,15 @@
+Filtered nearest residue data for "Module51" loops ('HL_T-loop', 'IL_Tandem-shear'):
+
+Loop group: 1
+3J7A_A:1965-1968_2020-2023 (FASTA)
+3J7A_A:1966-1969_2021-2024 (PDB)
+
+3J7A_A:398-409 (FASTA)
+3J7A_A:399-410 (PDB)
+
+A  (malaria par, rRNA 18S                      )
+F  (Eukaryota , 40S Ribo-Prot eS4             ) [Total: 4, Protein: 4] : F2(GLY), F3(LYS), F4(GLY), F5(ILE)
+H  (Eukaryota , 40S Ribo-Prot eS6             ) [Total: 6, Protein: 6] : H88(LYS), H89(LYS), H90(GLY), H91(GLU), H92(ARG), H94(ARG)
+L  (Eukaryota , 40S Ribo-Prot eS8             ) [Total: 11, Protein: 11] : L5(ARG), L23(LYS), L24(LYS), L25(ARG), L26(LYS), L27(TYR), L29(LEU), L47(ARG), L49(ARG), L50(GLY), L51(ARG)
+
+

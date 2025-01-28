@@ -1,0 +1,97 @@
+Nearest residue data for "Module6" loops ('IL_Sarcin-ricin', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+4V9F_0:150-155_164-170 (FASTA)
+4V9F_0:158-163_172-178 (PDB)
+
+4V9F_0:757-761_884-891 (FASTA)
+4V9F_0:765-769_892-899 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+1  (Archaea   , 50S Ribo-Prot L37e            ) [Total: 19, Protein: 9] : '1'48(TYR), '1'49(GLU), '1'50(TRP), '1'51(GLN), '1'52(SER), '1'53(LYS), '1'54(ALA), '1'55(GLY), '1'56(GLU), '1'201(HOH), '1'204(HOH), '1'211(HOH), '1'213(HOH), '1'214(HOH), '1'225(HOH), '1'236(HOH), '1'240(HOH), '1'246(HOH), '1'247(HOH)
+3  (Archaea   , 50S Ribo-Prot L44e            ) [Total: 19, Protein: 11] : '3'41(GLU), '3'42(ARG), '3'43(ASN), '3'44(SER), '3'45(GLY), '3'46(ILE), '3'47(GLY), '3'48(ASN), '3'49(ASP), '3'50(GLY), '3'53(SER), '3'101(MG), '3'212(HOH), '3'229(HOH), '3'237(HOH), '3'260(HOH), '3'261(HOH), '3'262(HOH), '3'263(HOH)
+A  (Archaea   , 50S Ribo-Prot L2P             ) [Total: 2, Protein: 0] : A422(HOH), A498(HOH)
+C  (Archaea   , 50S Ribo-Prot L4P             ) [Total: 70, Protein: 38] : C48(SER), C49(ASP), C50(GLU), C51(TYR), C52(ALA), C53(GLY), C54(LEU), C55(ARG), C56(THR), C57(PRO), C58(ALA), C59(GLU), C60(SER), C61(PHE), C62(GLY), C63(SER), C64(GLY), C66(GLY), C67(GLN), C68(ALA), C69(HIS), C70(VAL), C71(PRO), C72(LYS), C78(ARG), C79(ARG), C80(VAL), C81(PRO), C82(GLN), C83(ALA), C85(LYS), C86(GLY), C87(ARG), C88(SER), C89(ALA), C93(LYS), C94(THR), C95(GLU), C417(HOH), C418(HOH), C420(HOH), C422(HOH), C423(HOH), C424(HOH), C429(HOH), C430(HOH), C441(HOH), C445(HOH), C446(HOH), C455(HOH), C458(HOH), C466(HOH), C477(HOH), C484(HOH), C486(HOH), C490(HOH), C491(HOH), C492(HOH), C493(HOH), C501(HOH), C509(HOH), C522(HOH), C537(HOH), C539(HOH), C542(HOH), C546(HOH), C550(HOH), C565(HOH), C566(HOH), C568(HOH)
+L  (Archaea   , 50S Ribo-Prot L15P            ) [Total: 32, Protein: 19] : L17(SER), L18(HIS), L19(LYS), L20(ASN), L21(ARG), L22(ARG), L23(GLY), L24(ALA), L25(GLY), L26(HIS), L27(ARG), L28(GLY), L29(GLY), L30(ARG), L31(GLY), L32(ASP), L33(ALA), L38(HIS), L39(GLU), L201(NA), L202(NA), L204(MG), L308(HOH), L313(HOH), L314(HOH), L315(HOH), L319(HOH), L322(HOH), L346(HOH), L352(HOH), L366(HOH), L367(HOH)
+M  (Archaea   , 50S Ribo-Prot L15e            ) [Total: 51, Protein: 29] : M74(LYS), M75(ARG), M76(ARG), M77(HIS), M78(LYS), M79(ALA), M80(GLY), M81(ARG), M82(ARG), M83(SER), M84(LYS), M85(ARG), M86(GLN), M87(GLY), M91(ILE), M92(THR), M93(ARG), M94(ARG), M95(LYS), M182(LYS), M187(LEU), M188(ARG), M189(SER), M190(ASN), M191(GLY), M192(GLY), M193(LYS), M194(GLY), M195(LYS), M307(HOH), M309(HOH), M318(HOH), M319(HOH), M320(HOH), M321(HOH), M326(HOH), M330(HOH), M331(HOH), M336(HOH), M338(HOH), M339(HOH), M352(HOH), M370(HOH), M376(HOH), M380(HOH), M383(HOH), M410(HOH), M413(HOH), M423(HOH), M427(HOH), M432(HOH)
+
+
+Loop group: 2
+5J7L_DA:187-192_201-207 (FASTA)
+5J7L_DA:188-193_202-208 (PDB)
+
+5J7L_DA:673-677_798-805 (FASTA)
+5J7L_DA:674-678_799-806 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+D4 (Bacteria  , 50S Ribo-Prot L35             ) [Total: 21, Protein: 11] : 'D4'2(PRO), 'D4'3(LYS), 'D4'4(ILE), 'D4'5(LYS), 'D4'6(THR), 'D4'7(VAL), 'D4'8(ARG), 'D4'60(ALA), 'D4'61(CYS), 'D4'63(PRO), 'D4'64(TYR), 'D4'102(HOH), 'D4'103(HOH), 'D4'110(HOH), 'D4'111(HOH), 'D4'115(HOH), 'D4'119(HOH), 'D4'120(HOH), 'D4'124(HOH), 'D4'126(HOH), 'D4'129(HOH)
+DC (Bacteria  , 50S Ribo-Prot L2              ) [Total: 1, Protein: 1] : DC228(VAL)
+DE (Bacteria  , 50S Ribo-Prot L4              ) [Total: 67, Protein: 39] : DE46(GLN), DE47(LYS), DE48(THR), DE49(ARG), DE50(ALA), DE51(GLU), DE52(VAL), DE53(THR), DE54(GLY), DE55(SER), DE56(GLY), DE57(LYS), DE58(LYS), DE59(PRO), DE60(TRP), DE61(ARG), DE62(GLN), DE63(LYS), DE65(THR), DE67(ARG), DE68(ALA), DE69(ARG), DE70(SER), DE71(GLY), DE72(SER), DE73(ILE), DE74(LYS), DE75(SER), DE76(PRO), DE77(ILE), DE78(TRP), DE79(ARG), DE80(SER), DE81(GLY), DE82(GLY), DE83(VAL), DE84(THR), DE85(PHE), DE88(ARG), DE302(MPD), DE401(HOH), DE402(HOH), DE403(HOH), DE412(HOH), DE414(HOH), DE415(HOH), DE417(HOH), DE421(HOH), DE422(HOH), DE426(HOH), DE427(HOH), DE428(HOH), DE429(HOH), DE430(HOH), DE433(HOH), DE434(HOH), DE439(HOH), DE441(HOH), DE444(HOH), DE449(HOH), DE450(HOH), DE452(HOH), DE455(HOH), DE457(HOH), DE458(HOH), DE460(HOH), DE461(HOH)
+DM (Bacteria  , 50S Ribo-Prot L15             ) [Total: 44, Protein: 18] : DM33(ARG), DM35(HIS), DM36(LYS), DM37(GLY), DM38(GLN), DM39(LYS), DM40(SER), DM41(ARG), DM42(SER), DM43(GLY), DM44(GLY), DM45(GLY), DM46(VAL), DM47(ARG), DM48(ARG), DM49(GLY), DM50(PHE), DM58(TYR), DM201(PUT), DM304(HOH), DM307(HOH), DM308(HOH), DM314(HOH), DM316(HOH), DM317(HOH), DM322(HOH), DM324(HOH), DM325(HOH), DM327(HOH), DM329(HOH), DM330(HOH), DM331(HOH), DM333(HOH), DM334(HOH), DM336(HOH), DM337(HOH), DM344(HOH), DM345(HOH), DM347(HOH), DM349(HOH), DM351(HOH), DM355(HOH), DM357(HOH), DM363(HOH)
+DY (Bacteria  , 50S Ribo-Prot L28             ) [Total: 20, Protein: 17] : DY11(ARG), DY12(PRO), DY13(VAL), DY14(THR), DY15(GLY), DY16(ASN), DY17(ASN), DY18(ARG), DY19(SER), DY20(HIS), DY21(ALA), DY22(LEU), DY23(ASN), DY24(ALA), DY25(THR), DY26(LYS), DY27(ARG), DY107(HOH), DY108(HOH), DY109(HOH)
+
+
+Loop group: 3
+3J7Q_5:1115-1119_1241-1248 (FASTA)
+3J7Q_5:1522-1526_1648-1655 (PDB)
+
+3J7Q_5:30-36_43-50 (FASTA)
+3J7Q_5:31-37_44-51 (PDB)
+
+5  (Mammalia  , rRNA 28S                      )
+8  (Eukaryota , 5.8S ribosomal RNA            ) [Total: 3, Protein: 0] : '8'28(C), '8'33(G), '8'42(G)
+A  (Eukaryota , Ribo-Prot uL2                 ) [Total: 1, Protein: 1] : A2(GLY)
+C  (Eukaryota , Ribo-Prot uL4                 ) [Total: 44, Protein: 44] : C55(SER), C56(GLU), C57(LEU), C58(ALA), C59(GLY), C60(HIS), C61(GLN), C62(THR), C63(SER), C64(ALA), C65(GLU), C66(SER), C67(TRP), C68(GLY), C69(THR), C70(GLY), C71(ARG), C72(ALA), C73(VAL), C74(ALA), C75(ARG), C76(ILE), C77(PRO), C78(ARG), C79(VAL), C80(ARG), C81(GLY), C82(GLY), C88(GLY), C90(GLY), C91(ALA), C92(PHE), C93(GLY), C94(ASN), C95(MET), C100(ARG), C101(MET), C102(PHE), C103(ALA), C104(PRO), C105(THR), C106(LYS), C107(THR), C108(TRP)
+L  (Eukaryota , Ribo-Prot eL13                ) [Total: 12, Protein: 12] : L2(ALA), L3(PRO), L13(HIS), L14(PHE), L15(HIS), L16(LYS), L17(ASP), L18(TRP), L19(GLN), L20(ARG), L21(ARG), L22(VAL)
+N  (Eukaryota , Ribo-Prot eL15                ) [Total: 39, Protein: 39] : N70(GLY), N71(ARG), N72(LYS), N73(ARG), N74(PRO), N75(VAL), N76(PRO), N77(LYS), N78(GLY), N79(ALA), N80(THR), N81(TYR), N82(GLY), N83(LYS), N84(PRO), N85(VAL), N86(HIS), N87(HIS), N88(GLY), N89(VAL), N90(ASN), N91(GLN), N92(LEU), N93(LYS), N94(PHE), N95(ALA), N96(ARG), N171(SER), N172(ARG), N173(GLY), N182(HIS), N183(THR), N187(SER), N188(ARG), N189(ARG), N190(ALA), N192(TRP), N193(ARG), N196(ASN)
+a  (Eukaryota , Ribo-Prot uL15                ) [Total: 33, Protein: 33] : a7(LYS), a8(THR), a11(LEU), a14(HIS), a15(VAL), a16(SER), a17(HIS), a18(GLY), a19(HIS), a20(GLY), a21(ARG), a22(ILE), a23(GLY), a24(LYS), a25(HIS), a26(ARG), a27(LYS), a28(HIS), a29(PRO), a30(GLY), a31(GLY), a32(ARG), a33(GLY), a34(ASN), a35(ALA), a36(GLY), a37(GLY), a38(MET), a39(HIS), a40(HIS), a41(HIS), a42(ARG), a43(ILE)
+j  (Eukaryota , Ribo-Prot eL37                ) [Total: 28, Protein: 27] : j19(CYS), j22(CYS), j23(GLY), j24(SER), j25(LYS), j26(ALA), j33(THR), j34(CYS), j35(GLY), j36(LYS), j37(CYS), j38(GLY), j44(LYS), j45(ARG), j46(LYS), j47(TYR), j48(ASN), j49(TRP), j50(SER), j51(ALA), j52(LYS), j53(ALA), j54(LYS), j55(ARG), j56(ARG), j57(ASN), j58(THR), j101(ZN)
+o  (Eukaryota , Ribo-Prot eL42                ) [Total: 3, Protein: 3] : o44(LYS), o48(TYR), o49(GLY)
+
+
+Loop group: 4
+7RQB_1A:175-180_189-195 (FASTA)
+7RQB_1A:188-193_202-208 (PDB)
+
+7RQB_1A:719-723_844-851 (FASTA)
+7RQB_1A:674-678_799-806 (PDB)
+
+1A (          ,                               )
+11 (          ,                               ) [Total: 29, Protein: 22] : '11'11(ARG), '11'12(PRO), '11'13(ILE), '11'14(VAL), '11'15(ALA), '11'16(ASN), '11'17(SER), '11'18(ILE), '11'20(ARG), '11'25(LYS), '11'30(VAL), '11'31(GLY), '11'32(LYS), '11'33(LYS), '11'34(THR), '11'35(THR), '11'36(GLY), '11'37(ILE), '11'38(SER), '11'39(LYS), '11'40(ARG), '11'41(ARG), '11'102(MG), '11'105(MG), '11'204(HOH), '11'206(HOH), '11'209(HOH), '11'214(HOH), '11'221(HOH)
+18 (          ,                               ) [Total: 18, Protein: 15] : '18'2(PRO), '18'3(LYS), '18'4(MET), '18'5(LYS), '18'6(THR), '18'7(HIS), '18'8(LYS), '18'9(GLY), '18'12(LYS), '18'60(LEU), '18'61(LEU), '18'62(LEU), '18'63(PRO), '18'64(TYR), '18'65(GLU), '18'211(HOH), '18'215(HOH), '18'218(HOH)
+1D (          ,                               ) [Total: 4, Protein: 2] : '1D'48(ARG), '1D'229(VAL), '1D'428(HOH), '1D'505(HOH)
+1F (          ,                               ) [Total: 65, Protein: 38] : '1F'51(THR), '1F'52(LYS), '1F'53(THR), '1F'54(ARG), '1F'55(GLY), '1F'56(GLU), '1F'57(VAL), '1F'58(ALA), '1F'59(TYR), '1F'60(SER), '1F'61(GLY), '1F'62(ARG), '1F'63(LYS), '1F'64(ILE), '1F'65(TRP), '1F'66(PRO), '1F'67(GLN), '1F'68(LYS), '1F'72(ARG), '1F'73(ALA), '1F'74(ARG), '1F'75(HIS), '1F'76(GLY), '1F'77(ASP), '1F'78(ILE), '1F'79(GLY), '1F'80(ALA), '1F'81(PRO), '1F'82(ILE), '1F'83(PHE), '1F'84(VAL), '1F'85(GLY), '1F'86(GLY), '1F'87(GLY), '1F'88(VAL), '1F'89(VAL), '1F'90(PHE), '1F'93(LYS), '1F'302(MG), '1F'305(MG), '1F'306(MG), '1F'307(MG), '1F'308(MG), '1F'309(MG), '1F'311(MG), '1F'312(MG), '1F'314(MG), '1F'316(MG), '1F'405(HOH), '1F'406(HOH), '1F'407(HOH), '1F'412(HOH), '1F'415(HOH), '1F'416(HOH), '1F'418(HOH), '1F'421(HOH), '1F'422(HOH), '1F'426(HOH), '1F'431(HOH), '1F'435(HOH), '1F'444(HOH), '1F'445(HOH), '1F'449(HOH), '1F'455(HOH), '1F'459(HOH)
+1P (          ,                               ) [Total: 41, Protein: 22] : '1P'33(ARG), '1P'34(GLY), '1P'35(HIS), '1P'36(LYS), '1P'37(GLY), '1P'38(GLN), '1P'39(LYS), '1P'40(SER), '1P'41(ARG), '1P'42(SER), '1P'43(GLY), '1P'44(GLY), '1P'45(LEU), '1P'46(LYS), '1P'47(ASP), '1P'48(PRO), '1P'49(ARG), '1P'50(ARG), '1P'51(PHE), '1P'53(GLY), '1P'54(GLY), '1P'60(MET), '1P'301(HOH), '1P'307(HOH), '1P'310(HOH), '1P'314(HOH), '1P'317(HOH), '1P'318(HOH), '1P'319(HOH), '1P'320(HOH), '1P'323(HOH), '1P'325(HOH), '1P'330(HOH), '1P'333(HOH), '1P'336(HOH), '1P'340(HOH), '1P'347(HOH), '1P'355(HOH), '1P'357(HOH), '1P'358(HOH), '1P'363(HOH)
+
+
+Loop group: 5
+4V8P_D1:29-34_43-49 (FASTA)
+4V8P_D1:30-35_44-50 (PDB)
+
+4V8P_D1:829-833_955-962 (FASTA)
+4V8P_D1:830-834_956-963 (PDB)
+
+D1 (Ciliates(Pr, rRNA 26S                      )
+C2 (Eukaryota , 5.8S RRNA                     ) [Total: 3, Protein: 0] : 'C2'29(U), 'C2'30(U), 'C2'31(C)
+CC (Eukaryota , RPL4                          ) [Total: 36, Protein: 34] : CC55(VAL), CC56(LYS), CC57(ILE), CC58(SER), CC59(THR), CC60(ARG), CC61(GLY), CC62(THR), CC63(ALA), CC64(GLY), CC65(MET), CC66(GLY), CC67(HIS), CC68(SER), CC69(ALA), CC70(GLU), CC71(SER), CC73(GLY), CC74(THR), CC80(ARG), CC81(ILE), CC82(PRO), CC97(PHE), CC98(GLY), CC99(ASN), CC100(GLN), CC104(GLY), CC105(ARG), CC106(MET), CC107(PHE), CC109(PRO), CC111(LYS), CC112(THR), CC113(TYR), CC502(HOH), CC503(HOH)
+CK (Eukaryota , 60S Ribo-Prot L27A            ) [Total: 18, Protein: 18] : CK25(HIS), CK26(ARG), CK27(LYS), CK28(GLY), CK29(GLY), CK30(CYS), CK31(ARG), CK32(GLY), CK33(GLY), CK34(ARG), CK35(GLY), CK36(LYS), CK37(ALA), CK38(GLY), CK39(GLY), CK42(HIS), CK43(HIS), CK46(LEU)
+CL (Eukaryota , Ribo-Prot L15                 ) [Total: 34, Protein: 34] : CL71(ARG), CL73(ARG), CL74(PRO), CL75(VAL), CL79(ILE), CL80(VAL), CL81(TYR), CL82(GLY), CL83(LYS), CL84(PRO), CL85(SER), CL86(SER), CL87(VAL), CL88(GLY), CL89(ILE), CL91(GLN), CL92(LEU), CL93(LYS), CL94(PHE), CL95(ALA), CL96(ARG), CL183(SER), CL188(ARG), CL189(LYS), CL191(ASN), CL192(TRP), CL193(ARG), CL194(ALA), CL195(ARG), CL196(GLN), CL197(MET), CL198(LEU), CL199(LYS), CL200(LEU)
+DA (Eukaryota , Ribo-Prot L37                 ) [Total: 12, Protein: 9] : DA43(LYS), DA46(ARG), DA47(TYR), DA48(ASP), DA49(GLY), DA50(TRP), DA51(GLY), DA52(GLN), DA55(ARG), DA208(HOH), DA209(HOH), DA210(HOH)
+DC (Eukaryota , 60S Ribo-Prot L36A            ) [Total: 5, Protein: 5] : DC47(GLY), DC48(PHE), DC49(GLY), DC50(GLY), DC51(GLN)
+DU (Eukaryota , RPL13                         ) [Total: 18, Protein: 18] : DU1(MET), DU7(LEU), DU8(PRO), DU9(VAL), DU10(ALA), DU11(GLN), DU12(LEU), DU13(ARG), DU14(LYS), DU15(HIS), DU16(GLN), DU17(GLN), DU18(PHE), DU19(ARG), DU20(ILE), DU21(LYS), DU22(THR), DU23(PHE)
+
+
+Loop group: 6
+7A0S_X:164-169_178-184 (FASTA)
+7A0S_X:165-170_179-185 (PDB)
+
+7A0S_X:686-690_811-818 (FASTA)
+7A0S_X:687-691_812-819 (PDB)
+
+X  (          ,                               )
+2  (          ,                               ) [Total: 5, Protein: 5] : '2'25(LYS), '2'26(SER), '2'29(ASN), '2'33(ARG), '2'37(LYS)
+C  (          ,                               ) [Total: 38, Protein: 38] : C47(THR), C48(ARG), C49(ALA), C50(GLN), C51(VAL), C52(SER), C53(LYS), C54(THR), C55(GLY), C56(ARG), C57(LYS), C58(MET), C59(TYR), C60(GLY), C61(GLN), C62(LYS), C63(GLY), C64(THR), C65(GLY), C66(ASN), C67(ALA), C68(ARG), C69(HIS), C70(GLY), C71(ASP), C72(ARG), C73(SER), C74(VAL), C75(PRO), C76(THR), C77(PHE), C78(VAL), C79(GLY), C80(GLY), C81(GLY), C82(VAL), C83(ALA), C84(PHE)
+I  (          ,                               ) [Total: 21, Protein: 20] : I16(ARG), I17(LYS), I18(ARG), I19(VAL), I21(ARG), I30(ALA), I31(GLY), I32(ARG), I33(GLY), I34(HIS), I35(LYS), I36(GLY), I37(GLN), I38(LYS), I39(SER), I40(ARG), I41(SER), I42(GLY), I43(ALA), I48(PHE), I201(MG)
+U  (          ,                               ) [Total: 20, Protein: 20] : U15(VAL), U16(ASN), U17(SER), U18(VAL), U19(ILE), U20(ARG), U21(ARG), U22(GLY), U23(LYS), U35(THR), U36(GLY), U37(ILE), U38(THR), U39(LYS), U40(ARG), U41(VAL), U42(GLN), U43(ARG), U44(ALA), U45(ASN)
+
+

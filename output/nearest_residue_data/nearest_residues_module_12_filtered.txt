@@ -1,0 +1,55 @@
+Filtered nearest residue data for "Module12" loops ('HL_GNAA', 'IL_Tetraloop-receptor'):
+
+Loop group: 1
+1NBS_B:118-123 (FASTA)
+1NBS_B:204-209 (PDB)
+
+1NBS_B:60-64_73-76 (FASTA)
+1NBS_B:146-150_159-162 (PDB)
+
+B  (Bacteria  , RIBONUCLEASE P RNA            )
+
+
+Loop group: 2
+2R8S_R:120-124_144-147 (FASTA)
+2R8S_R:223-227_247-250 (PDB)
+
+2R8S_R:47-52 (FASTA)
+2R8S_R:149-154 (PDB)
+
+R  (Ribozyme  , Ribozyme, P4-P6 RNA Ribozyme Do)
+
+
+Loop group: 3
+1U6B_B:153-156_168-169 (FASTA)
+1U6B_B:147-150_162-163 (PDB)
+
+1U6B_B:19-24 (FASTA)
+1U6B_B:23-28 (PDB)
+
+B  (Mammalia  , Group I Intron                )
+
+
+Loop group: 4
+6CHR_A:163-166_305-309 (FASTA)
+6CHR_A:164-167_306-310 (PDB)
+
+6CHR_A:562-567 (FASTA)
+6CHR_A:563-568 (PDB)
+
+A  (Seaweed   , Group II intron               )
+
+
+Loop group: 5
+4WZJ_XXX:45-48_55-59 (FASTA)
+4WZJ_XXX:46-49_56-60 (PDB)
+
+4WZJ_XXX:49-54 (FASTA)
+4WZJ_XXX:50-55 (PDB)
+
+XXX (Mammalia  , U4 snRNP core, GAAA tetraloop )
+III (Eukaryota , Small nuclear ribonucleoprotein) [Total: 2, Protein: 2] : III49(ARG), III63(GLU)
+JJJ (Eukaryota , Small nuclear ribonucleoprotein) [Total: 1, Protein: 1] : JJJ50(ARG)
+KKK (Eukaryota , Small nuclear ribonucleoprotein) [Total: 1, Protein: 1] : KKK83(GLY)
+
+

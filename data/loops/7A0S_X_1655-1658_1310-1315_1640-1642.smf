@@ -1,0 +1,15 @@
+>7A0S_X:1655-1658_1310-1315_1640-1642
+UAAG...CGUAAG...CGA
+#info=basepair
+2-5,H/S,trans
+7-11,W/S,trans
+2-7,W/H,trans
+#info=stacking
+1-2,upward
+2-3,upward
+4-5,upward
+0-5,inward
+6-11,downward
+7-9,outward
+10-11,upward
+1-12,outward

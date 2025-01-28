@@ -1,0 +1,33 @@
+Filtered nearest residue data for "Module34" loops ('HL_GNGA', 'HL_T-loop', 'IL_C-loop'):
+
+Loop group: 1
+7RQB_1A:1325-1333 (FASTA)
+7RQB_1A:1281-1289 (PDB)
+
+7RQB_1A:1363-1367_1375-1377 (FASTA)
+7RQB_1A:1319-1323_1331-1333 (PDB)
+
+7RQB_1A:511-516 (FASTA)
+7RQB_1A:487-493 (PDB)
+
+1A (          ,                               )
+1R (          ,                               ) [Total: 6, Protein: 4] : '1R'104(ARG), '1R'105(ARG), '1R'106(GLY), '1R'107(ASP), '1R'201(MG), '1R'321(HOH)
+1W (          ,                               ) [Total: 18, Protein: 14] : '1W'6(ILE), '1W'7(ALA), '1W'8(ARG), '1W'9(TYR), '1W'10(VAL), '1W'11(ARG), '1W'45(TYR), '1W'49(LYS), '1W'52(GLU), '1W'53(SER), '1W'56(ALA), '1W'82(LEU), '1W'84(ARG), '1W'98(LYS), '1W'304(HOH), '1W'312(HOH), '1W'313(HOH), '1W'314(HOH)
+
+
+Loop group: 2
+7A0S_X:1293-1301 (FASTA)
+7A0S_X:1294-1302 (PDB)
+
+7A0S_X:1331-1335_1343-1345 (FASTA)
+7A0S_X:1332-1336_1344-1346 (PDB)
+
+7A0S_X:497-502 (FASTA)
+7A0S_X:498-503 (PDB)
+
+X  (          ,                               )
+K  (          ,                               ) [Total: 4, Protein: 4] : K103(ARG), K104(ARG), K105(GLY), K106(ASP)
+P  (          ,                               ) [Total: 13, Protein: 13] : P27(VAL), P28(ALA), P29(LYS), P30(TYR), P31(VAL), P32(ARG), P70(LYS), P73(ASN), P74(SER), P77(ALA), P103(LEU), P105(ARG), P119(LYS)
+Q  (          ,                               ) [Total: 1, Protein: 1] : Q67(ARG)
+
+

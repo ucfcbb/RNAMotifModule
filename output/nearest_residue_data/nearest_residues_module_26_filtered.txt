@@ -1,0 +1,51 @@
+Filtered nearest residue data for "Module26" loops ('IL_Rope-sling', 'IL_reverse-Kink-turn'):
+
+Loop group: 1
+3J7Q_5:1486-1495_1638-1640 (FASTA)
+3J7Q_5:1911-1920_2063-2065 (PDB)
+
+3J7Q_5:1509-1519_1613-1627 (FASTA)
+3J7Q_5:1934-1944_2038-2052 (PDB)
+
+5  (Mammalia  , rRNA 28S                      )
+7  (Eukaryota , 5S ribosomal RNA              ) [Total: 3, Protein: 0] : '7'84(U), '7'88(A), '7'89(G)
+B  (Eukaryota , Ribo-Prot uL3                 ) [Total: 2, Protein: 2] : B259(PRO), B261(ARG)
+F  (Eukaryota , Ribo-Prot uL30                ) [Total: 1, Protein: 1] : F223(LYS)
+I  (Eukaryota , Ribo-Prot uL16                ) [Total: 3, Protein: 3] : I157(PHE), I161(GLY), I162(ARG)
+O  (Eukaryota , Ribo-Prot uL13                ) [Total: 22, Protein: 22] : O16(LEU), O17(GLY), O18(ARG), O21(ALA), O24(ALA), O25(LYS), O28(LEU), O29(LEU), O56(ALA), O59(ARG), O60(LYS), O61(ARG), O62(MET), O63(ASN), O64(THR), O82(ARG), O83(THR), O86(GLY), O87(MET), O88(LEU), O89(PRO), O94(ARG)
+S  (Eukaryota , Ribo-Prot eL20                ) [Total: 4, Protein: 4] : S4(SER), S5(GLY), S163(HIS), S166(ARG)
+f  (Eukaryota , Ribo-Prot eL33                ) [Total: 12, Protein: 12] : f16(ARG), f17(GLY), f18(LEU), f27(LEU), f29(LYS), f34(TYR), f36(ARG), f78(HIS), f79(GLY), f80(ASN), f81(SER), f83(MET)
+m  (Eukaryota , Ribo-Prot eL40                ) [Total: 4, Protein: 4] : m113(LYS), m114(LYS), m115(CYS), m116(GLY)
+
+
+Loop group: 2
+7RQB_1A:1048-1055_1194-1195 (FASTA)
+7RQB_1A:1004-1011_1150-1151 (PDB)
+
+7RQB_1A:1068-1074_1168-1183 (FASTA)
+7RQB_1A:1024-1030_1124-1140 (PDB)
+
+1A (          ,                               )
+19 (          ,                               ) [Total: 5, Protein: 5] : '19'5(ALA), '19'6(SER), '19'21(GLY), '19'36(GLN), '19'37(GLY)
+1B (          ,                               ) [Total: 1, Protein: 0] : '1B'88(C)
+1E (          ,                               ) [Total: 4, Protein: 3] : '1E'146(THR), '1E'147(PRO), '1E'149(ARG), '1E'435(HOH)
+1N (          ,                               ) [Total: 42, Protein: 34] : '1N'22(THR), '1N'23(LEU), '1N'24(GLY), '1N'25(ARG), '1N'28(THR), '1N'31(ALA), '1N'32(THR), '1N'35(ARG), '1N'37(LYS), '1N'42(TRP), '1N'61(ARG), '1N'62(VAL), '1N'63(THR), '1N'66(LYS), '1N'70(LYS), '1N'72(TYR), '1N'73(THR), '1N'74(ARG), '1N'75(TYR), '1N'78(TYR), '1N'79(PRO), '1N'80(GLY), '1N'81(GLY), '1N'82(LEU), '1N'98(VAL), '1N'101(HIS), '1N'102(ALA), '1N'103(VAL), '1N'104(LYS), '1N'105(GLY), '1N'106(MET), '1N'107(LEU), '1N'108(PRO), '1N'109(LYS), '1N'201(MG), '1N'202(MG), '1N'307(HOH), '1N'308(HOH), '1N'314(HOH), '1N'320(HOH), '1N'323(HOH), '1N'325(HOH)
+1Q (          ,                               ) [Total: 6, Protein: 3] : '1Q'123(HIS), '1Q'127(ILE), '1Q'128(LYS), '1Q'202(MG), '1Q'301(HOH), '1Q'332(HOH)
+1U (          ,                               ) [Total: 12, Protein: 10] : '1U'59(ARG), '1U'62(ILE), '1U'63(VAL), '1U'66(ASN), '1U'70(ARG), '1U'75(ASN), '1U'76(TYR), '1U'77(SER), '1U'78(THR), '1U'81(HIS), '1U'343(HOH), '1U'347(HOH)
+
+
+Loop group: 3
+7A0S_X:1014-1021_1160-1161 (FASTA)
+7A0S_X:1015-1022_1161-1162 (PDB)
+
+7A0S_X:1034-1040_1134-1149 (FASTA)
+7A0S_X:1035-1041_1135-1150 (PDB)
+
+X  (          ,                               )
+B  (          ,                               ) [Total: 3, Protein: 3] : B146(THR), B147(PRO), B149(ARG)
+G  (          ,                               ) [Total: 30, Protein: 30] : G50(PRO), G51(LEU), G52(GLY), G53(ARG), G56(THR), G59(ALA), G60(SER), G63(ARG), G65(LYS), G90(LEU), G98(LYS), G100(TYR), G101(THR), G102(ARG), G103(TYR), G106(TYR), G107(GLN), G108(GLY), G109(GLY), G110(LEU), G126(VAL), G129(HIS), G130(ALA), G131(VAL), G132(PHE), G133(GLY), G134(MET), G135(LEU), G136(PRO), G137(LYS)
+J  (          ,                               ) [Total: 4, Protein: 4] : J123(GLY), J124(HIS), J128(ILE), J129(GLN)
+N  (          ,                               ) [Total: 11, Protein: 11] : N59(ARG), N62(ILE), N63(GLN), N66(ASN), N70(ARG), N75(ASN), N76(TYR), N77(SER), N78(THR), N81(ASN), N85(ARG)
+Y  (          ,                               ) [Total: 1, Protein: 0] : Y90(C)
+
+

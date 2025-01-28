@@ -1,0 +1,20 @@
+Filtered nearest residue data for "Module44" loops ('IL_Hook-turn', 'IL_reverse-Kink-turn'):
+
+Loop group: 1
+5MRC_A:923-927_1172-1176 (FASTA)
+5MRC_A:924-928_1173-1177 (PDB)
+
+5MRC_A:949-956_1090-1104 (FASTA)
+5MRC_A:950-957_1091-1105 (PDB)
+
+A  (Fungi     , rRNA 21S (Mitochondrial)      )
+0  (Eukaryota , bL36m                         ) [Total: 5, Protein: 5] : '0'60(THR), '0'61(SER), '0'76(GLY), '0'92(GLN), '0'93(GLY)
+C  (Eukaryota , uL3m                          ) [Total: 5, Protein: 5] : C209(GLN), C210(ASP), C211(PRO), C213(ARG), C215(LEU)
+H  (Eukaryota , uL13m                         ) [Total: 25, Protein: 25] : H28(LEU), H29(GLY), H30(ARG), H71(LYS), H75(LYS), H76(THR), H77(TYR), H78(TRP), H80(HIS), H81(SER), H82(GLY), H83(ARG), H84(PRO), H85(GLY), H86(GLN), H87(LEU), H89(LEU), H104(ILE), H107(LYS), H108(ALA), H109(VAL), H110(SER), H111(GLY), H112(MET), H115(LYS)
+K  (Eukaryota , uL16m                         ) [Total: 1, Protein: 1] : K175(VAL)
+N  (Eukaryota , bL21m                         ) [Total: 1, Protein: 1] : N131(ARG)
+U  (Eukaryota , uL30m                         ) [Total: 2, Protein: 2] : U10(ARG), U31(ARG)
+a  (Eukaryota , mL58                          ) [Total: 4, Protein: 4] : a31(ILE), a32(TYR), a42(LYS), a46(LYS)
+c  (Eukaryota , mL60                          ) [Total: 13, Protein: 13] : c16(LEU), c18(LYS), c19(ILE), c20(PRO), c21(TRP), c22(ARG), c24(SER), c27(GLN), c30(ARG), c34(ARG), c115(LYS), c119(TRP), c120(THR)
+
+

@@ -1,0 +1,37 @@
+Nearest residue data for "Module34" loops ('HL_GNGA', 'HL_T-loop', 'IL_C-loop'):
+
+Loop group: 1
+7RQB_1A:1325-1333 (FASTA)
+7RQB_1A:1281-1289 (PDB)
+
+7RQB_1A:1363-1367_1375-1377 (FASTA)
+7RQB_1A:1319-1323_1331-1333 (PDB)
+
+7RQB_1A:511-516 (FASTA)
+7RQB_1A:487-493 (PDB)
+
+1A (          ,                               )
+15 (          ,                               ) [Total: 12, Protein: 9] : '15'26(THR), '15'27(PRO), '15'28(PRO), '15'30(LEU), '15'39(MET), '15'47(PRO), '15'48(GLU), '15'59(GLU), '15'60(VAL), '15'107(MG), '15'201(HOH), '15'216(HOH)
+1R (          ,                               ) [Total: 12, Protein: 9] : '1R'102(GLU), '1R'103(ARG), '1R'104(ARG), '1R'105(ARG), '1R'106(GLY), '1R'107(ASP), '1R'108(GLY), '1R'109(ALA), '1R'111(LEU), '1R'201(MG), '1R'321(HOH), '1R'326(HOH)
+1W (          ,                               ) [Total: 75, Protein: 65] : '1W'3(ALA), '1W'4(LYS), '1W'5(ALA), '1W'6(ILE), '1W'7(ALA), '1W'8(ARG), '1W'9(TYR), '1W'10(VAL), '1W'11(ARG), '1W'12(ILE), '1W'13(SER), '1W'17(VAL), '1W'20(VAL), '1W'21(VAL), '1W'23(LEU), '1W'24(ILE), '1W'27(LYS), '1W'28(SER), '1W'29(LEU), '1W'30(GLU), '1W'31(GLU), '1W'32(ALA), '1W'33(ARG), '1W'34(ASN), '1W'35(ILE), '1W'36(LEU), '1W'37(ARG), '1W'38(TYR), '1W'39(THR), '1W'40(ASN), '1W'41(LYS), '1W'42(ARG), '1W'43(GLY), '1W'44(ALA), '1W'45(TYR), '1W'46(PHE), '1W'47(VAL), '1W'48(ALA), '1W'49(LYS), '1W'50(VAL), '1W'51(LEU), '1W'52(GLU), '1W'53(SER), '1W'54(ALA), '1W'55(ALA), '1W'56(ALA), '1W'57(ASN), '1W'61(ASN), '1W'66(GLU), '1W'70(TYR), '1W'71(VAL), '1W'72(LYS), '1W'73(ALA), '1W'82(LEU), '1W'84(ARG), '1W'98(LYS), '1W'99(ARG), '1W'100(THR), '1W'101(SER), '1W'102(HIS), '1W'103(ILE), '1W'104(THR), '1W'105(VAL), '1W'106(ILE), '1W'107(LEU), '1W'201(MG), '1W'202(MG), '1W'301(HOH), '1W'303(HOH), '1W'304(HOH), '1W'307(HOH), '1W'312(HOH), '1W'313(HOH), '1W'314(HOH), '1W'315(HOH)
+1X (          ,                               ) [Total: 4, Protein: 2] : '1X'16(LYS), '1X'65(ARG), '1X'112(HOH), '1X'121(HOH)
+
+
+Loop group: 2
+7A0S_X:1293-1301 (FASTA)
+7A0S_X:1294-1302 (PDB)
+
+7A0S_X:1331-1335_1343-1345 (FASTA)
+7A0S_X:1332-1336_1344-1346 (PDB)
+
+7A0S_X:497-502 (FASTA)
+7A0S_X:498-503 (PDB)
+
+X  (          ,                               )
+K  (          ,                               ) [Total: 32, Protein: 32] : K23(ALA), K24(GLN), K25(ALA), K26(THR), K27(ALA), K28(LEU), K31(GLU), K33(ARG), K34(ILE), K35(GLN), K36(THR), K37(THR), K38(LEU), K39(THR), K40(LYS), K41(ALA), K44(LEU), K48(VAL), K100(VAL), K101(GLY), K102(THR), K103(ARG), K104(ARG), K105(GLY), K106(ASP), K107(GLY), K108(VAL), K109(THR), K110(MET), K111(ALA), K112(LEU), K113(ILE)
+P  (          ,                               ) [Total: 67, Protein: 67] : P21(ARG), P22(LYS), P25(PHE), P26(ALA), P27(VAL), P28(ALA), P29(LYS), P30(TYR), P31(VAL), P32(ARG), P33(MET), P34(SER), P35(PRO), P36(ARG), P37(LYS), P38(VAL), P39(ARG), P40(LEU), P41(VAL), P42(VAL), P57(LEU), P60(ILE), P61(PRO), P62(ARG), P63(SER), P64(ALA), P65(SER), P66(GLU), P67(PRO), P68(VAL), P69(ALA), P70(LYS), P71(VAL), P72(LEU), P73(ASN), P74(SER), P75(ALA), P77(ALA), P78(ASN), P81(HIS), P82(ASN), P96(TYR), P97(VAL), P98(ASP), P99(ALA), P100(GLY), P101(PRO), P102(THR), P103(LEU), P104(LYS), P105(ARG), P106(LEU), P107(ILE), P108(PRO), P114(ALA), P115(ASN), P116(ILE), P117(ILE), P118(LYS), P119(LYS), P120(ARG), P121(THR), P122(SER), P123(HIS), P124(ILE), P125(THR), P126(ILE)
+Q  (          ,                               ) [Total: 6, Protein: 6] : Q64(ARG), Q65(VAL), Q66(GLY), Q67(ARG), Q68(PHE), Q69(ILE)
+R  (          ,                               ) [Total: 3, Protein: 3] : R59(LYS), R60(PRO), R61(SER)
+Z  (          ,                               ) [Total: 4, Protein: 4] : Z20(ARG), Z57(VAL), Z58(LEU), Z59(ALA)
+
+

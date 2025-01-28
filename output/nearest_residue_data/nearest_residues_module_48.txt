@@ -1,0 +1,17 @@
+Nearest residue data for "Module48" loops ('HL_GNGA', 'IL_C-loop'):
+
+Loop group: 1
+7A0S_X:1331-1335_1343-1345 (FASTA)
+7A0S_X:1332-1336_1344-1346 (PDB)
+
+7A0S_X:497-502 (FASTA)
+7A0S_X:498-503 (PDB)
+
+X  (          ,                               )
+K  (          ,                               ) [Total: 13, Protein: 13] : K37(THR), K38(LEU), K39(THR), K101(GLY), K102(THR), K103(ARG), K104(ARG), K105(GLY), K106(ASP), K107(GLY), K108(VAL), K109(THR), K110(MET)
+P  (          ,                               ) [Total: 67, Protein: 67] : P21(ARG), P22(LYS), P25(PHE), P26(ALA), P27(VAL), P28(ALA), P29(LYS), P30(TYR), P31(VAL), P32(ARG), P33(MET), P34(SER), P35(PRO), P36(ARG), P37(LYS), P38(VAL), P39(ARG), P40(LEU), P41(VAL), P42(VAL), P57(LEU), P60(ILE), P61(PRO), P62(ARG), P63(SER), P64(ALA), P65(SER), P66(GLU), P67(PRO), P68(VAL), P69(ALA), P70(LYS), P71(VAL), P72(LEU), P73(ASN), P74(SER), P75(ALA), P77(ALA), P78(ASN), P81(HIS), P82(ASN), P96(TYR), P97(VAL), P98(ASP), P99(ALA), P100(GLY), P101(PRO), P102(THR), P103(LEU), P104(LYS), P105(ARG), P106(LEU), P107(ILE), P108(PRO), P114(ALA), P115(ASN), P116(ILE), P117(ILE), P118(LYS), P119(LYS), P120(ARG), P121(THR), P122(SER), P123(HIS), P124(ILE), P125(THR), P126(ILE)
+Q  (          ,                               ) [Total: 6, Protein: 6] : Q64(ARG), Q65(VAL), Q66(GLY), Q67(ARG), Q68(PHE), Q69(ILE)
+R  (          ,                               ) [Total: 3, Protein: 3] : R59(LYS), R60(PRO), R61(SER)
+Z  (          ,                               ) [Total: 1, Protein: 1] : Z20(ARG)
+
+

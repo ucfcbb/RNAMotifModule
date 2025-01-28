@@ -1,0 +1,16 @@
+>6S0X_a:1130-1135_1148-1155
+GUUGCC...GGCACUCU
+#info=basepair
+0-3,S/W,trans
+3-13,S/W,cis
+6-7,H/S,cis
+8-10,W/H,cis
+#info=stacking
+0-3,upward
+1-3,outward
+3-9,inward
+5-8,outward
+8-9,upward
+10-11,upward
+11-12,upward
+12-13,upward

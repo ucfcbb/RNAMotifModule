@@ -1,0 +1,15 @@
+>7A0S_X:302-305_353-358
+CAAG...CGAACG
+#info=basepair
+1-8,W/W,cis
+2-5,H/S,trans
+6-7,S/H,cis
+#info=stacking
+1-6,inward
+1-9,outward
+2-3,upward
+2-6,outward
+3-5,outward
+4-5,upward
+7-8,upward
+8-9,upward

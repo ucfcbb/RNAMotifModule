@@ -1,0 +1,15 @@
+>3J7A_A:1808-1813_1733-1742_1785-1789
+GUAAUC...GUUUUUAAAA...UUUUC
+#info=basepair
+0-2,S/S,cis
+0-6,S/S,trans
+#info=stacking
+2-6,inward
+7-20,upward
+0-7,inward
+1-7,upward
+13-14,upward
+14-15,upward
+15-18,downward
+16-17,inward
+17-18,downward

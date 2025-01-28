@@ -1,0 +1,17 @@
+>7KGB_a:407-414_425-431
+GGAUGACG...UGUAAAC
+#info=basepair
+1-13,S/H,trans
+2-9,S/S,trans
+6-9,H/H,cis
+10-12,W/H,cis
+#info=stacking
+0-1,upward
+1-10,inward
+5-6,upward
+6-7,upward
+8-9,inward
+9-11,outward
+11-12,upward
+12-13,upward
+13-14,upward

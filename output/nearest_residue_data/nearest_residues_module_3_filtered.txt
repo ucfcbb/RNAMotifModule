@@ -1,0 +1,96 @@
+Filtered nearest residue data for "Module3" loops ('HL_GNAA', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+4V9F_0:2681-2687_2692-2697 (FASTA)
+4V9F_0:2689-2695_2700-2705 (PDB)
+
+4V9F_0:2687-2692 (FASTA)
+4V9F_0:2695-2700 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+E  (Archaea   , 50S Ribo-Prot L6P             ) [Total: 15, Protein: 12] : E89(SER), E90(HIS), E91(PHE), E108(LEU), E109(GLY), E110(GLU), E111(LYS), E112(ALA), E156(ASP), E157(LYS), E161(VAL), E162(PHE), E210(HOH), E240(HOH), E241(HOH)
+
+
+Loop group: 2
+5J7L_DA:2652-2657_2662-2666 (FASTA)
+5J7L_DA:2653-2658_2663-2667 (PDB)
+
+5J7L_DA:2657-2662 (FASTA)
+5J7L_DA:2658-2663 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+DG (Bacteria  , 50S Ribo-Prot L6              ) [Total: 9, Protein: 9] : DG92(VAL), DG94(TYR), DG108(GLY), DG109(PHE), DG110(SER), DG111(HIS), DG152(ARG), DG158(LYS), DG160(LYS)
+
+
+Loop group: 3
+5J7L_DA:1362-1367 (FASTA)
+5J7L_DA:1363-1368 (PDB)
+
+5J7L_DA:187-192_201-207 (FASTA)
+5J7L_DA:188-193_202-208 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+D3 (Bacteria  , 50S Ribo-Prot L34             ) [Total: 3, Protein: 2] : 'D3'25(LYS), 'D3'28(ARG), 'D3'211(HOH)
+DY (Bacteria  , 50S Ribo-Prot L28             ) [Total: 13, Protein: 10] : DY2(SER), DY3(ARG), DY11(ARG), DY12(PRO), DY13(VAL), DY14(THR), DY26(LYS), DY28(ARG), DY30(LEU), DY50(ARG), DY107(HOH), DY108(HOH), DY109(HOH)
+
+
+Loop group: 4
+7RQB_1A:2663-2668_2673-2677 (FASTA)
+7RQB_1A:2653-2658_2663-2667 (PDB)
+
+7RQB_1A:2668-2673 (FASTA)
+7RQB_1A:2658-2663 (PDB)
+
+1A (          ,                               )
+1H (          ,                               ) [Total: 10, Protein: 9] : '1H'94(TYR), '1H'108(GLY), '1H'109(PHE), '1H'110(SER), '1H'111(HIS), '1H'152(ARG), '1H'158(HIS), '1H'160(LYS), '1H'175(LYS), '1H'302(HOH)
+
+
+Loop group: 5
+7A0S_X:2631-2636_2641-2645 (FASTA)
+7A0S_X:2632-2637_2642-2646 (PDB)
+
+7A0S_X:2636-2641 (FASTA)
+7A0S_X:2637-2642 (PDB)
+
+X  (          ,                               )
+E  (          ,                               ) [Total: 9, Protein: 9] : E92(VAL), E108(GLY), E109(TYR), E110(SER), E111(HIS), E152(ARG), E158(HIS), E160(LYS), E175(LYS)
+H  (          ,                               ) [Total: 1, Protein: 1] : H32(LYS)
+
+
+Loop group: 6
+3J79_A:1692-1697 (FASTA)
+3J79_A:1693-1698 (PDB)
+
+3J79_A:31-36_45-51 (FASTA)
+3J79_A:32-37_46-52 (PDB)
+
+A  (malaria par, rRNA 28S                      )
+L  (Eukaryota , 60S Ribo-Prot eL13            ) [Total: 4, Protein: 4] : L14(HIS), L15(LYS), L16(TRP), L19(ARG)
+O  (Eukaryota , 60S Ribo-Prot uL15            ) [Total: 1, Protein: 1] : O32(ARG)
+P  (Eukaryota , 60S Ribo-Prot eL15            ) [Total: 25, Protein: 25] : P35(VAL), P65(ARG), P67(ARG), P71(ARG), P73(LYS), P74(ARG), P80(VAL), P82(GLY), P83(LYS), P85(LYS), P86(HIS), P92(GLN), P93(LYS), P94(SER), P95(THR), P96(ARG), P101(VAL), P105(LYS), P108(LYS), P128(TYR), P162(LEU), P189(ILE), P190(ARG), P193(TRP), P197(GLN)
+c  (Eukaryota , 60S Ribo-Prot eL37            ) [Total: 3, Protein: 3] : c44(SER), c51(ASN), c52(TRP)
+
+
+Loop group: 7
+4WF9_X:2679-2684_2689-2693 (FASTA)
+4WF9_X:2680-2685_2690-2694 (PDB)
+
+4WF9_X:2684-2689 (FASTA)
+4WF9_X:2685-2690 (PDB)
+
+X  (Bacteria  , rRNA 23S                      )
+E  (Bacteria  , 50S Ribo-Prot L6              ) [Total: 5, Protein: 5] : E108(GLY), E109(TYR), E110(SER), E111(HIS), E158(LYS)
+
+
+Loop group: 8
+3K0J_E:55-59_72-76 (FASTA)
+3K0J_E:59-63_76-80 (PDB)
+
+3K0J_E:62-69 (FASTA)
+3K0J_E:66-73 (PDB)
+
+E  (Mammalia  , Riboswitch                    )
+A  (Eukaryota , U1 small nuclear ribonucleoprot) [Total: 8, Protein: 8] : A222(LYS), A224(ASP), A227(LYS), A228(LYS), A231(HIS), A240(ILE), A242(ASP), A243(ILE)
+C  (Eukaryota , U1 small nuclear ribonucleoprot) [Total: 3, Protein: 3] : C404(PRO), C449(LEU), C450(LYS)
+
+

@@ -1,0 +1,52 @@
+Filtered nearest residue data for "Module17" loops ('IL_Kink-turn', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+5J7L_AA:241-246_276-283 (FASTA)
+5J7L_AA:242-247_277-284 (PDB)
+
+5J7L_AA:886-893_904-909 (FASTA)
+5J7L_AA:887-894_905-910 (PDB)
+
+AA (Bacteria  , rRNA 16S                      )
+AL (Bacteria  , 30S Ribo-Prot S12             ) [Total: 3, Protein: 3] : AL18(LYS), AL22(PRO), AL94(ARG)
+AQ (Bacteria  , 30S Ribo-Prot S17             ) [Total: 7, Protein: 7] : AQ22(VAL), AQ26(GLU), AQ39(LYS), AQ40(ARG), AQ41(THR), AQ43(LYS), AQ45(HIS)
+
+
+Loop group: 2
+4V5O_BA:1082-1089_1101-1106 (FASTA)
+4V5O_BA:1083-1090_1102-1107 (PDB)
+
+4V5O_BA:301-306_338-345 (FASTA)
+4V5O_BA:302-307_339-346 (PDB)
+
+BA (Ciliates(Pr, rRNA 18S                      )
+B2 (Eukaryota , 40S Ribo-Prot S8              ) [Total: 4, Protein: 4] : 'B2'13(ALA), 'B2'14(THR), 'B2'16(GLY), 'B2'17(ARG)
+BL (Eukaryota , 40S Ribo-Prot S12             ) [Total: 7, Protein: 7] : BL13(ARG), BL17(ARG), BL20(LYS), BL21(ASP), BL24(TRP), BL30(ASN), BL120(ARG)
+BQ (Eukaryota , Ribo-Prot S17 CONTAINING PROTEI) [Total: 10, Protein: 10] : BQ84(ILE), BQ86(ARG), BQ88(ASP), BQ101(LYS), BQ102(ARG), BQ103(HIS), BQ105(ASN), BQ151(ARG), BQ152(LYS), BQ154(PHE)
+
+
+Loop group: 3
+3J7A_A:1211-1218_1229-1234 (FASTA)
+3J7A_A:1212-1219_1230-1235 (PDB)
+
+3J7A_A:316-321_353-360 (FASTA)
+3J7A_A:317-322_354-361 (PDB)
+
+A  (malaria par, rRNA 18S                      )
+L  (Eukaryota , 40S Ribo-Prot eS8             ) [Total: 6, Protein: 6] : L12(ARG), L13(LEU), L14(THR), L15(GLY), L16(GLY), L17(LYS)
+Q  (Eukaryota , 40S Ribo-Prot uS12            ) [Total: 9, Protein: 9] : Q13(ARG), Q20(ARG), Q21(THR), Q24(TRP), Q30(LYS), Q34(LEU), Q36(THR), Q40(SER), Q121(LYS)
+V  (Eukaryota , 40S Ribo-Prot uS17            ) [Total: 9, Protein: 9] : V88(ILE), V90(ARG), V92(ASN), V105(LYS), V106(ARG), V107(HIS), V109(ASN), V155(ARG), V158(PHE)
+
+
+Loop group: 4
+4LCK_F:15-22_82-89 (FASTA)
+4LCK_F:16-23_83-90 (PDB)
+
+4LCK_F:5-11_93-96 (FASTA)
+4LCK_F:6-12_94-97 (PDB)
+
+F  (Bacteria  , T-BOX RIBOSWITCH STEM I       )
+D  (Bacteria  , Ribo-Prot YbxF                ) [Total: 17, Protein: 16] : D14(ILE), D15(GLY), D16(THR), D17(LYS), D18(GLN), D36(ASP), D37(ALA), D38(ASP), D41(LEU), D62(MSE), D71(ILE), D72(GLU), D73(VAL), D74(GLY), D75(ALA), D76(ALA), D77(ALA)
+E  (Bacteria  , tRNA-Gly                      ) [Total: 5, Protein: 0] : E31(U), E33(G), E34(C), E35(C), E36(A)
+
+

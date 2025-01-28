@@ -1,0 +1,13 @@
+>6S0X_a:442-444_496-501
+UUA...UCAGAA
+#info=basepair
+0-6,H/H,cis
+1-6,W/H,trans
+1-8,W/W,cis
+2-4,W/H,cis
+6-8,W/H,cis
+#info=stacking
+0-1,upward
+1-2,upward
+3-4,inward
+6-7,downward

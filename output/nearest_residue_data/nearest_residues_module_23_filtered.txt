@@ -1,0 +1,39 @@
+Filtered nearest residue data for "Module23" loops ('HL_GNGA', 'HL_T-loop'):
+
+Loop group: 1
+4V9F_0:1379-1387 (FASTA)
+4V9F_0:1387-1395 (PDB)
+
+4V9F_0:485-491 (FASTA)
+4V9F_0:493-499 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+P  (Archaea   , 50S Ribo-Prot L19e            ) [Total: 6, Protein: 3] : P1(THR), P2(ASP), P28(GLN), P210(HOH), P243(HOH), P247(HOH)
+R  (Archaea   , 50S Ribo-Prot L22P            ) [Total: 7, Protein: 5] : R17(MET), R18(LEU), R19(ARG), R93(GLU), R94(ASN), R311(HOH), R321(HOH)
+
+
+Loop group: 2
+5J7L_DA:1280-1288 (FASTA)
+5J7L_DA:1281-1289 (PDB)
+
+5J7L_DA:486-492 (FASTA)
+5J7L_DA:487-493 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+D1 (Bacteria  , 50S Ribo-Prot L32             ) [Total: 1, Protein: 1] : 'D1'57(LYS)
+DO (Bacteria  , 50S Ribo-Prot L17             ) [Total: 5, Protein: 4] : DO103(ARG), DO104(ALA), DO105(GLY), DO106(ASP), DO225(HOH)
+DT (Bacteria  , 50S Ribo-Prot L22             ) [Total: 14, Protein: 9] : DT6(LYS), DT7(HIS), DT8(ARG), DT9(HIS), DT11(ARG), DT49(LYS), DT52(GLU), DT53(SER), DT56(ALA), DT302(HOH), DT312(HOH), DT316(HOH), DT329(HOH), DT330(HOH)
+
+
+Loop group: 3
+7A0S_X:1293-1301 (FASTA)
+7A0S_X:1294-1302 (PDB)
+
+7A0S_X:497-502 (FASTA)
+7A0S_X:498-503 (PDB)
+
+X  (          ,                               )
+K  (          ,                               ) [Total: 4, Protein: 4] : K103(ARG), K104(ARG), K105(GLY), K106(ASP)
+P  (          ,                               ) [Total: 9, Protein: 9] : P27(VAL), P28(ALA), P29(LYS), P30(TYR), P31(VAL), P70(LYS), P73(ASN), P74(SER), P77(ALA)
+
+

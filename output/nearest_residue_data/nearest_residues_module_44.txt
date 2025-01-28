@@ -1,0 +1,21 @@
+Nearest residue data for "Module44" loops ('IL_Hook-turn', 'IL_reverse-Kink-turn'):
+
+Loop group: 1
+5MRC_A:923-927_1172-1176 (FASTA)
+5MRC_A:924-928_1173-1177 (PDB)
+
+5MRC_A:949-956_1090-1104 (FASTA)
+5MRC_A:950-957_1091-1105 (PDB)
+
+A  (Fungi     , rRNA 21S (Mitochondrial)      )
+0  (Eukaryota , bL36m                         ) [Total: 18, Protein: 18] : '0'57(LYS), '0'58(VAL), '0'59(ARG), '0'60(THR), '0'61(SER), '0'62(VAL), '0'63(LYS), '0'65(PHE), '0'74(ARG), '0'75(LYS), '0'76(GLY), '0'77(ARG), '0'78(VAL), '0'79(TYR), '0'90(GLN), '0'91(ARG), '0'92(GLN), '0'93(GLY)
+C  (Eukaryota , uL3m                          ) [Total: 14, Protein: 14] : C41(ALA), C42(ILE), C44(HIS), C207(GLN), C209(GLN), C210(ASP), C211(PRO), C212(GLY), C213(ARG), C214(VAL), C215(LEU), C216(PRO), C217(GLY), C218(ARG)
+H  (Eukaryota , uL13m                         ) [Total: 62, Protein: 62] : H28(LEU), H29(GLY), H30(ARG), H31(LEU), H32(ALA), H33(SER), H34(ALA), H35(ILE), H36(ALA), H37(ILE), H42(ARG), H62(CYS), H65(ILE), H67(VAL), H70(LYS), H71(LYS), H72(PHE), H73(GLU), H74(GLN), H75(LYS), H76(THR), H77(TYR), H78(TRP), H79(SER), H80(HIS), H81(SER), H82(GLY), H83(ARG), H84(PRO), H85(GLY), H86(GLN), H87(LEU), H88(LYS), H89(LEU), H90(GLN), H91(THR), H92(MET), H93(ASN), H94(LYS), H95(VAL), H96(VAL), H97(ALA), H98(ASP), H99(LYS), H100(GLY), H101(PHE), H102(GLY), H103(GLU), H104(ILE), H105(LEU), H106(LYS), H107(LYS), H108(ALA), H109(VAL), H110(SER), H111(GLY), H112(MET), H113(LEU), H114(PRO), H115(LYS), H119(ARG), H130(ASP)
+K  (Eukaryota , uL16m                         ) [Total: 35, Protein: 35] : K53(LYS), K54(GLY), K55(ARG), K56(VAL), K57(PRO), K58(VAL), K59(ARG), K60(THR), K61(GLY), K62(GLY), K78(LEU), K79(LYS), K80(SER), K81(GLU), K82(GLY), K83(ILE), K84(ARG), K122(LYS), K123(GLY), K124(ASN), K128(MET), K144(THR), K170(THR), K172(LEU), K173(PRO), K174(GLY), K175(VAL), K176(TYR), K177(GLU), K186(ARG), K187(VAL), K188(GLY), K189(LEU), K190(HIS), K191(SER)
+N  (Eukaryota , bL21m                         ) [Total: 11, Protein: 11] : N63(ASN), N131(ARG), N132(GLU), N133(VAL), N134(THR), N135(LYS), N136(ARG), N142(ARG), N143(HIS), N144(ALA), N145(LYS)
+R  (Eukaryota , bL27m                         ) [Total: 1, Protein: 1] : R46(ARG)
+U  (Eukaryota , uL30m                         ) [Total: 26, Protein: 26] : U7(THR), U8(LEU), U9(SER), U10(ARG), U11(SER), U12(LEU), U13(ILE), U14(GLY), U15(VAL), U16(PRO), U17(HIS), U18(THR), U19(THR), U20(LYS), U23(VAL), U30(LYS), U31(ARG), U32(GLY), U48(ALA), U49(LYS), U50(VAL), U51(LYS), U52(GLU), U53(LEU), U54(VAL), U55(LYS)
+a  (Eukaryota , mL58                          ) [Total: 8, Protein: 8] : a31(ILE), a32(TYR), a33(ASN), a36(LYS), a37(SER), a40(ASN), a42(LYS), a46(LYS)
+c  (Eukaryota , mL60                          ) [Total: 82, Protein: 82] : c13(GLY), c14(GLY), c15(LEU), c16(LEU), c17(TRP), c18(LYS), c19(ILE), c20(PRO), c21(TRP), c22(ARG), c23(MET), c24(SER), c25(THR), c26(HIS), c27(GLN), c28(LYS), c29(THR), c30(ARG), c31(GLN), c32(ARG), c33(GLU), c34(ARG), c35(LEU), c36(ARG), c37(ASN), c38(VAL), c39(ASP), c40(GLN), c41(VAL), c42(ILE), c43(LYS), c79(ARG), c80(LEU), c81(LEU), c82(ASN), c83(LYS), c84(PRO), c85(SER), c86(VAL), c87(PHE), c88(PRO), c89(LYS), c90(GLU), c93(MET), c94(SER), c95(SER), c96(LYS), c97(ASP), c98(LYS), c99(TYR), c100(TRP), c101(THR), c102(PHE), c103(ASP), c104(LYS), c105(LYS), c106(ALA), c107(VAL), c108(GLY), c109(TYR), c110(ARG), c111(LYS), c112(GLY), c113(ILE), c114(HIS), c115(LYS), c116(VAL), c117(PRO), c118(LYS), c119(TRP), c120(THR), c121(LYS), c122(ILE), c123(SER), c124(ILE), c125(ARG), c126(LYS), c127(ALA), c128(PRO), c129(LYS), c130(PHE), c131(PHE)
+
+

@@ -1,0 +1,16 @@
+>8FR8_A:2376-2380_2350-2357
+UGGAG...CUGUGAAG
+#info=basepair
+3-9,W/S,cis
+3-10,S/H,trans
+1-11,S/H,trans
+1-12,W/W,cis
+#info=stacking
+0-1,upward
+1-2,upward
+4-5,inward
+3-6,inward
+4-6,outward
+2-9,inward
+10-11,upward
+2-10,inward

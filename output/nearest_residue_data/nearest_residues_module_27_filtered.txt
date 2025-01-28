@@ -1,0 +1,26 @@
+Filtered nearest residue data for "Module27" loops ('HL_GNAA', 'IL_E-loop'):
+
+Loop group: 1
+4V9F_0:1534-1538_1631-1635 (FASTA)
+4V9F_0:1542-1546_1639-1643 (PDB)
+
+4V9F_0:1785-1791 (FASTA)
+4V9F_0:1793-1799 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+P  (Archaea   , 50S Ribo-Prot L19e            ) [Total: 24, Protein: 12] : P66(GLN), P70(ALA), P87(ARG), P88(GLN), P93(ASP), P96(SER), P97(ARG), P100(ALA), P132(ASP), P133(SER), P134(VAL), P135(ALA), P201(HOH), P205(HOH), P213(HOH), P214(HOH), P215(HOH), P220(HOH), P222(HOH), P226(HOH), P227(HOH), P232(HOH), P248(HOH), P261(HOH)
+
+
+Loop group: 2
+7RQB_1A:1401-1405_1414-1418 (FASTA)
+7RQB_1A:1357-1361_1370-1374 (PDB)
+
+7RQB_1A:1835-1840 (FASTA)
+7RQB_1A:1806-1811 (PDB)
+
+1A (          ,                               )
+11 (          ,                               ) [Total: 1, Protein: 1] : '11'43(TYR)
+17 (          ,                               ) [Total: 1, Protein: 1] : '17'23(ARG)
+1D (          ,                               ) [Total: 8, Protein: 7] : '1D'44(ASN), '1D'45(ASN), '1D'46(GLN), '1D'48(ARG), '1D'49(ILE), '1D'50(THR), '1D'250(TRP), '1D'483(HOH)
+
+

@@ -1,0 +1,14 @@
+>7RQB_1A:2571-2577_2527-2530_2555-2557
+AUUAAAG...CAUC...GUU
+#info=basepair
+1-5,W/H,trans
+2-4,S/H,trans
+4-11,W/S,trans
+6-12,H/W,cis
+#info=stacking
+0-1,upward
+1-2,upward
+3-4,upward
+6-10,outward
+11-12,upward
+5-13,upward

@@ -1,0 +1,2 @@
+Filtered nearest residue data for IL_Rope-sling loops:
+

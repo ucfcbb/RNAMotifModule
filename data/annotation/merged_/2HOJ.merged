@@ -1,0 +1,121 @@
+A9	A10	G-C	upward
+A9	A90	G-C	W/W	cis
+A10	A11	C-G	upward
+A10	A89	C-G	W/W	cis
+A11	A12	G-A	upward
+A11	A88	G-C	W/W	cis
+A11	A89	G-G	outward
+A12	A13	A-C	upward
+A12	A87	A-U	W/W	cis
+A13	A14	C-U	upward
+A13	A86	C-G	W/W	cis
+A14	A15	U-C	upward
+A14	A85	U-A	W/W	cis
+A14	A86	U-G	outward
+A15	A16	C-G	upward
+A15	A51	C-G	W/W	cis
+A16	A17	G-G	upward
+A16	A50	G-C	W/W	cis
+A16	A51	G-G	outward
+A16	A84	G-A	S/S	cis
+A17	A18	G-G	upward
+A17	A49	G-C	W/W	cis
+A17	A50	G-C	outward
+A17	A56	G-A	S/S	trans
+A18	A19	G-G	upward
+A18	A48	G-C	W/W	cis
+A18	A49	G-C	outward
+A19	A20	G-U	upward
+A19	A42	G-G	S/S	trans
+A19	A47	G-A	W/W	cis
+A20	A44	U-A	inward
+A20	A45	U-A	W/W	cis
+A21	A22	G-C	upward
+A21	A38	G-C	W/W	cis
+A21	A39	G-U	outward
+A21	A43	G-A	downward
+A21	A71	G-U	S/S	cis
+A22	A23	C-C	upward
+A22	A37	C-G	W/W	cis
+A22	A70	C-A	S/S	cis
+A23	A24	C-C	upward
+A23	A36	C-G	W/W	cis
+A23	A37	C-G	outward
+A24	A33	C-G	upward
+A24	A35	C-A	S/W	cis
+A24	A36	C-G	outward
+A25	A36	U-G	H/S	trans
+A30	A31	C-G	upward
+A31	A32	G-U	upward
+A32	A33	U-G	inward
+A33	A34	G-A	H/H	cis
+A34	A35	A-A	upward
+A35	A36	A-G	upward
+A36	A37	G-G	upward
+A37	A38	G-C	upward
+A37	A69	G-A	S/W	trans
+A38	A39	C-U	upward
+A39	A40	U-G	upward
+A39	A43	U-A	W/H	trans
+A40	A42	G-G	inward
+A40	A43	G-A	outward
+A41	A42	A-G	upward
+A41	A48	A-C	S/S	cis
+A44	A45	A-A	upward
+A45	A47	A-A	upward
+A47	A48	A-C	upward
+A48	A49	C-C	upward
+A49	A50	C-C	upward
+A49	A56	C-A	S/S	cis
+A50	A84	C-A	S/S	trans
+A51	A85	G-A	upward
+A52	A53	U-A	downward
+A53	A83	A-G	downward
+A53	A84	A-A	H/H	trans
+A56	A57	A-C	upward
+A56	A83	A-G	H/S	trans
+A56	A84	A-A	outward
+A57	A58	C-C	upward
+A57	A82	C-G	W/W	cis
+A57	A83	C-G	outward
+A58	A59	C-U	upward
+A58	A81	C-G	W/W	cis
+A58	A82	C-G	outward
+A59	A60	U-G	upward
+A59	A80	U-A	W/W	cis
+A59	A81	U-G	outward
+A60	A61	G-A	inward
+A60	A78	G-G	W/H	cis
+A60	A80	G-A	outward
+A61	A63	A-C	outward
+A63	A64	C-U	upward
+A63	A76	C-G	W/W	cis
+A64	A65	U-G	upward
+A64	A75	U-A	W/W	cis
+A64	A76	U-G	outward
+A65	A66	G-G	upward
+A65	A74	G-C	W/W	cis
+A65	A75	G-A	outward
+A66	A67	G-A	upward
+A66	A73	G-C	W/W	cis
+A66	A74	G-C	outward
+A67	A68	A-U	upward
+A67	A71	A-U	W/H	trans
+A67	A73	A-C	outward
+A69	A70	A-A	upward
+A70	A71	A-U	upward
+A71	A73	U-C	upward
+A73	A74	C-C	upward
+A74	A75	C-A	upward
+A75	A76	A-G	upward
+A76	A77	G-C	upward
+A77	A78	C-G	inward
+A78	A80	G-A	outward
+A80	A81	A-G	upward
+A81	A82	G-G	upward
+A82	A83	G-G	upward
+A85	A86	A-G	upward
+A86	A87	G-U	upward
+A87	A88	U-C	upward
+A88	A89	C-G	upward
+A89	A90	G-C	upward

@@ -1,0 +1,24 @@
+Filtered nearest residue data for "Module33" loops ('IL_Rope-sling', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+5J7L_AA:408-415_426-432 (FASTA)
+5J7L_AA:409-416_427-433 (PDB)
+
+5J7L_AA:503-510_539-540 (FASTA)
+5J7L_AA:504-511_540-541 (PDB)
+
+AA (Bacteria  , rRNA 16S                      )
+AD (Bacteria  , 30S Ribo-Prot S4              ) [Total: 30, Protein: 30] : AD6(GLY), AD7(PRO), AD8(LYS), AD9(LEU), AD10(LYS), AD13(ARG), AD14(ARG), AD22(LYS), AD23(SER), AD24(GLY), AD25(VAL), AD26(ARG), AD29(ASP), AD30(THR), AD31(LYS), AD32(CYS), AD33(LYS), AD37(ALA), AD38(PRO), AD39(GLY), AD40(GLN), AD41(HIS), AD44(ARG), AD46(PRO), AD48(LEU), AD49(SER), AD51(TYR), AD52(GLY), AD55(LEU), AD56(ARG)
+
+
+Loop group: 2
+4LFB_A:404-411_422-428 (FASTA)
+4LFB_A:409-416_427-433 (PDB)
+
+4LFB_A:487-494_523-524 (FASTA)
+4LFB_A:504-511_540-541 (PDB)
+
+A  (Bacteria  , rRNA 16S                      )
+D  (Bacteria  , Ribo-Prot S4                  ) [Total: 27, Protein: 27] : D6(GLY), D7(PRO), D8(VAL), D9(CYS), D10(ARG), D13(ARG), D22(LYS), D23(GLY), D24(GLU), D25(ARG), D30(LYS), D32(ALA), D34(GLU), D35(ARG), D36(ARG), D40(PRO), D41(GLY), D42(GLN), D43(HIS), D46(LYS), D49(ARG), D52(SER), D54(TYR), D55(ALA), D58(LEU), D59(ARG), D209(ARG)
+
+

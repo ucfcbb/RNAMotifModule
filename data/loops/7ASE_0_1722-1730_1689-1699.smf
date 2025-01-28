@@ -1,0 +1,17 @@
+>7ASE_0:1722-1730_1689-1699
+CGAUCCCCU...AGGGUGAGGAU
+#info=basepair
+8-10,W/W,cis
+7-11,W/H,cis
+5-13,W/W,cis
+6-13,W/W,cis
+1-19,W/S,trans
+#info=stacking
+1-4,downward
+5-6,upward
+7-8,upward
+10-11,inward
+11-12,outward
+6-12,inward
+17-18,downward
+18-19,outward

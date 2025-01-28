@@ -1,0 +1,16 @@
+>1S72_0:2549-2551_1234-1239_1229-1233
+CCA...AUCGGG...AAAUG
+#info=basepair
+0-10,-/-,hbond
+3-13,H/S,cis
+4-8,-/-,hbond
+5-7,-/-,hbond
+5-8,W/H,trans
+#info=stacking
+2-9,inward
+2-10,outward
+0-1,upward
+3-4,upward
+6-7,upward
+7-8,upward
+10-11,upward

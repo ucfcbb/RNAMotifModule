@@ -1,0 +1,16 @@
+>7ASE_0:713-721_741-745
+GGUUUAGUC...GACCC
+#info=basepair
+1-12,S/W,trans
+1-13,W/W,cis
+5-11,W/S,cis
+6-11,W/W,cis
+#info=stacking
+0-1,upward
+0-13,inward
+2-4,downward
+5-6,upward
+5-12,downward
+6-7,upward
+7-8,upward
+12-13,outward

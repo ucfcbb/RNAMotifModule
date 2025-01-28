@@ -1,0 +1,28 @@
+Filtered nearest residue data for "Module28" loops ('IL_Hook-turn', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+4V9F_0:2716-2720_2746-2750 (FASTA)
+4V9F_0:2724-2728_2754-2758 (PDB)
+
+4V9F_0:2856-2861_2880-2884 (FASTA)
+4V9F_0:2864-2869_2888-2892 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+B  (Archaea   , 50S Ribo-Prot L3P             ) [Total: 9, Protein: 6] : B207(LYS), B285(VAL), B286(ASN), B335(ASN), B336(GLN), B337(GLY), B501(HOH), B536(HOH), B555(HOH)
+U  (Archaea   , 50S Ribo-Prot L24e            ) [Total: 14, Protein: 9] : U34(SER), U35(LYS), U38(ASN), U39(ASN), U42(LEU), U44(ARG), U50(GLU), U51(TRP), U56(ARG), U8501(HOH), U8506(HOH), U8514(HOH), U8521(HOH), U8522(HOH)
+X  (Archaea   , 50S Ribo-Prot L31e            ) [Total: 5, Protein: 3] : X18(ARG), X22(ASN), X25(ARG), X101(HOH), X109(HOH)
+
+
+Loop group: 2
+4V9F_0:1087-1091_1249-1253 (FASTA)
+4V9F_0:1095-1099_1257-1261 (PDB)
+
+4V9F_0:559-563_578-583 (FASTA)
+4V9F_0:567-571_586-591 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+9  (Archaea   , rRNA 5S                       ) [Total: 3, Protein: 0] : '9'87(U), '9'325(HOH), '9'383(HOH)
+W  (Archaea   , 50S Ribo-Prot L30P            ) [Total: 19, Protein: 14] : W29(VAL), W68(THR), W69(ARG), W119(HIS), W120(PRO), W121(PRO), W122(ARG), W123(GLY), W124(GLY), W125(HIS), W127(GLY), W128(VAL), W129(LYS), W154(ARG), W319(HOH), W324(HOH), W331(HOH), W343(HOH), W364(HOH)
+Y  (Archaea   , 50S Ribo-Prot L32e            ) [Total: 4, Protein: 2] : Y156(GLY), Y158(LYS), Y431(HOH), Y448(HOH)
+
+

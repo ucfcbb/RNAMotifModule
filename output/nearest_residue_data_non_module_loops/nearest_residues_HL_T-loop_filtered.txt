@@ -1,0 +1,644 @@
+Filtered nearest residue data for HL_T-loop loops:
+
+1N78_C:51-59 (FASTA)
+1N78_C:553-561 (PDB)
+
+C  (Bacteria  , tRNA, glutamyl-tRNA synthetase)
+
+
+4FRN_B:27-35 (FASTA)
+4FRN_B:28-36 (PDB)
+
+B  (Metagenome, Riboswitch, Cobalamin riboswitc)
+
+
+2DU3_D:51-59 (FASTA)
+2DU3_D:952-960 (PDB)
+
+D  (Archaea   , tRNA                          )
+
+
+3ADD_C:67-75 (FASTA)
+3ADD_C:53-61 (PDB)
+
+C  (Archaea   , tRNA, selenocysteine tRNA     )
+A  (Archaea   , L-seryl-tRNA(Sec) kinase      ) [Total: 2, Protein: 2] : A195(ARG), A203(LYS)
+
+
+2ZZN_D:51-59 (FASTA)
+2ZZN_D:53-61 (PDB)
+
+D  (Archaea   , tRNA, 71-mer                  )
+B  (Archaea   , Uncharacterized protein MJ0883) [Total: 7, Protein: 7] : B9(LYS), B10(LYS), B11(HIS), B12(GLY), B13(GLU), B33(SER), B38(LEU)
+
+
+3OVB_C:11-19 (FASTA)
+3OVB_C:12-20 (PDB)
+
+C  (Archaea   , tRNA, 35-mer                  )
+A  (Archaea   , CCA-Adding Enzyme             ) [Total: 12, Protein: 11] : A310(ARG), A344(ARG), A345(MET), A346(GLY), A347(PRO), A354(ASN), A357(LYS), A358(PHE), A361(ARG), A363(ARG), A373(ARG), A731(HOH)
+
+
+1FIR_A:52-60 (FASTA)
+1FIR_A:53-61 (PDB)
+
+A  (Mammalia  , tRNA, HIV-1 Reverse Transcripti)
+
+
+4MGN_A:41-53 (FASTA)
+4MGN_A:51-63 (PDB)
+
+A  (riboswitch, glyQS T box riboswitch        )
+B  (          , tRNA-glycine                  ) [Total: 3, Protein: 0] : B18(G), B19(U), B55(C)
+
+
+1SER_T:70-78 (FASTA)
+1SER_T:53-61 (PDB)
+
+T  (Bacteria  , tRNA, SERYL-TRNA SYNTHETASE   )
+B  (Bacteria  , PROTEIN (SERYL-TRNA SYNTHETASE ) [Total: 15, Protein: 14] : B551(ARG), B554(VAL), B555(ALA), B556(LYS), B558(VAL), B559(PRO), B569(LEU), B570(ILE), B573(GLY), B574(LYS), B577(GLY), B581(LYS), B584(GLU), B588(ARG), B954(HOH)
+
+
+1QU2_T:53-61 (FASTA)
+1QU2_T:53-61 (PDB)
+
+T  (Bacteria  , tRNA, ILE-TRNA SYNTHETASE     )
+
+
+2ZNI_C:48-56 (FASTA)
+2ZNI_C:53-61 (PDB)
+
+C  (Bacteria  , tRNA, bacterial tRNA          )
+
+
+3ZGZ_B:64-72 (FASTA)
+3ZGZ_B:53-61 (PDB)
+
+B  (Bacteria  , tRNA-LEU UAA ISOACCEPTOR      )
+A  (          ,                               ) [Total: 4, Protein: 4] : A846(LYS), A848(ILE), A856(ASN), A858(VAL)
+
+
+5C45_Y:11-19 (FASTA)
+5C45_Y:68-76 (PDB)
+
+Y  (Bacteria  , Riboswitch, FMN               )
+X  (Bacteria  , Riboswitch, FMN               ) [Total: 6, Protein: 0] : X37(U), X38(A), X39(U), X40(A), X42(U), X43(C)
+
+
+2CZJ_H:42-50 (FASTA)
+2CZJ_H:53-61 (PDB)
+
+H  (Bacteria  , tmRNA (63-MER)                )
+
+
+3WQY_C:51-59 (FASTA)
+3WQY_C:1653-1661 (PDB)
+
+C  (Archaea   , tRNA 75-mer                   )
+A  (Archaea   , Alanine--tRNA ligase          ) [Total: 8, Protein: 8] : A845(LYS), A847(PHE), A872(SER), A873(GLY), A874(GLY), A881(GLN), A882(GLY), A883(ALA)
+
+
+1H3E_B:62-70 (FASTA)
+1H3E_B:53-61 (PDB)
+
+B  (Bacteria  , tRNA, Tyrosyl-tRNA synthetase )
+
+
+2CSX_C:53-61 (FASTA)
+2CSX_C:53-61 (PDB)
+
+C  (Bacteria  , tRNA, methionyl-tRNA synthetase)
+
+
+4P5J_A:47-55 (FASTA)
+4P5J_A:46-54 (PDB)
+
+A  (Virus     , mRNA                          )
+
+
+1F7U_B:52-60 (FASTA)
+1F7U_B:953-961 (PDB)
+
+B  (Fungi     , tRNA, Arginyl                 )
+A  (Eukaryota , ARGINYL-TRNA SYNTHETASE       ) [Total: 5, Protein: 2] : A74(PRO), A77(ARG), A1255(HOH), A1261(HOH), A1477(HOH)
+
+
+1U0B_A:50-58 (FASTA)
+1U0B_A:53-61 (PDB)
+
+A  (Bacteria  , tRNA, cysteinyl-tRNA synthetase)
+
+
+3J7A_A:1846-1857 (FASTA)
+3J7A_A:1847-1858 (PDB)
+
+A  (malaria par, rRNA 18S                      )
+S  (Eukaryota , 40S Ribo-Prot uS13            ) [Total: 6, Protein: 6] : S122(HIS), S123(ARG), S126(ARG), S133(VAL), S134(ARG), S135(GLY)
+T  (Eukaryota , 40S Ribo-Prot uS14            ) [Total: 2, Protein: 2] : T8(HIS), T9(PRO)
+X  (Eukaryota , 40S Ribo-Prot uS19            ) [Total: 13, Protein: 13] : X39(ALA), X40(ARG), X42(ARG), X43(ARG), X44(LYS), X47(ARG), X50(SER), X81(ARG), X82(ASN), X115(TYR), X119(PHE), X120(SER), X121(ILE)
+
+
+3AL0_E:50-58 (FASTA)
+3AL0_E:53-61 (PDB)
+
+E  (Bacteria  , tRNAGln                       )
+B  (Bacteria  , Aspartyl/glutamyl-tRNA(Asn/Gln)) [Total: 15, Protein: 15] : B319(TYR), B320(ASP), B349(ASN), B352(MET), B353(THR), B354(GLU), B357(ARG), B390(ILE), B391(LYS), B394(LYS), B449(LYS), B455(VAL), B468(PRO), B469(GLU), B472(ASN)
+
+
+3A2K_C:53-61 (FASTA)
+3A2K_C:54-62 (PDB)
+
+C  (Bacteria  , tRNA, bacterial tRNA          )
+
+
+1B23_R:50-58 (FASTA)
+1B23_R:53-61 (PDB)
+
+R  (Bacteria  , tRNA, Cysteinyl               )
+P  (Bacteria  , ELONGATION FACTOR TU          ) [Total: 5, Protein: 4] : P330(ARG), P331(HIS), P332(THR), P333(GLY), P507(HOH)
+
+
+2ZUE_B:54-62 (FASTA)
+2ZUE_B:953-961 (PDB)
+
+B  (Archaea   , tRNA-Arg                      )
+A  (Archaea   , Arginyl-tRNA synthetase       ) [Total: 3, Protein: 3] : A47(PHE), A48(LYS), A51(LYS)
+
+
+4YCO_D:52-60 (FASTA)
+4YCO_D:53-61 (PDB)
+
+D  (Bacteria  , tRNA, tRNAphe                 )
+A  (Bacteria  , tRNA-dihydrouridine synthase C) [Total: 5, Protein: 5] : A274(LYS), A291(PHE), A295(ARG), A296(VAL), A298(ASN)
+
+
+6UGG_B:53-61 (FASTA)
+6UGG_B:53-61 (PDB)
+
+B  (          ,                               )
+
+
+4GXY_A:48-56 (FASTA)
+4GXY_A:49-57 (PDB)
+
+A  (Bacteria  , Adenosylcobalamin riboswitch  )
+
+
+1WZ2_D:64-72 (FASTA)
+1WZ2_D:965-973 (PDB)
+
+D  (Archaea   , tRNA, Leucyl-tRNA synthetase  )
+
+
+3Q1Q_C:62-70 (FASTA)
+3Q1Q_C:63-71 (PDB)
+
+C  (Bacteria  , TRNA (PHE)                    )
+B  (Bacteria  , Ribozyme, Ribonuclease P      ) [Total: 8, Protein: 0] : B111(C), B112(A), B156(G), B204(G), B205(C), B206(A), B207(A), B208(C)
+
+
+5J7L_AA:320-331 (FASTA)
+5J7L_AA:321-332 (PDB)
+
+AA (Bacteria  , rRNA 16S                      )
+AP (Bacteria  , 30S Ribo-Prot S16             ) [Total: 1, Protein: 1] : AP25(ARG)
+AT (Bacteria  , 30S Ribo-Prot S20             ) [Total: 12, Protein: 11] : AT2(ALA), AT3(ASN), AT4(ILE), AT7(ALA), AT11(ALA), AT14(SER), AT17(ALA), AT18(ARG), AT21(ASN), AT25(ARG), AT65(GLY), AT103(HOH)
+
+
+2D6F_F:51-59 (FASTA)
+2D6F_F:953-961 (PDB)
+
+F  (Archaea   , tRNA                          )
+D  (Archaea   , Glutamyl-tRNA(Gln) amidotransfe) [Total: 14, Protein: 12] : D461(SER), D463(ASP), D464(LEU), D486(ASP), D488(THR), D489(VAL), D492(SER), D496(TYR), D497(THR), D500(GLU), D503(ARG), D528(ILE), D1911(HOH), D1921(HOH)
+
+
+1J2B_C:53-61 (FASTA)
+1J2B_C:954-962 (PDB)
+
+C  (Archaea   , tRNA, Archaeosine tRNA-Guanine )
+A  (Archaea   , Archaeosine tRNA-guanine transg) [Total: 1, Protein: 1] : A465(LYS)
+
+
+4MGN_B:51-59 (FASTA)
+4MGN_B:52-60 (PDB)
+
+B  (          , tRNA-glycine                  )
+A  (riboswitch, glyQS T box riboswitch        ) [Total: 5, Protein: 0] : A53(G), A54(C), A55(G), A62(G), A102(MG)
+
+
+2DRA_B:11-19 (FASTA)
+2DRA_B:12-20 (PDB)
+
+B  (Archaea   , tRNA (34-MER)                 )
+A  (Archaea   , CCA-adding enzyme             ) [Total: 14, Protein: 12] : A310(ARG), A344(ARG), A345(MET), A346(GLY), A347(PRO), A354(ASN), A357(LYS), A358(PHE), A361(ARG), A363(ARG), A373(ARG), A378(GLU), A550(HOH), A632(HOH)
+
+
+2DLC_Y:52-60 (FASTA)
+2DLC_Y:553-561 (PDB)
+
+Y  (Fungi     , T-RNA (76-MER)                )
+
+
+4LCK_B:47-55 (FASTA)
+4LCK_B:52-60 (PDB)
+
+B  (Bacteria  , tRNA-Gly                      )
+C  (Bacteria  , T-BOX RIBOSWITCH STEM I       ) [Total: 4, Protein: 0] : C54(A), C55(U), C56(A), C63(G)
+
+
+2BTE_B:59-67 (FASTA)
+2BTE_B:53-61 (PDB)
+
+B  (Bacteria  , tRNA, Leucyl-tRNA synthetase co)
+A  (Bacteria  , AMINOACYL-TRNA SYNTHETASE     ) [Total: 7, Protein: 7] : A822(GLN), A824(ASN), A825(GLY), A863(LYS), A865(ILE), A873(ASN), A875(VAL)
+
+
+3KFU_L:52-60 (FASTA)
+3KFU_L:53-61 (PDB)
+
+L  (Bacteria  , tRNA-Asn                      )
+F  (Bacteria  , Aspartyl/glutamyl-tRNA(Asn/Gln)) [Total: 12, Protein: 10] : F307(ASP), F337(ASN), F338(TRP), F341(ALA), F342(ASP), F345(GLY), F371(PHE), F378(SER), F379(ARG), F382(LYS), F632(UNK), F647(UNK)
+
+
+3W3S_B:74-82 (FASTA)
+3W3S_B:53-61 (PDB)
+
+B  (Bacteria  , selenocysteine tRNA           )
+A  (Archaea   , Type-2 serine--tRNA ligase    ) [Total: 8, Protein: 8] : A14(SER), A85(ALA), A89(GLY), A90(ARG), A93(ARG), A94(VAL), A95(GLY), A96(VAL)
+
+
+1QTQ_B:51-59 (FASTA)
+1QTQ_B:953-961 (PDB)
+
+B  (Bacteria  , tRNA, GLUTAMINYL-TRNA SYNTHETAS)
+
+
+4V9F_0:615-624 (FASTA)
+4V9F_0:623-632 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+B  (Archaea   , 50S Ribo-Prot L3P             ) [Total: 1, Protein: 0] : B643(HOH)
+L  (Archaea   , 50S Ribo-Prot L15P            ) [Total: 7, Protein: 4] : L11(ARG), L17(SER), L18(HIS), L19(LYS), L307(HOH), L308(HOH), L322(HOH)
+Y  (Archaea   , 50S Ribo-Prot L32e            ) [Total: 9, Protein: 6] : Y147(ARG), Y148(GLY), Y149(GLN), Y150(LEU), Y152(LYS), Y155(ARG), Y404(HOH), Y470(HOH), Y486(HOH)
+
+
+1QF6_B:52-60 (FASTA)
+1QF6_B:53-61 (PDB)
+
+B  (Bacteria  , tRNA, THREONYL-TRNA SYNTHETASE)
+
+
+2ZZM_B:64-72 (FASTA)
+2ZZM_B:53-61 (PDB)
+
+B  (Archaea   , tRNA functional maturation    )
+A  (Archaea   , Uncharacterized protein MJ0883) [Total: 7, Protein: 7] : A9(LYS), A10(LYS), A11(HIS), A12(GLY), A13(GLU), A14(GLN), A38(LEU)
+
+
+1J1U_B:53-61 (FASTA)
+1J1U_B:554-562 (PDB)
+
+B  (Archaea   , tRNA, Tyrosyl-tRNA synthetase )
+
+
+3AMU_B:54-62 (FASTA)
+3AMU_B:53-61 (PDB)
+
+B  (Archaea   , tRNA 78-mer                   )
+
+
+4GCW_B:52-60 (FASTA)
+4GCW_B:53-61 (PDB)
+
+B  (Bacteria  , tRNA (THR)                    )
+A  (Bacteria  , Ribonuclease Z                ) [Total: 13, Protein: 12] : A28(GLU), A31(ARG), A156(GLY), A157(SER), A158(LEU), A160(ALA), A164(LYS), A174(TYR), A175(GLN), A178(LYS), A201(LYS), A306(ARG), A517(HOH)
+
+
+3WFS_A:52-60 (FASTA)
+3WFS_A:53-61 (PDB)
+
+A  (Bacteria  , tRNA 74-mer                   )
+C  (          , Poly A polymerase             ) [Total: 4, Protein: 0] : C473(UNK), C474(UNK), C476(UNK), C477(UNK)
+
+
+4JRC_B:27-39 (FASTA)
+4JRC_B:51-63 (PDB)
+
+B  (T box RNA , T box RNA                     )
+A  (          , Distal Stem I region of the gly) [Total: 8, Protein: 0] : A43(C), A52(G), A53(G), A54(C), A55(G), A62(G), A63(C), A207(HOH)
+
+
+2NR0_E:63-71 (FASTA)
+2NR0_E:53-61 (PDB)
+
+E  (Bacteria  , tRNA, leucyl tRNA             )
+B  (Bacteria  , tRNA pseudouridine synthase A ) [Total: 5, Protein: 5] : B45(GLN), B46(VAL), B48(ASN), B78(ARG), B82(ALA)
+
+
+3EPH_E:50-58 (FASTA)
+3EPH_E:53-61 (PDB)
+
+E  (Fungi     , tRNA                          )
+
+
+5C45_X:16-24 (FASTA)
+5C45_X:17-25 (PDB)
+
+X  (Bacteria  , Riboswitch, FMN               )
+Y  (Bacteria  , Riboswitch, FMN               ) [Total: 7, Protein: 0] : Y89(U), Y90(A), Y91(G), Y92(A), Y93(G), Y94(U), Y95(C)
+
+
+5AXM_P:51-59 (FASTA)
+5AXM_P:53-61 (PDB)
+
+P  (Fungi     , tRNA, with TLP                )
+B  (Archaea   , tRNA(His)-5'-guanylyltransferas) [Total: 13, Protein: 13] : B195(LYS), B200(ILE), B201(GLN), B202(GLY), B203(PHE), B204(ASN), B205(PRO), B211(GLU), B212(LYS), B213(SER), B214(LEU), B215(ARG), B216(ARG)
+
+
+3IGI_A:29-37 (FASTA)
+3IGI_A:30-38 (PDB)
+
+A  (Group IIC i, Group IIC intron              )
+
+
+4FRG_B:27-35 (FASTA)
+4FRG_B:28-36 (PDB)
+
+B  (Metagenome, Riboswitch, cobalamin riboswitc)
+X  (unclassifie, cobalamin riboswitch aptamer do) [Total: 4, Protein: 0] : X32(A), X33(A), X60(U), X112(MG)
+
+
+3J79_A:1610-1618 (FASTA)
+3J79_A:1611-1619 (PDB)
+
+A  (malaria par, rRNA 28S                      )
+T  (Eukaryota , 60S Ribo-Prot eL19            ) [Total: 2, Protein: 2] : T2(SER), T28(ILE)
+
+
+4V88_A6:392-403 (FASTA)
+4V88_A6:393-404 (PDB)
+
+A6 (Fungi     , rRNA 18S                      )
+CE (Eukaryota , 40S Ribo-Prot S4-A            ) [Total: 3, Protein: 3] : CE3(ARG), CE4(GLY), CE5(PRO)
+CG (Eukaryota , 40S Ribo-Prot S6-A            ) [Total: 5, Protein: 5] : CG88(ARG), CG89(ASP), CG90(GLY), CG91(GLU), CG92(ARG)
+CI (Eukaryota , 40S Ribo-Prot S8-A            ) [Total: 13, Protein: 13] : CI2(GLY), CI3(ILE), CI23(LYS), CI24(LYS), CI25(ARG), CI26(LYS), CI27(PHE), CI29(LEU), CI47(ARG), CI48(THR), CI49(ARG), CI50(GLY), CI51(GLY)
+CY (Eukaryota , 40S Ribo-Prot S24-A           ) [Total: 1, Protein: 0] : CY204(MG)
+
+
+3RG5_B:65-73 (FASTA)
+3RG5_B:53-61 (PDB)
+
+B  (Mouse     , tRNA(Sec)                     )
+
+
+3AM1_B:58-66 (FASTA)
+3AM1_B:59-67 (PDB)
+
+B  (Archaea   , archaeal tRNA                 )
+A  (Archaea   , L-seryl-tRNA(Sec) kinase      ) [Total: 3, Protein: 3] : A199(ARG), A206(ILE), A216(ILE)
+
+
+3VJR_B:12-20 (FASTA)
+3VJR_B:13-21 (PDB)
+
+B  (Bacteria  , tRNA CCA-acceptor             )
+A  (Bacteria  , Peptidyl-tRNA hydrolase       ) [Total: 4, Protein: 4] : A185(THR), A186(LYS), A189(ASN), A193(ALA)
+
+
+2AKE_B:51-59 (FASTA)
+2AKE_B:53-61 (PDB)
+
+B  (Mammalia  , tRNA, tryptophanyl-tRNA synthet)
+
+
+2AZX_D:51-59 (FASTA)
+2AZX_D:553-561 (PDB)
+
+D  (Mammalia  , tRNA, tryptophanyl-tRNA synthet)
+
+
+2DER_D:52-60 (FASTA)
+2DER_D:53-61 (PDB)
+
+D  (Bacteria  , tRNA                          )
+
+
+1GAX_D:51-59 (FASTA)
+1GAX_D:952-960 (PDB)
+
+D  (Bacteria  , tRNA, Valyl-tRNA synthetase   )
+B  (Bacteria  , VALYL-TRNA SYNTHETASE         ) [Total: 6, Protein: 6] : B825(SER), B826(PRO), B827(GLY), B828(PHE), B831(LYS), B832(ALA)
+
+
+4GMA_Z:57-65 (FASTA)
+4GMA_Z:58-66 (PDB)
+
+Z  (Metagenome, Adenosylcobalamin riboswitch  )
+
+
+4WJ4_B:52-60 (FASTA)
+4WJ4_B:53-61 (PDB)
+
+B  (Bacteria  , tRNA (76-MER)                 )
+
+
+4RDX_C:54-62 (FASTA)
+4RDX_C:53-61 (PDB)
+
+C  (Bacteria  , tRNA(his)                     )
+
+
+4V8N_CV:54-62 (FASTA)
+4V8N_CV:55-63 (PDB)
+
+CV (Archaea   , tRNA E-SITE                   )
+DG (Bacteria  , 50S Ribo-Prot L5              ) [Total: 4, Protein: 4] : DG76(SER), DG78(SER), DG83(ARG), DG84(LYS)
+DQ (Bacteria  , 50S Ribo-Prot L16             ) [Total: 1, Protein: 1] : DQ6(ARG)
+
+
+6DN2_X:16-24 (FASTA)
+6DN2_X:17-25 (PDB)
+
+X  (Bacteria  , Riboswitch, FMN               )
+Y  (Bacteria  , Riboswitch, FMN               ) [Total: 7, Protein: 0] : Y89(U), Y90(A), Y91(G), Y92(A), Y93(G), Y94(U), Y95(C)
+
+
+4V8Q_BY:66-74 (FASTA)
+4V8Q_BY:66-74 (PDB)
+
+BY (Bacteria  , tmRNA DELA                    )
+AA (Bacteria  , 23S ribosomal RNA             ) [Total: 1, Protein: 0] : AA1067(A)
+BZ (Bacteria  , ELONGATION FACTOR TU          ) [Total: 4, Protein: 4] : BZ330(ARG), BZ331(HIS), BZ332(THR), BZ333(GLY)
+
+
+4V90_AV:52-60 (FASTA)
+4V90_AV:53-61 (PDB)
+
+AV (Bacteria  , rRNA                          )
+BC (Bacteria  , Ribo-Prot L1                  ) [Total: 15, Protein: 15] : BC53(ARG), BC54(ARG), BC55(SER), BC56(ASP), BC58(ASN), BC60(ARG), BC126(SER), BC129(GLY), BC130(ARG), BC133(GLY), BC134(PRO), BC138(LEU), BC140(ASN), BC142(LYS), BC165(ARG)
+
+
+5HR7_D:52-60 (FASTA)
+5HR7_D:52-60 (PDB)
+
+D  (Bacteria  , tRNA Glu                      )
+
+
+4V9K_AW:53-61 (FASTA)
+4V9K_AW:53-61 (PDB)
+
+AW (Bacteria  , tRNA                          )
+BA (Bacteria  , 23S ribosomal RNA             ) [Total: 2, Protein: 0] : BA2112(G), BA2169(A)
+BC (Bacteria  , 50S Ribo-Prot L1              ) [Total: 7, Protein: 7] : BC52(PRO), BC53(ARG), BC55(SER), BC56(ASP), BC58(ASN), BC130(ARG), BC134(PRO)
+
+
+5HR6_C:50-58 (FASTA)
+5HR6_C:52-60 (PDB)
+
+C  (Bacteria  , tRNA Glu                      )
+B  (Bacteria  , RlmN methylase                ) [Total: 4, Protein: 4] : B365(ARG), B366(THR), B367(LYS), B371(ARG)
+
+
+4WT8_D4:52-60 (FASTA)
+4WT8_D4:54-62 (PDB)
+
+D4 (Bacteria  , tRNA (76-MER)                 )
+DE (Bacteria  , 50S Ribo-Prot L5              ) [Total: 5, Protein: 5] : DE76(SER), DE77(ILE), DE78(SER), DE79(ASN), DE83(ARG)
+
+
+4YYE_C:52-60 (FASTA)
+4YYE_C:53-61 (PDB)
+
+C  (Fungi     , tRNA                          )
+
+
+7RQB_1A:587-596 (FASTA)
+7RQB_1A:566-575 (PDB)
+
+1A (          ,                               )
+1E (          ,                               ) [Total: 1, Protein: 1] : '1E'145(LYS)
+1P (          ,                               ) [Total: 9, Protein: 3] : '1P'29(LYS), '1P'35(HIS), '1P'36(LYS), '1P'323(HOH), '1P'332(HOH), '1P'333(HOH), '1P'336(HOH), '1P'355(HOH), '1P'363(HOH)
+1V (          ,                               ) [Total: 4, Protein: 3] : '1V'78(LYS), '1V'79(VAL), '1V'80(GLN), '1V'201(MG)
+
+
+3ICQ_E:43-51 (FASTA)
+3ICQ_E:53-61 (PDB)
+
+E  (Fungi     , tRNA 62-mer                   )
+C  (Eukaryota , GTP-binding nuclear protein GSP) [Total: 1, Protein: 1] : C129(LYS)
+U  (Eukaryota , Exportin-T                    ) [Total: 8, Protein: 8] : U554(ARG), U557(TYR), U679(LYS), U721(PHE), U725(ARG), U728(ASN), U759(SER), U763(GLN)
+
+
+4TUE_QV:53-61 (FASTA)
+4TUE_QV:53-61 (PDB)
+
+QV (Plantae   , tRNA-fMet P-SITE              )
+RG (Bacteria  , 50S Ribo-Prot L5              ) [Total: 5, Protein: 5] : RG76(SER), RG77(ILE), RG78(SER), RG82(LEU), RG83(ARG)
+
+
+6DN2_Y:11-19 (FASTA)
+6DN2_Y:68-76 (PDB)
+
+Y  (Bacteria  , Riboswitch, FMN               )
+X  (Bacteria  , Riboswitch, FMN               ) [Total: 6, Protein: 0] : X37(U), X38(A), X39(U), X40(A), X42(U), X43(C)
+
+
+4JXZ_B:51-59 (FASTA)
+4JXZ_B:953-961 (PDB)
+
+B  (Bacteria  , tRNA, 71-mer                  )
+
+
+3TUP_T:52-60 (FASTA)
+3TUP_T:53-61 (PDB)
+
+T  (Bacteria  , tRNA Phe                      )
+
+
+6CHR_A:30-38 (FASTA)
+6CHR_A:31-39 (PDB)
+
+A  (Seaweed   , Group II intron               )
+
+
+4YCP_B:52-60 (FASTA)
+4YCP_B:53-61 (PDB)
+
+B  (Bacteria  , tRNA, tRNATrp                 )
+A  (Bacteria  , tRNA-dihydrouridine synthase C) [Total: 7, Protein: 6] : A274(LYS), A291(PHE), A295(ARG), A296(VAL), A297(LEU), A298(ASN), A402(SO4)
+
+
+4V5O_BA:383-394 (FASTA)
+4V5O_BA:384-395 (PDB)
+
+BA (Ciliates(Pr, rRNA 18S                      )
+B2 (Eukaryota , 40S Ribo-Prot S8              ) [Total: 15, Protein: 14] : 'B2'2(GLY), 'B2'3(ILE), 'B2'23(LYS), 'B2'24(LYS), 'B2'25(ARG), 'B2'26(ALA), 'B2'27(PHE), 'B2'28(GLU), 'B2'29(LYS), 'B2'55(ARG), 'B2'56(VAL), 'B2'57(ARG), 'B2'58(GLY), 'B2'59(GLY), 'B2'2002(HOH)
+BW (Eukaryota , 40S Ribo-Prot S4              ) [Total: 3, Protein: 3] : BW3(ARG), BW4(GLY), BW5(PRO)
+BY (Eukaryota , RPS6E                         ) [Total: 5, Protein: 5] : BY88(ARG), BY89(SER), BY90(GLY), BY91(PHE), BY92(ARG)
+
+
+5AH5_D:60-68 (FASTA)
+5AH5_D:53-61 (PDB)
+
+D  (Bacteria  , tRNA, LeuRS-tRNA-LeuAMS       )
+B  (          , LEUCINE--TRNA LIGASE          ) [Total: 7, Protein: 6] : B759(GLN), B761(ASN), B762(GLY), B802(ARG), B810(ASN), B812(VAL), B2360(HOH)
+
+
+4V9Q_DV:53-61 (FASTA)
+4V9Q_DV:53-61 (PDB)
+
+DV (Bacteria  , tRNA                          )
+CG (Bacteria  , 50S Ribo-Prot L5              ) [Total: 5, Protein: 5] : CG76(SER), CG77(ILE), CG78(SER), CG82(LEU), CG83(ARG)
+
+
+4LCK_F:51-63 (FASTA)
+4LCK_F:52-64 (PDB)
+
+F  (Bacteria  , T-BOX RIBOSWITCH STEM I       )
+E  (Bacteria  , tRNA-Gly                      ) [Total: 5, Protein: 0] : E18(G), E19(U), E55(C), E56(G), E115(SR)
+
+
+5DH6_A:26-33 (FASTA)
+5DH6_A:27-34 (PDB)
+
+A  (Ribozyme  , Ribozyme, hammerhead (synthetic)
+
+
+3F2X_X:16-24 (FASTA)
+3F2X_X:17-25 (PDB)
+
+X  (Riboswitch, Riboswitch, FMN               )
+
+
+5E6M_C:50-58 (FASTA)
+5E6M_C:53-61 (PDB)
+
+C  (Mammalia  , tRNA(Gly)                     )
+
+
+4QEI_C:50-58 (FASTA)
+4QEI_C:53-61 (PDB)
+
+C  (Mammalia  , tRNA-Gly-CCC-2-2              )
+
+
+3F2X_X:67-75 (FASTA)
+3F2X_X:68-76 (PDB)
+
+X  (Riboswitch, Riboswitch, FMN               )
+
+
+4X4V_B:11-19 (FASTA)
+4X4V_B:12-20 (PDB)
+
+B  (Mammalia  , tRNA, Human MenBeta minihelix e)
+A  (Archaea   , CCA-adding enzyme             ) [Total: 14, Protein: 14] : A310(ARG), A344(ARG), A345(MET), A346(GLY), A347(PRO), A354(ASN), A355(VAL), A357(LYS), A358(PHE), A360(SER), A361(ARG), A363(ARG), A373(ARG), A378(GLU)
+
+
+4WJ3_S:52-60 (FASTA)
+4WJ3_S:53-61 (PDB)
+
+S  (Bacteria  , tRNA (76-MER)                 )
+H  (Bacteria  , Aspartyl/glutamyl-tRNA(Asn/Gln)) [Total: 11, Protein: 10] : H315(TYR), H341(LYS), H345(ASN), H348(MET), H349(VAL), H350(GLU), H353(SER), H386(GLY), H387(LYS), H390(LYS), H455(UNK)
+
+

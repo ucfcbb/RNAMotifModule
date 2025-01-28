@@ -1,0 +1,252 @@
+Filtered nearest residue data for IL_C-loop loops:
+
+1KOG_O:5-7_27-31 (FASTA)
+1KOG_O:74-76_96-100 (PDB)
+
+O  (Bacteria  , Threonyl-tRNA synthetase mRNA )
+G  (Bacteria  , Threonyl-tRNA synthetase      ) [Total: 4, Protein: 4] : G246(LYS), G249(LYS), G250(GLN), G583(ARG)
+
+
+5MRC_A:786-790_834-837 (FASTA)
+5MRC_A:787-791_835-838 (PDB)
+
+A  (Fungi     , rRNA 21S (Mitochondrial)      )
+E  (Eukaryota , uL5m                          ) [Total: 4, Protein: 4] : E101(TRP), E107(TYR), E111(ARG), E112(PRO)
+K  (Eukaryota , uL16m                         ) [Total: 9, Protein: 9] : K49(GLN), K50(LYS), K51(LYS), K52(GLN), K63(SER), K65(LYS), K116(ASN), K117(VAL), K141(ARG)
+
+
+3J7Q_5:1307-1312_1367-1372 (FASTA)
+3J7Q_5:1732-1737_1792-1797 (PDB)
+
+5  (Mammalia  , rRNA 28S                      )
+7  (Eukaryota , 5S ribosomal RNA              ) [Total: 10, Protein: 0] : '7'77(A), '7'78(C), '7'79(U), '7'80(U), '7'97(G), '7'98(G), '7'99(G), '7'100(A), '7'101(A), '7'102(U)
+F  (Eukaryota , Ribo-Prot uL30                ) [Total: 1, Protein: 1] : F106(LYS)
+T  (Eukaryota , Ribo-Prot eL21                ) [Total: 7, Protein: 7] : T13(TYR), T14(MET), T19(PHE), T43(LYS), T58(HIS), T59(GLY), T97(LYS)
+
+
+7RQB_1A:903-907_959-963 (FASTA)
+7RQB_1A:858-862_915-919 (PDB)
+
+1A (          ,                               )
+10 (          ,                               ) [Total: 4, Protein: 3] : '10'44(ARG), '10'45(PHE), '10'77(ARG), '10'101(MG)
+1B (          ,                               ) [Total: 16, Protein: 0] : '1B'78(A), '1B'79(C), '1B'80(U), '1B'81(G), '1B'97(G), '1B'98(G), '1B'99(G), '1B'100(A), '1B'101(G), '1B'102(A), '1B'323(HOH), '1B'328(HOH), '1B'344(HOH), '1B'346(HOH), '1B'357(HOH), '1B'363(HOH)
+1Q (          ,                               ) [Total: 3, Protein: 1] : '1Q'18(LYS), '1Q'314(HOH), '1Q'333(HOH)
+
+
+3J7P_S2:1086-1089_1553-1557 (FASTA)
+3J7P_S2:1214-1217_1681-1685 (PDB)
+
+S2 (Mammalia  , rRNA 18S                      )
+SQ (Eukaryota , Ribo-Prot uS9                 ) [Total: 2, Protein: 2] : SQ143(LYS), SQ145(TYR)
+Sc (Eukaryota , Ribo-Prot eS28                ) [Total: 4, Protein: 4] : Sc20(ARG), Sc23(SER), Sc24(GLN), Sc25(GLY)
+
+
+5J7L_DA:2679-2683_2724-2726 (FASTA)
+5J7L_DA:2680-2684_2725-2727 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+DD (Bacteria  , 50S Ribo-Prot L3              ) [Total: 22, Protein: 15] : DD8(LYS), DD11(MET), DD12(THR), DD13(ARG), DD23(PRO), DD112(THR), DD113(SER), DD114(LYS), DD116(LYS), DD192(ALA), DD193(VAL), DD194(PRO), DD195(GLY), DD196(ALA), DD197(THR), DD413(HOH), DD415(HOH), DD426(HOH), DD427(HOH), DD438(HOH), DD485(HOH), DD493(HOH)
+DL (Bacteria  , 50S Ribo-Prot L14             ) [Total: 8, Protein: 7] : DL1(MET), DL32(TYR), DL67(LYS), DL70(ARG), DL74(GLY), DL76(VAL), DL78(ARG), DL308(HOH)
+DQ (Bacteria  , 50S Ribo-Prot L19             ) [Total: 8, Protein: 6] : DQ51(ARG), DQ53(ARG), DQ56(HIS), DQ58(ALA), DQ73(VAL), DQ75(GLN), DQ302(HOH), DQ305(HOH)
+
+
+4V5O_BA:1129-1131_1588-1592 (FASTA)
+4V5O_BA:1130-1132_1589-1593 (PDB)
+
+BA (Ciliates(Pr, rRNA 18S                      )
+B1 (Eukaryota , Ribo-Prot S28E CONTAINING PROTE) [Total: 4, Protein: 4] : 'B1'17(LYS), 'B1'20(SER), 'B1'21(ARG), 'B1'22(GLY)
+
+
+7RQB_1A:909-913_953-956 (FASTA)
+7RQB_1A:864-868_909-912 (PDB)
+
+1A (          ,                               )
+1B (          ,                               ) [Total: 2, Protein: 0] : '1B'101(G), '1B'102(A)
+1Q (          ,                               ) [Total: 8, Protein: 6] : '1Q'8(LYS), '1Q'9(TYR), '1Q'11(LYS), '1Q'12(GLN), '1Q'13(GLN), '1Q'22(LYS), '1Q'311(HOH), '1Q'313(HOH)
+1Z (          ,                               ) [Total: 1, Protein: 0] : '1Z'404(HOH)
+
+
+5TBW_1:943-948_990-993 (FASTA)
+5TBW_1:999-1004_1046-1049 (PDB)
+
+1  (Fungi     , rRNA 25S                      )
+2  (Eukaryota , 60S Ribo-Prot L21-A           ) [Total: 2, Protein: 2] : '2'12(ARG), '2'13(TYR)
+3  (Eukaryota , 5S ribosomal RNA              ) [Total: 2, Protein: 0] : '3'103(A), '3'104(A)
+m  (Eukaryota , 60S Ribo-Prot L5              ) [Total: 3, Protein: 3] : m10(SER), m11(ALA), m15(ARG)
+r  (Eukaryota , 60S Ribo-Prot L10             ) [Total: 8, Protein: 8] : r15(LYS), r16(PRO), r17(TYR), r18(PRO), r20(SER), r21(ARG), r22(TYR), r119(TRP)
+
+
+4V9F_0:1417-1421_1429-1431 (FASTA)
+4V9F_0:1425-1429_1437-1439 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+2  (Archaea   , 50S Ribo-Prot L39e            ) [Total: 4, Protein: 4] : '2'41(HIS), '2'42(TRP), '2'43(ARG), '2'44(ARG)
+P  (Archaea   , 50S Ribo-Prot L19e            ) [Total: 2, Protein: 1] : P2(ASP), P259(HOH)
+R  (Archaea   , 50S Ribo-Prot L22P            ) [Total: 5, Protein: 3] : R22(GLN), R122(GLN), R123(GLN), R339(HOH), R354(HOH)
+
+
+3J79_A:1113-1118_1174-1179 (FASTA)
+3J79_A:1114-1119_1175-1180 (PDB)
+
+A  (malaria par, rRNA 28S                      )
+5  (Eukaryota , 60S Ribo-Prot uL30            ) [Total: 1, Protein: 1] : '5'107(LYS)
+B  (malaria par, rRNA 5S                       ) [Total: 10, Protein: 0] : B77(A), B78(C), B79(U), B80(G), B97(G), B98(G), B99(G), B100(A), B101(A), B102(C)
+V  (Eukaryota , 60S Ribo-Prot eL21            ) [Total: 8, Protein: 8] : V14(TYR), V15(LYS), V19(LYS), V20(PHE), V44(VAL), V59(HIS), V60(GLY), V98(ARG)
+
+
+3J7A_A:1257-1260_1913-1917 (FASTA)
+3J7A_A:1258-1261_1914-1918 (PDB)
+
+A  (malaria par, rRNA 18S                      )
+5  (Eukaryota , 40S Ribo-Prot eS28            ) [Total: 5, Protein: 5] : '5'15(ARG), '5'17(GLY), '5'18(SER), '5'19(ARG), '5'20(GLY)
+M  (Eukaryota , 40S Ribo-Prot uS9             ) [Total: 2, Protein: 2] : M141(LYS), M143(TYR)
+
+
+4V88_A6:1156-1159_1616-1620 (FASTA)
+4V88_A6:1157-1160_1617-1621 (PDB)
+
+A6 (Fungi     , rRNA 18S                      )
+CQ (Eukaryota , 40S Ribo-Prot S16-A           ) [Total: 2, Protein: 2] : CQ140(LYS), CQ142(TYR)
+Cc (Eukaryota , 40S Ribo-Prot S28-A           ) [Total: 5, Protein: 5] : Cc18(ARG), Cc20(GLY), Cc21(SER), Cc22(ARG), Cc23(GLY)
+
+
+4V8P_D1:468-469_506-509 (FASTA)
+4V8P_D1:469-470_507-510 (PDB)
+
+D1 (Ciliates(Pr, rRNA 26S                      )
+CC (Eukaryota , RPL4                          ) [Total: 2, Protein: 2] : CC5(PRO), CC6(GLN)
+DO (Eukaryota , RPL28                         ) [Total: 3, Protein: 3] : DO68(HIS), DO69(LYS), DO70(VAL)
+
+
+5J7L_AA:596-597_639-642 (FASTA)
+5J7L_AA:597-598_640-643 (PDB)
+
+AA (Bacteria  , rRNA 16S                      )
+AH (Bacteria  , 30S Ribo-Prot S8              ) [Total: 12, Protein: 12] : AH31(LYS), AH32(LEU), AH84(ARG), AH86(TYR), AH105(SER), AH106(THR), AH107(SER), AH108(LYS), AH109(GLY), AH110(VAL), AH123(GLY), AH124(GLU)
+AQ (Bacteria  , 30S Ribo-Prot S17             ) [Total: 2, Protein: 2] : AQ28(PHE), AQ37(PHE)
+
+
+7RQB_1A:2690-2694_2736-2738 (FASTA)
+7RQB_1A:2680-2684_2725-2727 (PDB)
+
+1A (          ,                               )
+1E (          ,                               ) [Total: 21, Protein: 15] : '1E'8(LYS), '1E'11(MET), '1E'12(THR), '1E'13(ARG), '1E'22(PRO), '1E'107(THR), '1E'108(SER), '1E'109(LYS), '1E'111(ARG), '1E'187(ALA), '1E'188(VAL), '1E'189(PRO), '1E'190(GLY), '1E'191(PRO), '1E'192(ASN), '1E'302(MG), '1E'401(HOH), '1E'407(HOH), '1E'423(HOH), '1E'437(HOH), '1E'447(HOH)
+1O (          ,                               ) [Total: 8, Protein: 8] : '1O'1(MET), '1O'32(TYR), '1O'67(LYS), '1O'68(GLU), '1O'70(LYS), '1O'74(GLY), '1O'76(ALA), '1O'78(ARG)
+1T (          ,                               ) [Total: 8, Protein: 6] : '1T'51(ARG), '1T'53(ARG), '1T'55(ASN), '1T'58(ASN), '1T'60(THR), '1T'75(ILE), '1T'305(HOH), '1T'307(HOH)
+
+
+4JRC_B:5-9_49-51 (FASTA)
+4JRC_B:29-33_73-75 (PDB)
+
+B  (T box RNA , T box RNA                     )
+
+
+5J7L_DA:1845-1848_1892-1893 (FASTA)
+5J7L_DA:1846-1849_1893-1894 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+AA (Bacteria  , rRNA 16S                      ) [Total: 1, Protein: 0] : AA702(A)
+
+
+7RQB_1B:29-30_50-53 (FASTA)
+7RQB_1B:30-31_51-54 (PDB)
+
+1B (          ,                               )
+1G (          ,                               ) [Total: 2, Protein: 2] : '1G'28(VAL), '1G'29(TRP)
+1S (          ,                               ) [Total: 5, Protein: 5] : '1S'32(LEU), '1S'33(LYS), '1S'60(GLY), '1S'61(ASN), '1S'62(LYS)
+
+
+4V88_A6:745-746_801-804 (FASTA)
+4V88_A6:746-747_802-805 (PDB)
+
+A6 (Fungi     , rRNA 18S                      )
+CH (Eukaryota , 40S Ribo-Prot S7-A            ) [Total: 3, Protein: 3] : CH101(LYS), CH103(SER), CH104(ARG)
+CL (Eukaryota , 40S Ribo-Prot S11-A           ) [Total: 3, Protein: 2] : CL91(LEU), CL100(TYR), CL204(MG)
+CW (Eukaryota , 40S Ribo-Prot S22-A           ) [Total: 12, Protein: 12] : CW32(LYS), CW33(VAL), CW78(ARG), CW80(ASN), CW105(THR), CW106(THR), CW107(SER), CW108(ALA), CW109(GLY), CW110(ILE), CW123(GLY), CW124(LYS)
+
+
+4V8P_D1:456-461_515-520 (FASTA)
+4V8P_D1:457-462_516-521 (PDB)
+
+D1 (Ciliates(Pr, rRNA 26S                      )
+DO (Eukaryota , RPL28                         ) [Total: 18, Protein: 18] : DO45(ARG), DO62(LEU), DO64(LYS), DO67(SER), DO69(LYS), DO71(LYS), DO73(THR), DO79(GLU), DO81(LEU), DO82(THR), DO83(VAL), DO84(LYS), DO85(GLY), DO89(ARG), DO92(LYS), DO93(VAL), DO96(GLY), DO97(ARG)
+
+
+4LFB_A:580-581_623-626 (FASTA)
+4LFB_A:597-598_640-643 (PDB)
+
+A  (Bacteria  , rRNA 16S                      )
+H  (Bacteria  , Ribo-Prot S8                  ) [Total: 11, Protein: 11] : H31(PHE), H92(ARG), H94(TYR), H113(SER), H114(THR), H115(SER), H116(LYS), H117(GLY), H118(VAL), H131(GLY), H132(GLU)
+Q  (Bacteria  , Ribo-Prot S17                 ) [Total: 3, Protein: 3] : Q26(GLN), Q28(PRO), Q35(VAL)
+
+
+1I6U_C:11-12_23-26 (FASTA)
+1I6U_C:12-13_24-27 (PDB)
+
+C  (Archaea   , rRNA 16S Fragment             )
+A  (Archaea   , 30S Ribo-Prot S8P             ) [Total: 17, Protein: 13] : A33(LEU), A36(ARG), A78(ARG), A80(PRO), A105(SER), A106(THR), A107(THR), A108(GLN), A109(GLY), A110(VAL), A123(GLY), A124(ARG), A126(LEU), A142(HOH), A155(HOH), A160(HOH), A165(HOH)
+B  (Archaea   , 30S Ribo-Prot S8P             ) [Total: 5, Protein: 2] : B87(GLU), B97(ARG), B131(SO4), B158(HOH), B193(HOH)
+
+
+4V9F_9:28-29_49-52 (FASTA)
+4V9F_9:29-30_50-53 (PDB)
+
+9  (Archaea   , rRNA 5S                       )
+D  (Archaea   , 50S Ribo-Prot L5P             ) [Total: 10, Protein: 10] : D9(ASP), D12(GLU), D13(MET), D17(ARG), D137(PRO), D138(GLY), D139(TYR), D140(ARG), D141(VAL), D144(ARG)
+N  (Archaea   , 50S Ribo-Prot L18P            ) [Total: 11, Protein: 10] : N40(ASN), N41(LYS), N74(PRO), N76(GLY), N77(ASN), N147(ILE), N158(LEU), N159(TYR), N160(SER), N168(LEU), N330(HOH)
+
+
+4WF9_X:908-912_953-956 (FASTA)
+4WF9_X:909-913_954-957 (PDB)
+
+X  (Bacteria  , rRNA 23S                      )
+J  (Bacteria  , 50S Ribo-Prot L16             ) [Total: 5, Protein: 5] : J11(ARG), J13(HIS), J14(ARG), J15(PRO), J23(GLY)
+Y  (Bacteria  , 5S ribosomal RNA              ) [Total: 2, Protein: 0] : Y97(A), Y98(G)
+
+
+1U9S_A:61-64_86-87 (FASTA)
+1U9S_A:136-139_161-162 (PDB)
+
+A  (Ribonucleas, RIBONUCLEASE P                )
+
+
+5J7L_DB:29-30_50-53 (FASTA)
+5J7L_DB:30-31_51-54 (PDB)
+
+DB (Bacteria  , rRNA 5S                       )
+DF (Bacteria  , 50S Ribo-Prot L5              ) [Total: 2, Protein: 2] : DF25(VAL), DF26(MET)
+DP (Bacteria  , 50S Ribo-Prot L18             ) [Total: 10, Protein: 7] : DP3(LYS), DP32(PRO), DP33(ARG), DP63(LYS), DP64(TYR), DP66(GLY), DP67(ASN), DP307(HOH), DP319(HOH), DP332(HOH)
+
+
+4WF9_X:2706-2710_2751-2753 (FASTA)
+4WF9_X:2707-2711_2752-2754 (PDB)
+
+X  (Bacteria  , rRNA 23S                      )
+B  (Bacteria  , 50S Ribo-Prot L3              ) [Total: 13, Protein: 13] : B9(LYS), B12(MET), B13(THR), B14(GLN), B24(PRO), B122(SER), B123(LYS), B200(ASN), B201(VAL), B202(PRO), B203(GLY), B204(PRO), B205(LYS)
+H  (Bacteria  , 50S Ribo-Prot L14             ) [Total: 4, Protein: 4] : H1(MET), H70(ARG), H74(GLY), H76(TYR)
+M  (Bacteria  , 50S Ribo-Prot L19             ) [Total: 6, Protein: 6] : M51(LYS), M53(ARG), M54(GLY), M58(SER), M60(THR), M75(THR)
+
+
+7A0S_X:2658-2662_2704-2706 (FASTA)
+7A0S_X:2659-2663_2705-2707 (PDB)
+
+X  (          ,                               )
+B  (          ,                               ) [Total: 15, Protein: 15] : B8(LYS), B11(MET), B12(THR), B13(GLN), B22(PRO), B107(THR), B108(SER), B109(LYS), B111(LYS), B187(ALA), B188(ILE), B189(PRO), B190(GLY), B191(ALA), B192(ASN)
+H  (          ,                               ) [Total: 8, Protein: 8] : H1(MET), H44(TYR), H46(HIS), H79(HIS), H80(ALA), H82(LYS), H86(GLY), H88(THR)
+M  (          ,                               ) [Total: 3, Protein: 3] : M63(ARG), M65(SER), M80(VAL)
+
+
+4V8P_C3:27-28_47-50 (FASTA)
+4V8P_C3:28-29_48-51 (PDB)
+
+C3 (Ciliates(Pr, rRNA 5S                       )
+CD (Eukaryota , 60S Ribo-Prot L11             ) [Total: 7, Protein: 7] : CD9(MET), CD134(PRO), CD135(GLY), CD136(THR), CD137(ARG), CD138(VAL), CD141(ARG)
+CM (Eukaryota , 60S Ribo-Prot L5              ) [Total: 15, Protein: 14] : CM57(ASN), CM58(THR), CM90(THR), CM91(GLY), CM93(ALA), CM94(SER), CM209(ILE), CM225(GLN), CM226(LYS), CM227(GLN), CM228(PHE), CM229(SER), CM230(LYS), CM231(TRP), CM404(HOH)
+
+
+7A0S_X:1837-1840_1875-1876 (FASTA)
+7A0S_X:1838-1841_1876-1877 (PDB)
+
+X  (          ,                               )
+
+

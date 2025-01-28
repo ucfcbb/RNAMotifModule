@@ -1,0 +1,17 @@
+>8FR8_A:2183-2186_2156-2167
+CCUG...CGAAAUUCCUUG
+#info=basepair
+6-13,H/W,cis
+1-6,W/W,trans
+10-12,S/H,cis
+2-15,W/S,cis
+#info=stacking
+0-1,upward
+4-5,upward
+1-5,inward
+3-5,outward
+6-10,inward
+6-15,outward
+7-9,inward
+11-12,upward
+12-13,inward

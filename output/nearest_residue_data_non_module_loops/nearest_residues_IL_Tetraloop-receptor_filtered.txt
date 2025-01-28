@@ -1,0 +1,83 @@
+Filtered nearest residue data for IL_Tetraloop-receptor loops:
+
+4K27_U:18-22_33-36 (FASTA)
+4K27_U:19-23_34-37 (PDB)
+
+U  (Myotonic Dy, Myotonic Dystrophy Type 2 RNA )
+
+
+6CHR_A:517-520_531-535 (FASTA)
+6CHR_A:518-521_532-536 (PDB)
+
+A  (Seaweed   , Group II intron               )
+
+
+3T4B_A:16-19_33-34 (FASTA)
+3T4B_A:2-5_19-20 (PDB)
+
+A  (Virus     , mRNA, viral                   )
+
+
+3IGI_A:333-334_345-348 (FASTA)
+3IGI_A:334-335_346-349 (PDB)
+
+A  (Group IIC i, Group IIC intron              )
+
+
+4PCJ_A:7-10_26-27 (FASTA)
+4PCJ_A:8-11_27-28 (PDB)
+
+A  (toxic CUG R, toxic CUG RNA (synthetic)     )
+
+
+1U6B_B:57-61_76-79 (FASTA)
+1U6B_B:61-65_80-83 (PDB)
+
+B  (Mammalia  , Group I Intron                )
+C  (          , 5'-R(*AP*AP*GP*CP*CP*AP*CP*AP*C) [Total: 4, Protein: 0] : C3(G), C191(A), C192(A), C193(G)
+
+
+5DCV_D:4-5_44-47 (FASTA)
+5DCV_D:5-6_45-48 (PDB)
+
+D  (Archaea   , kink turn                     )
+B  (Archaea   , RNA (47-MER)                  ) [Total: 3, Protein: 0] : B28(A), B29(A), B30(A)
+
+
+5BTM_A:18-22_33-36 (FASTA)
+5BTM_A:19-23_34-37 (PDB)
+
+A  (Mammalia  , AUUCU Repeating RNA           )
+B  (Eukaryota , RNA (55-mer)                  ) [Total: 5, Protein: 0] : B10(U), B11(U), B12(C), B47(U), B48(U)
+
+
+5M0H_A:13-17_28-31 (FASTA)
+5M0H_A:14-18_29-32 (PDB)
+
+A  (Fungi     , ASH1 mRNA E3-localization eleme)
+
+
+5T83_A:16-19_40-41 (FASTA)
+5T83_A:16-19_40-41 (PDB)
+
+A  (Bacteria  , guanidine-I riboswitch, 95-mer)
+
+
+5U3G_B:9-12_27-28 (FASTA)
+5U3G_B:10-13_28-29 (PDB)
+
+B  (Bacteria  , Riboswitch, ykkC              )
+
+
+3Q1Q_C:31-34_43-47 (FASTA)
+3Q1Q_C:32-35_44-48 (PDB)
+
+C  (Bacteria  , TRNA (PHE)                    )
+
+
+1KXK_A:14-18_53-56 (FASTA)
+1KXK_A:15-19_54-57 (PDB)
+
+A  (Group II Se, Group II Self-splicing intron, )
+
+

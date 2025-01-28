@@ -1,0 +1,15 @@
+Nearest residue data for "Module51" loops ('HL_T-loop', 'IL_Tandem-shear'):
+
+Loop group: 1
+3J7A_A:1965-1968_2020-2023 (FASTA)
+3J7A_A:1966-1969_2021-2024 (PDB)
+
+3J7A_A:398-409 (FASTA)
+3J7A_A:399-410 (PDB)
+
+A  (malaria par, rRNA 18S                      )
+F  (Eukaryota , 40S Ribo-Prot eS4             ) [Total: 10, Protein: 10] : F2(GLY), F3(LYS), F4(GLY), F5(ILE), F6(LYS), F7(LYS), F8(HIS), F30(LYS), F31(THR), F38(LEU)
+H  (Eukaryota , 40S Ribo-Prot eS6             ) [Total: 24, Protein: 24] : H66(GLY), H67(VAL), H73(VAL), H74(ARG), H75(LEU), H76(LEU), H77(PHE), H78(LYS), H79(LYS), H80(GLY), H81(MET), H82(LYS), H84(TYR), H85(ARG), H86(PRO), H87(ARG), H88(LYS), H89(LYS), H90(GLY), H91(GLU), H92(ARG), H93(LYS), H94(ARG), H95(LYS)
+L  (Eukaryota , 40S Ribo-Prot eS8             ) [Total: 42, Protein: 42] : L5(ARG), L6(ASP), L7(GLY), L8(ARG), L9(HIS), L19(LYS), L20(ILE), L21(HIS), L22(LYS), L23(LYS), L24(LYS), L25(ARG), L26(LYS), L27(TYR), L28(GLU), L29(LEU), L30(GLY), L31(ARG), L32(PRO), L33(PRO), L34(SER), L35(ASN), L43(VAL), L44(HIS), L45(VAL), L46(VAL), L47(ARG), L48(GLY), L49(ARG), L50(GLY), L51(ARG), L52(ASN), L53(TYR), L54(LYS), L55(TYR), L56(ARG), L57(ALA), L189(PRO), L190(GLY), L191(GLN), L192(CYS), L193(GLY)
+
+

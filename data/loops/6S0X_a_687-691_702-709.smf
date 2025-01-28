@@ -1,0 +1,14 @@
+>6S0X_a:687-691_702-709
+UGUAG...CGCAGAGA
+#info=basepair
+1-12,S/W,cis
+3-9,H/W,trans
+3-10,W/H,trans
+#info=stacking
+0-1,upward
+1-2,upward
+2-3,upward
+2-9,inward
+4-6,outward
+10-11,upward
+11-12,upward

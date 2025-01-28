@@ -1,0 +1,62 @@
+Filtered nearest residue data for "Module11" loops ('HL_GNAA', 'HL_GNGA'):
+
+Loop group: 1
+7RQB_1A:652-657 (FASTA)
+7RQB_1A:629-634 (PDB)
+
+7RQB_1A:664-670 (FASTA)
+7RQB_1A:641-647 (PDB)
+
+1A (          ,                               )
+16 (          ,                               ) [Total: 2, Protein: 2] : '16'41(PRO), '16'44(ARG)
+18 (          ,                               ) [Total: 6, Protein: 5] : '18'15(LYS), '18'16(ILE), '18'17(THR), '18'18(ALA), '18'47(LYS), '18'104(MPD)
+1P (          ,                               ) [Total: 6, Protein: 5] : '1P'65(ARG), '1P'66(GLY), '1P'67(MET), '1P'77(ARG), '1P'79(ARG), '1P'349(HOH)
+
+
+Loop group: 2
+4LFB_A:1058-1063 (FASTA)
+4LFB_A:1076-1081 (PDB)
+
+4LFB_A:839-844 (FASTA)
+4LFB_A:862-867 (PDB)
+
+A  (Bacteria  , rRNA 16S                      )
+B  (Bacteria  , Ribo-Prot S2                  ) [Total: 2, Protein: 2] : B175(ARG), B179(LYS)
+E  (Bacteria  , Ribo-Prot S5                  ) [Total: 15, Protein: 15] : E14(ARG), E16(THR), E17(ALA), E18(ARG), E25(ARG), E27(ARG), E45(PHE), E47(LYS), E83(GLU), E84(PHE), E85(GLY), E86(ALA), E129(ILE), E130(ASN), E133(TYR)
+
+
+Loop group: 3
+4WF9_X:673-678 (FASTA)
+4WF9_X:674-679 (PDB)
+
+4WF9_X:685-691 (FASTA)
+4WF9_X:686-692 (PDB)
+
+X  (Bacteria  , rRNA 23S                      )
+3  (Bacteria  , 50S Ribo-Prot L35             ) [Total: 3, Protein: 3] : '3'15(LYS), '3'16(ARG), '3'17(THR)
+I  (Bacteria  , 50S Ribo-Prot L15             ) [Total: 7, Protein: 7] : I58(PHE), I59(ARG), I60(ARG), I61(LEU), I62(PRO), I63(LYS), I64(ARG)
+
+
+Loop group: 4
+3IGI_A:273-278 (FASTA)
+3IGI_A:274-279 (PDB)
+
+3IGI_A:88-93 (FASTA)
+3IGI_A:89-94 (PDB)
+
+A  (Group IIC i, Group IIC intron              )
+
+
+Loop group: 5
+3KTW_C:22-27 (FASTA)
+3KTW_C:163-168 (PDB)
+
+3KTW_C:68-73 (FASTA)
+3KTW_C:209-214 (PDB)
+
+C  (Archaea   , SRP RNA                       )
+A  (Archaea   , Signal recognition particle 19 ) [Total: 22, Protein: 22] : A3(LEU), A4(ARG), A6(LEU), A7(LYS), A11(ARG), A12(ILE), A13(VAL), A15(TRP), A18(TYR), A29(ARG), A58(ASN), A59(LYS), A60(LYS), A61(TYR), A62(PRO), A63(ARG), A75(LYS), A77(LYS), A78(SER), A79(LYS), A80(ASN), A81(TYR)
+B  (Archaea   , Signal recognition particle 19 ) [Total: 1, Protein: 1] : B65(ARG)
+D  (Archaea   , SRP RNA                       ) [Total: 6, Protein: 0] : D197(A), D198(C), D199(C), D218(G), D219(C), D220(A)
+
+

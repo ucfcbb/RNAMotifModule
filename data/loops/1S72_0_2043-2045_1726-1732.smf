@@ -1,0 +1,13 @@
+>1S72_0:2043-2045_1726-1732
+GGC...GAGCAAC
+#info=basepair
+1-8,S/H,trans
+#info=stacking
+0-1,upward
+1-2,upward
+3-4,upward
+4-6,upward
+7-8,upward
+1-7,inward
+8-9,upward
+1-9,outward

@@ -1,0 +1,26 @@
+Nearest residue data for "Module27" loops ('HL_GNAA', 'IL_E-loop'):
+
+Loop group: 1
+4V9F_0:1534-1538_1631-1635 (FASTA)
+4V9F_0:1542-1546_1639-1643 (PDB)
+
+4V9F_0:1785-1791 (FASTA)
+4V9F_0:1793-1799 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+P  (Archaea   , 50S Ribo-Prot L19e            ) [Total: 77, Protein: 51] : P58(SER), P59(ARG), P60(GLY), P61(ARG), P62(ALA), P63(ARG), P64(GLU), P65(ARG), P66(GLN), P67(LYS), P68(LYS), P69(ARG), P70(ALA), P71(TYR), P72(GLY), P73(HIS), P74(GLN), P75(LYS), P79(SER), P80(ARG), P81(LYS), P82(GLY), P83(LYS), P84(ALA), P85(GLY), P86(ALA), P87(ARG), P88(GLN), P89(ASN), P90(SER), P91(LYS), P92(GLU), P93(ASP), P94(TRP), P95(GLU), P96(SER), P97(ARG), P98(ILE), P99(ARG), P100(ALA), P101(GLN), P102(ARG), P103(THR), P106(ARG), P107(GLU), P131(PHE), P132(ASP), P133(SER), P134(VAL), P135(ALA), P139(ARG), P201(HOH), P203(HOH), P205(HOH), P207(HOH), P212(HOH), P213(HOH), P214(HOH), P215(HOH), P217(HOH), P218(HOH), P219(HOH), P220(HOH), P222(HOH), P225(HOH), P226(HOH), P227(HOH), P232(HOH), P237(HOH), P238(HOH), P240(HOH), P242(HOH), P248(HOH), P255(HOH), P256(HOH), P257(HOH), P261(HOH)
+
+
+Loop group: 2
+7RQB_1A:1401-1405_1414-1418 (FASTA)
+7RQB_1A:1357-1361_1370-1374 (PDB)
+
+7RQB_1A:1835-1840 (FASTA)
+7RQB_1A:1806-1811 (PDB)
+
+1A (          ,                               )
+11 (          ,                               ) [Total: 25, Protein: 22] : '11'2(SER), '11'3(LYS), '11'4(VAL), '11'5(CYS), '11'6(GLU), '11'10(LYS), '11'11(ARG), '11'12(PRO), '11'13(ILE), '11'14(VAL), '11'41(ARG), '11'42(GLN), '11'43(TYR), '11'44(PRO), '11'45(ASN), '11'46(LEU), '11'47(GLN), '11'48(LYS), '11'50(ARG), '11'59(THR), '11'60(PHE), '11'61(ARG), '11'104(MG), '11'215(HOH), '11'224(HOH)
+17 (          ,                               ) [Total: 3, Protein: 3] : '17'10(ARG), '17'14(LYS), '17'23(ARG)
+1D (          ,                               ) [Total: 23, Protein: 18] : '1D'35(LYS), '1D'36(PRO), '1D'37(LEU), '1D'38(LYS), '1D'39(LYS), '1D'40(THR), '1D'42(GLY), '1D'43(ARG), '1D'44(ASN), '1D'45(ASN), '1D'46(GLN), '1D'47(GLY), '1D'48(ARG), '1D'49(ILE), '1D'50(THR), '1D'51(VAL), '1D'250(TRP), '1D'252(TRP), '1D'316(MG), '1D'429(HOH), '1D'480(HOH), '1D'483(HOH), '1D'504(HOH)
+
+

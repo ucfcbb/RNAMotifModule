@@ -1,0 +1,15 @@
+>1S72_0:1905-1910_1925-1930
+UGAACA...ACGAAG
+#info=basepair
+1-10,S/H,trans
+#info=stacking
+0-1,upward
+1-8,upward
+2-3,upward
+2-9,outward
+3-4,upward
+4-5,upward
+6-7,upward
+7-8,inward
+9-10,upward
+10-11,upward

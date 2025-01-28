@@ -1,0 +1,15 @@
+Nearest residue data for "Module54" loops ('HL_GNGA', 'IL_Sarcin-ricin', 'IL_Tandem-shear'):
+
+Loop group: 1
+3D0U_A:120-126 (FASTA)
+3D0U_A:121-127 (PDB)
+
+3D0U_A:15-18_66-69 (FASTA)
+3D0U_A:16-19_67-70 (PDB)
+
+3D0U_A:19-26_59-65 (FASTA)
+3D0U_A:20-27_60-66 (PDB)
+
+A  (Riboswitch, Lysine Riboswitch RNA         )
+
+

@@ -1,0 +1,14 @@
+>8OVA_BE:183-187_37-41
+GUUCG...CAUCC
+#info=basepair
+4-5,W/H,cis
+3-6,W/S,trans
+1-8,W/H,trans
+#info=stacking
+0-1,upward
+3-4,outward
+5-6,outward
+1-6,inward
+7-8,outward
+3-7,inward
+8-9,upward

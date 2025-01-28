@@ -1,0 +1,24 @@
+Filtered nearest residue data for "Module37" loops ('IL_C-loop', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+4LFB_A:366-370_384-385 (FASTA)
+4LFB_A:371-375_389-390 (PDB)
+
+4LFB_A:440-444_467-472 (FASTA)
+4LFB_A:446-450_483-488 (PDB)
+
+A  (Bacteria  , rRNA 16S                      )
+P  (Bacteria  , Ribo-Prot S16                 ) [Total: 11, Protein: 11] : P6(LEU), P7(ALA), P8(ARG), P13(HIS), P15(PRO), P17(TYR), P28(ARG), P41(PRO), P42(ARG), P43(LYS), P69(THR)
+
+
+Loop group: 2
+4MGN_A:19-23_63-65 (FASTA)
+4MGN_A:29-33_73-75 (PDB)
+
+4MGN_A:4-13_71-81 (FASTA)
+4MGN_A:14-23_81-91 (PDB)
+
+A  (riboswitch, glyQS T box riboswitch        )
+B  (          , tRNA-glycine                  ) [Total: 10, Protein: 0] : B30(C), B31(U), B32(U), B33(G), B34(C), B35(C), B36(A), B37(A), B38(G), B39(G)
+
+

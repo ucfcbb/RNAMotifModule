@@ -1,0 +1,10 @@
+>8GLP_S2:1447-1449_1394-1397
+AGG...CAUG
+#info=basepair
+1-4,W/H,cis
+#info=stacking
+0-1,upward
+1-2,upward
+3-4,inward
+2-4,downward
+1-6,outward

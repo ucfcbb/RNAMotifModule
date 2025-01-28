@@ -1,0 +1,19 @@
+Filtered nearest residue data for "Module46" loops ('HL_GNAA', 'IL_C-loop', 'IL_C-loop'):
+
+Loop group: 1
+4V8P_D1:1017-1022_1077-1082 (FASTA)
+4V8P_D1:1018-1023_1078-1083 (PDB)
+
+4V8P_D1:1024-1029_1071-1074 (FASTA)
+4V8P_D1:1025-1030_1072-1075 (PDB)
+
+4V8P_D1:1152-1158 (FASTA)
+4V8P_D1:1153-1159 (PDB)
+
+D1 (Ciliates(Pr, rRNA 26S                      )
+C3 (Ciliates(Pr, rRNA 5S                       ) [Total: 13, Protein: 0] : 'C3'77(A), 'C3'78(C), 'C3'79(U), 'C3'80(A), 'C3'97(G), 'C3'98(G), 'C3'99(G), 'C3'100(A), 'C3'101(A), 'C3'102(G), 'C3'103(U), 'C3'104(C), 'C3'316(HOH)
+CH (Eukaryota , 60S Ribo-Prot L10             ) [Total: 19, Protein: 19] : CH4(ARG), CH8(CYS), CH9(TYR), CH13(LYS), CH14(GLY), CH15(LYS), CH16(PRO), CH17(TYR), CH18(PRO), CH20(SER), CH22(TYR), CH23(ASN), CH98(ARG), CH99(ILE), CH100(ASN), CH115(MET), CH118(ALA), CH119(PHE), CH120(GLY)
+CM (Eukaryota , 60S Ribo-Prot L5              ) [Total: 4, Protein: 4] : CM10(LYS), CM11(ALA), CM14(LYS), CM15(ARG)
+CP (Eukaryota , 60S Ribo-Prot L21             ) [Total: 10, Protein: 8] : CP12(ARG), CP13(LYS), CP14(LYS), CP19(TYR), CP43(MET), CP58(HIS), CP59(GLY), CP97(ARG), CP203(HOH), CP205(HOH)
+
+

@@ -1,0 +1,16 @@
+>6N5P_A:107-110_6-10_24-26
+GGAG...CGAAU...UAC
+#info=basepair
+2-5,H/S,trans
+0-6,S/S,trans
+1-10,S/H,trans
+#info=stacking
+0-1,upward
+2-3,upward
+4-5,upward
+3-5,outward
+6-7,upward
+2-7,downward
+8-10,outward
+1-9,inward
+10-11,upward

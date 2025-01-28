@@ -1,0 +1,70 @@
+Filtered nearest residue data for "Module10" loops ('IL_Kink-turn', 'IL_Rope-sling'):
+
+Loop group: 1
+5J7L_AA:503-510_539-540 (FASTA)
+5J7L_AA:504-511_540-541 (PDB)
+
+5J7L_AA:514-520_527-535 (FASTA)
+5J7L_AA:515-521_528-536 (PDB)
+
+AA (Bacteria  , rRNA 16S                      )
+AC (Bacteria  , 30S Ribo-Prot S3              ) [Total: 6, Protein: 6] : AC156(ARG), AC158(GLY), AC159(GLY), AC160(ALA), AC161(GLU), AC193(TYR)
+AD (Bacteria  , 30S Ribo-Prot S4              ) [Total: 14, Protein: 14] : AD10(LYS), AD14(ARG), AD38(PRO), AD39(GLY), AD40(GLN), AD41(HIS), AD44(ARG), AD46(PRO), AD48(LEU), AD49(SER), AD51(TYR), AD52(GLY), AD55(LEU), AD56(ARG)
+AL (Bacteria  , 30S Ribo-Prot S12             ) [Total: 11, Protein: 11] : AL45(PRO), AL46(ASN), AL47(SER), AL48(ALA), AL49(LEU), AL50(ARG), AL51(LYS), AL66(TYR), AL69(GLY), AL70(GLU), AL71(GLY)
+
+
+Loop group: 2
+4V5O_BA:542-549_580-581 (FASTA)
+4V5O_BA:543-550_581-582 (PDB)
+
+4V5O_BA:555-561_568-576 (FASTA)
+4V5O_BA:556-562_569-577 (PDB)
+
+BA (Ciliates(Pr, rRNA 18S                      )
+BC (Eukaryota , KH DOMAIN CONTAINING PROTEIN  ) [Total: 4, Protein: 4] : BC144(LYS), BC147(GLN), BC148(GLN), BC182(GLN)
+BD (Eukaryota , Ribo-Prot S4 CONTAINING PROTEIN) [Total: 3, Protein: 3] : BD19(TYR), BD21(LYS), BD24(LEU)
+BL (Eukaryota , 40S Ribo-Prot S12             ) [Total: 13, Protein: 13] : BL63(PRO), BL64(ASN), BL65(SER), BL66(ALA), BL67(VAL), BL68(ARG), BL69(LYS), BL85(PHE), BL87(PRO), BL88(MET), BL89(ASP), BL90(GLY), BL115(ASP)
+BX (Eukaryota , RPS30E                        ) [Total: 20, Protein: 20] : BX7(THR), BX10(LYS), BX11(ALA), BX12(GLY), BX13(LYS), BX14(VAL), BX15(ARG), BX17(GLN), BX18(THR), BX19(PRO), BX22(GLU), BX23(LYS), BX24(LYS), BX59(SER), BX60(PRO), BX61(ASN), BX62(TRP), BX63(HIS), BX64(ALA), BX65(GLY)
+
+
+Loop group: 3
+3J7A_A:556-563_593-594 (FASTA)
+3J7A_A:557-564_594-595 (PDB)
+
+3J7A_A:568-574_581-589 (FASTA)
+3J7A_A:569-575_582-590 (PDB)
+
+A  (malaria par, rRNA 18S                      )
+6  (Eukaryota , 40S Ribo-Prot eS30            ) [Total: 13, Protein: 13] : '6'7(SER), '6'10(ARG), '6'11(ALA), '6'12(GLY), '6'13(LYS), '6'14(VAL), '6'15(LYS), '6'17(GLN), '6'18(THR), '6'19(PRO), '6'23(LYS), '6'24(LEU), '6'26(LYS)
+D  (Eukaryota , 40S Ribo-Prot uS3             ) [Total: 6, Protein: 6] : D142(LYS), D144(ARG), D145(ALA), D146(GLN), D179(LYS), D180(GLN)
+E  (Eukaryota , 40S Ribo-Prot uS4             ) [Total: 3, Protein: 3] : E19(PHE), E21(LYS), E24(LEU)
+Q  (Eukaryota , 40S Ribo-Prot uS12            ) [Total: 12, Protein: 12] : Q64(PRO), Q65(ASN), Q66(SER), Q67(ALA), Q68(TYR), Q69(ARG), Q70(LYS), Q89(GLY), Q90(ASP), Q91(GLY), Q92(CYS), Q116(ASP)
+
+
+Loop group: 4
+4V88_A6:549-556_586-587 (FASTA)
+4V88_A6:550-557_587-588 (PDB)
+
+4V88_A6:561-567_574-582 (FASTA)
+4V88_A6:562-568_575-583 (PDB)
+
+A6 (Fungi     , rRNA 18S                      )
+CD (Eukaryota , 40S Ribo-Prot S3              ) [Total: 2, Protein: 2] : CD143(ARG), CD144(ALA)
+CJ (Eukaryota , 40S Ribo-Prot S9-A            ) [Total: 5, Protein: 5] : CJ17(ARG), CJ19(TYR), CJ20(GLU), CJ21(SER), CJ24(LEU)
+CX (Eukaryota , 40S Ribo-Prot S23-A           ) [Total: 13, Protein: 13] : CX64(PRO), CX65(ASN), CX66(SER), CX67(ALA), CX68(ILE), CX69(ARG), CX70(LYS), CX88(PRO), CX89(ASN), CX90(ASP), CX91(GLY), CX92(CYS), CX116(ASP)
+Ce (Eukaryota , 40S Ribo-Prot S30-A           ) [Total: 17, Protein: 17] : Ce7(SER), Ce10(ARG), Ce11(ALA), Ce12(GLY), Ce13(LYS), Ce14(VAL), Ce15(LYS), Ce17(GLN), Ce18(THR), Ce19(PRO), Ce23(LYS), Ce24(THR), Ce26(LYS), Ce55(ARG), Ce56(MET), Ce57(ASN), Ce58(PRO)
+
+
+Loop group: 5
+4LFB_A:487-494_523-524 (FASTA)
+4LFB_A:504-511_540-541 (PDB)
+
+4LFB_A:498-504_511-519 (FASTA)
+4LFB_A:515-521_528-536 (PDB)
+
+A  (Bacteria  , rRNA 16S                      )
+C  (Bacteria  , Ribo-Prot S3                  ) [Total: 4, Protein: 4] : C156(ARG), C159(GLY), C161(GLU), C193(TYR)
+D  (Bacteria  , Ribo-Prot S4                  ) [Total: 12, Protein: 12] : D10(ARG), D41(GLY), D42(GLN), D43(HIS), D46(LYS), D49(ARG), D52(SER), D54(TYR), D55(ALA), D58(LEU), D59(ARG), D209(ARG)
+L  (Bacteria  , Ribo-Prot S12                 ) [Total: 12, Protein: 12] : L48(PRO), L49(ASN), L50(SER), L51(ALA), L52(LEU), L53(ARG), L54(LYS), L69(TYR), L72(GLY), L73(GLU), L74(GLY), L113(ARG)
+
+

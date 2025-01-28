@@ -1,0 +1,15 @@
+Nearest residue data for "Module49" loops ('HL_GNGA', 'IL_E-loop'):
+
+Loop group: 1
+7A0S_X:1369-1373_1382-1386 (FASTA)
+7A0S_X:1370-1374_1383-1387 (PDB)
+
+7A0S_X:1796-1802 (FASTA)
+7A0S_X:1797-1803 (PDB)
+
+X  (          ,                               )
+2  (          ,                               ) [Total: 16, Protein: 16] : '2'10(ARG), '2'13(ALA), '2'14(LYS), '2'17(GLY), '2'18(PHE), '2'19(ARG), '2'20(ALA), '2'21(ARG), '2'22(MET), '2'23(LYS), '2'24(THR), '2'25(LYS), '2'26(SER), '2'27(GLY), '2'28(ARG), '2'29(ASN)
+A  (          ,                               ) [Total: 44, Protein: 43] : A35(GLU), A36(ALA), A37(LEU), A38(PRO), A39(LYS), A40(THR), A41(GLY), A42(GLY), A43(ARG), A44(ASN), A45(ASN), A46(ARG), A47(GLY), A48(ARG), A49(ILE), A50(THR), A51(SER), A52(ARG), A53(PHE), A54(ILE), A55(GLY), A56(GLY), A57(GLY), A58(HIS), A60(ARG), A62(TYR), A63(ARG), A64(ILE), A65(ILE), A66(ASP), A67(PHE), A68(LYS), A69(ARG), A87(ASN), A88(ARG), A103(ARG), A104(TYR), A150(GLY), A151(LYS), A216(GLY), A218(LYS), A248(THR), A262(LYS), A303(MG)
+U  (          ,                               ) [Total: 16, Protein: 16] : U6(TYR), U7(LEU), U8(THR), U9(GLY), U10(LYS), U11(LYS), U47(HIS), U48(LYS), U49(LYS), U50(ALA), U51(ILE), U58(LYS), U59(THR), U60(VAL), U61(TRP), U62(LEU)
+
+

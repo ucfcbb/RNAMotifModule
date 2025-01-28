@@ -1,0 +1,55 @@
+Module	ObservedFreq	ExpectedFreq	p-value	z-score
+('IL_E-loop', 'IL_Kink-turn')	9	0.00	<0.5	0.0000
+('HL_T-loop', 'IL_Kink-turn')	8	0.50	<0.5	15.0000
+('HL_GNAA', 'IL_Sarcin-ricin')	8	0.00	<0.5	0.0000
+('HL_GNGA', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin')	7	0.00	<0.5	0.0000
+('HL_GNAA', 'HL_T-loop')	7	0.00	<0.5	0.0000
+('IL_Sarcin-ricin', 'IL_Sarcin-ricin')	6	0.00	<0.5	0.0000
+('HL_T-loop', 'IL_E-loop', 'IL_Kink-turn')	5	0.00	<0.5	0.0000
+('HL_GNAA', 'HL_GNAA')	5	0.00	<0.5	0.0000
+('IL_Hook-turn', 'IL_Rope-sling')	5	0.00	<0.5	0.0000
+('IL_Kink-turn', 'IL_Rope-sling')	5	0.00	<0.5	0.0000
+('HL_GNAA', 'HL_GNGA')	5	0.00	<0.5	0.0000
+('HL_GNAA', 'IL_Tetraloop-receptor')	5	0.50	<0.5	9.0000
+('IL_C-loop', 'IL_C-loop')	4	0.00	<0.5	0.0000
+('IL_E-loop', 'IL_Sarcin-ricin')	4	0.50	<0.5	7.0000
+('HL_GNGA', 'IL_E-loop', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin')	4	0.00	<0.5	0.0000
+('IL_Hook-turn', 'IL_Rope-sling', 'IL_reverse-Kink-turn')	4	0.00	<0.5	0.0000
+('IL_Kink-turn', 'IL_Sarcin-ricin')	4	0.00	<0.5	0.0000
+('IL_Sarcin-ricin', 'IL_Tandem-shear')	4	0.00	<0.5	0.0000
+('HL_GNAA', 'IL_Kink-turn')	4	1.00	<0.5	3.0000
+('IL_E-loop', 'IL_Kink-turn', 'IL_Sarcin-ricin')	4	0.00	<0.5	0.0000
+('HL_T-loop', 'IL_E-loop')	3	0.00	<0.5	0.0000
+('HL_GNAA', 'HL_GNGA', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin')	3	0.00	<0.5	0.0000
+('HL_GNGA', 'HL_T-loop')	3	0.50	<0.5	5.0000
+('HL_GNGA', 'IL_Tandem-shear')	3	0.50	<0.5	5.0000
+('IL_Kink-turn', 'IL_Sarcin-ricin', 'IL_Tandem-shear')	3	0.00	<0.5	0.0000
+('IL_Rope-sling', 'IL_reverse-Kink-turn')	3	0.00	<0.5	0.0000
+('HL_GNAA', 'IL_E-loop')	2	0.50	<0.5	3.0000
+('IL_Hook-turn', 'IL_Sarcin-ricin')	2	1.50	0.5	1.0000
+('HL_GNAA', 'HL_GNAA', 'IL_Sarcin-ricin')	2	0.00	<0.5	0.0000
+('IL_Rope-sling', 'IL_Tandem-shear', 'IL_reverse-Kink-turn')	2	0.00	<0.5	0.0000
+('IL_Tandem-shear', 'IL_reverse-Kink-turn')	2	0.00	<0.5	0.0000
+('IL_Kink-turn', 'IL_Rope-sling', 'IL_Sarcin-ricin')	2	0.00	<0.5	0.0000
+('IL_Rope-sling', 'IL_Sarcin-ricin')	2	0.00	<0.5	0.0000
+('HL_GNGA', 'HL_T-loop', 'IL_C-loop')	2	0.00	<0.5	0.0000
+('HL_GNAA', 'HL_GNGA', 'IL_Tandem-shear')	2	0.00	<0.5	0.0000
+('HL_GNGA', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin')	2	0.00	<0.5	0.0000
+('IL_C-loop', 'IL_Sarcin-ricin')	2	0.00	<0.5	0.0000
+('IL_C-loop', 'IL_Hook-turn')	1	0.00	<0.5	0.0000
+('IL_Hook-turn', 'IL_Rope-sling', 'IL_Sarcin-ricin')	1	0.00	<0.5	0.0000
+('IL_C-loop', 'IL_Hook-turn', 'IL_Sarcin-ricin')	1	0.00	<0.5	0.0000
+('HL_GNAA', 'IL_Hook-turn', 'IL_Rope-sling')	1	0.00	<0.5	0.0000
+('HL_GNAA', 'IL_Tandem-shear')	1	0.50	0.5	1.0000
+('HL_GNAA', 'IL_Rope-sling')	1	0.00	<0.5	0.0000
+('IL_Hook-turn', 'IL_reverse-Kink-turn')	1	0.00	<0.5	0.0000
+('HL_GNAA', 'HL_GNAA', 'IL_E-loop')	1	0.00	<0.5	0.0000
+('HL_GNAA', 'IL_C-loop', 'IL_C-loop')	1	0.00	<0.5	0.0000
+('HL_GNAA', 'IL_C-loop')	1	0.50	0.5	1.0000
+('HL_GNGA', 'IL_C-loop')	1	0.00	<0.5	0.0000
+('HL_GNGA', 'IL_E-loop')	1	0.00	<0.5	0.0000
+('HL_GNAA', 'HL_GNGA', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin')	1	0.00	<0.5	0.0000
+('HL_T-loop', 'IL_Tandem-shear')	1	0.50	0.5	1.0000
+('IL_E-loop', 'IL_Tetraloop-receptor')	1	0.00	<0.5	0.0000
+('HL_GNGA', 'IL_Sarcin-ricin')	1	0.50	0.5	1.0000
+('HL_GNGA', 'IL_Sarcin-ricin', 'IL_Tandem-shear')	1	0.00	<0.5	0.0000

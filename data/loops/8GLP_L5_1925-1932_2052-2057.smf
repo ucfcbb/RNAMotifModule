@@ -1,0 +1,14 @@
+>8GLP_L5:1925-1932_2052-2057
+CUCAUCAG...CUGGAG
+#info=basepair
+1-11,W/H,trans
+3-9,W/W,trans
+6-11,W/W,trans
+#info=stacking
+0-1,upward
+1-13,outward
+2-3,downward
+3-6,outward
+6-7,upward
+6-9,outward
+11-13,upward

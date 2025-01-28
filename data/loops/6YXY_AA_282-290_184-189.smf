@@ -1,0 +1,16 @@
+>6YXY_AA:282-290_184-189
+AUAUAGUAA...UAAAAU
+#info=basepair
+7-10,H/S,trans
+6-11,W/H,cis
+3-12,W/W,cis
+2-13,W/W,cis
+#info=stacking
+0-2,upward
+7-8,upward
+9-10,upward
+10-11,inward
+8-10,outward
+4-11,upward
+4-12,outward
+13-14,upward

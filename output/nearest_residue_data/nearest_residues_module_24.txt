@@ -1,0 +1,41 @@
+Nearest residue data for "Module24" loops ('HL_GNGA', 'IL_Tandem-shear'):
+
+Loop group: 1
+5J7L_DA:1863-1866_1873-1877 (FASTA)
+5J7L_DA:1864-1867_1874-1878 (PDB)
+
+5J7L_DA:1867-1872 (FASTA)
+5J7L_DA:1868-1873 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+
+
+Loop group: 2
+7RQB_1A:2360-2363_2374-2377 (FASTA)
+7RQB_1A:2350-2353_2364-2367 (PDB)
+
+7RQB_1A:664-670 (FASTA)
+7RQB_1A:641-647 (PDB)
+
+1A (          ,                               )
+10 (          ,                               ) [Total: 41, Protein: 40] : '10'25(ARG), '10'29(GLN), '10'30(VAL), '10'31(VAL), '10'32(ARG), '10'33(ALA), '10'34(GLY), '10'35(ASN), '10'36(ILE), '10'37(LEU), '10'38(VAL), '10'39(ARG), '10'46(LYS), '10'47(PRO), '10'48(GLY), '10'49(LYS), '10'50(ASN), '10'51(VAL), '10'52(GLY), '10'53(MET), '10'54(GLY), '10'55(ARG), '10'56(ASP), '10'57(PHE), '10'58(THR), '10'59(LEU), '10'60(PHE), '10'61(ALA), '10'62(LEU), '10'63(VAL), '10'64(ASP), '10'65(GLY), '10'66(VAL), '10'67(VAL), '10'68(GLU), '10'79(VAL), '10'80(HIS), '10'81(VAL), '10'82(ARG), '10'83(PRO), '10'104(MG)
+16 (          ,                               ) [Total: 3, Protein: 3] : '16'39(TYR), '16'41(PRO), '16'44(ARG)
+18 (          ,                               ) [Total: 40, Protein: 29] : '18'19(SER), '18'21(LYS), '18'23(VAL), '18'24(ALA), '18'25(MET), '18'26(LYS), '18'27(THR), '18'28(GLY), '18'29(LYS), '18'30(ARG), '18'31(HIS), '18'33(ASN), '18'35(GLN), '18'36(LYS), '18'37(SER), '18'38(GLY), '18'39(LYS), '18'40(GLU), '18'41(ILE), '18'42(ARG), '18'43(GLN), '18'44(LYS), '18'45(GLY), '18'46(ARG), '18'47(LYS), '18'48(PHE), '18'49(VAL), '18'50(LEU), '18'51(ALA), '18'101(MG), '18'102(MG), '18'203(HOH), '18'207(HOH), '18'212(HOH), '18'213(HOH), '18'216(HOH), '18'219(HOH), '18'220(HOH), '18'221(HOH), '18'224(HOH)
+1P (          ,                               ) [Total: 4, Protein: 4] : '1P'65(ARG), '1P'84(ASN), '1P'115(LEU), '1P'117(GLU)
+1S (          ,                               ) [Total: 1, Protein: 1] : '1S'20(ARG)
+2A (          ,                               ) [Total: 3, Protein: 0] : '2A'1170(G), '2A'1171(G), '2A'1180(C)
+
+
+Loop group: 3
+4WF9_X:2376-2379_2390-2393 (FASTA)
+4WF9_X:2377-2380_2391-2394 (PDB)
+
+4WF9_X:685-691 (FASTA)
+4WF9_X:686-692 (PDB)
+
+X  (Bacteria  , rRNA 23S                      )
+3  (Bacteria  , 50S Ribo-Prot L35             ) [Total: 10, Protein: 10] : '3'33(PHE), '3'34(ALA), '3'35(ASN), '3'36(LYS), '3'37(SER), '3'38(THR), '3'39(LYS), '3'40(GLN), '3'41(LYS), '3'42(ARG)
+L  (Bacteria  , 50S Ribo-Prot L18             ) [Total: 1, Protein: 1] : L21(ASN)
+T  (Bacteria  , 50S Ribo-Prot L27             ) [Total: 36, Protein: 36] : T28(ARG), T29(LEU), T30(GLY), T31(ALA), T32(LYS), T33(ARG), T39(VAL), T40(THR), T41(GLY), T42(GLY), T43(SER), T44(ILE), T45(LEU), T46(TYR), T47(ARG), T55(PRO), T56(GLY), T57(GLU), T58(ASN), T59(VAL), T60(GLY), T61(ARG), T62(GLY), T63(GLY), T64(ASP), T65(ASP), T66(THR), T67(LEU), T68(PHE), T69(ALA), T70(LYS), T71(ILE), T72(ASP), T87(VAL), T88(SER), T89(VAL)
+
+

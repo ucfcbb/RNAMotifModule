@@ -1,0 +1,16 @@
+>4V9F_0:2572-2574_2588-2594_2544-2547
+GUG...AUUAAAG...CAUC
+#info=basepair
+0-7,S/S,trans
+1-9,W/H,cis
+4-8,W/H,trans
+5-7,S/H,trans
+7-13,S/S,cis
+#info=stacking
+0-1,upward
+2-8,downward
+3-4,upward
+4-5,upward
+6-7,upward
+7-8,upward
+9-13,outward

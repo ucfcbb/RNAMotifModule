@@ -1,0 +1,24 @@
+Filtered nearest residue data for IL_reverse-Kink-turn loops:
+
+5TBW_1:1139-1149_1243-1257 (FASTA)
+5TBW_1:1195-1205_1299-1313 (PDB)
+
+1  (Fungi     , rRNA 25S                      )
+3  (Eukaryota , 5S ribosomal RNA              ) [Total: 3, Protein: 0] : '3'86(U), '3'90(U), '3'213(MG)
+AN (Eukaryota , Ubiquitin-60S Ribo-Prot L40   ) [Total: 4, Protein: 4] : AN113(ARG), AN114(LYS), AN115(CYS), AN116(GLY)
+k  (Eukaryota , 60S Ribo-Prot L3              ) [Total: 2, Protein: 2] : k256(HIS), k257(PRO)
+r  (Eukaryota , 60S Ribo-Prot L10             ) [Total: 2, Protein: 1] : r157(TYR), r302(MG)
+w  (Eukaryota , 60S Ribo-Prot L16-A           ) [Total: 16, Protein: 16] : w16(VAL), w17(GLY), w56(ASP), w59(ARG), w60(LYS), w61(ALA), w62(THR), w63(ALA), w64(PHE), w70(PRO), w79(ILE), w82(LYS), w83(ALA), w84(LEU), w86(GLY), w87(MET)
+
+
+3J79_A:1322-1332_1426-1440 (FASTA)
+3J79_A:1323-1333_1427-1441 (PDB)
+
+A  (malaria par, rRNA 28S                      )
+B  (malaria par, rRNA 5S                       ) [Total: 3, Protein: 0] : B84(U), B88(A), B89(G)
+E  (Eukaryota , 60S Ribo-Prot uL3             ) [Total: 3, Protein: 3] : E253(HIS), E254(PRO), E256(ARG)
+K  (Eukaryota , 60S Ribo-Prot uL13            ) [Total: 15, Protein: 15] : K15(LEU), K16(GLY), K17(ARG), K55(GLU), K58(ARG), K59(LEU), K60(ARG), K61(THR), K62(ASN), K69(PRO), K81(ARG), K82(CYS), K83(VAL), K85(GLY), K86(MET)
+Q  (Eukaryota , 60S Ribo-Prot uL16            ) [Total: 3, Protein: 3] : Q156(LYS), Q157(TYR), Q161(GLY)
+f  (Eukaryota , 60S Ribo-Prot eL40            ) [Total: 4, Protein: 4] : f37(LYS), f38(LYS), f39(CYS), f40(GLY)
+
+

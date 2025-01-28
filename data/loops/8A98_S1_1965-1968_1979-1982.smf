@@ -1,0 +1,14 @@
+>8A98_S1:1965-1968_1979-1982
+AGGA...UGGU
+#info=basepair
+0-7,W/H,cis
+1-6,H/W,cis
+2-5,W/H,cis
+3-4,W/H,cis
+#info=stacking
+0-1,inward
+1-2,outward
+2-3,upward
+2-6,outward
+4-5,downward
+6-7,inward

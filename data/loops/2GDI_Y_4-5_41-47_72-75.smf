@@ -1,0 +1,15 @@
+>2GDI_Y:4-5_41-47_72-75
+UC...GUAUCAC...GGAA
+#info=basepair
+4-11,H/H,trans
+7-10,H/S,trans
+#info=stacking
+0-1,upward
+1-12,outward
+2-12,upward
+3-4,downward
+4-10,downward
+7-8,upward
+7-11,outward
+8-10,outward
+9-10,upward

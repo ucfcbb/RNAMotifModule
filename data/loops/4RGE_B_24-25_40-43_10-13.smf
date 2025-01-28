@@ -1,0 +1,14 @@
+>4RGE_B:24-25_40-43_10-13
+GA...UAAU...AGCC
+#info=basepair
+1-2,H/W,cis
+2-3,S/H,cis
+2-4,S/H,cis
+4-8,S/S,cis
+3-9,S/S,cis
+#info=stacking
+3-4,upward
+6-7,upward
+7-8,upward
+5-7,outward
+8-9,upward

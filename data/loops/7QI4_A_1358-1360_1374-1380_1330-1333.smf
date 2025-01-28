@@ -1,0 +1,14 @@
+>7QI4_A:1358-1360_1374-1380_1330-1333
+GUU...AUUAAAG...CAUC
+#info=basepair
+0-7,S/S,trans
+1-9,W/H,cis
+4-8,W/H,trans
+5-7,S/H,trans
+#info=stacking
+0-1,upward
+2-8,downward
+3-4,upward
+4-5,upward
+6-7,upward
+9-13,outward

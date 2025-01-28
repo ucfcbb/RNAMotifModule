@@ -1,0 +1,15 @@
+>7RQB_1A:1342-1347_1669-1671_1684-1687
+CGUAAG...CGG...UCAG
+#info=basepair
+1-11,S/H,trans
+3-7,W/S,trans
+3-11,H/W,trans
+#info=stacking
+0-1,upward
+1-9,inward
+2-7,downward
+3-5,outward
+6-7,upward
+8-10,outward
+10-11,upward
+11-12,upward

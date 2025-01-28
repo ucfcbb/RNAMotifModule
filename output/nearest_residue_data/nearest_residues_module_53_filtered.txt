@@ -1,0 +1,18 @@
+Filtered nearest residue data for "Module53" loops ('HL_GNGA', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+7QI4_A:68-74_82-87 (FASTA)
+7QI4_A:1739-1745_1753-1758 (PDB)
+
+7QI4_A:75-81 (FASTA)
+7QI4_A:1746-1752 (PDB)
+
+A  (          ,                               )
+3  (          ,                               ) [Total: 26, Protein: 22] : '3'94(LEU), '3'95(THR), '3'98(SER), '3'99(ALA), '3'100(ARG), '3'101(LYS), '3'102(GLY), '3'103(LYS), '3'104(ARG), '3'105(LYS), '3'106(THR), '3'107(VAL), '3'108(LYS), '3'109(ALA), '3'111(ILE), '3'112(ASP), '3'113(ARG), '3'161(MET), '3'163(THR), '3'164(SER), '3'165(PHE), '3'166(TRP), '3'306(HOH), '3'320(HOH), '3'322(HOH), '3'333(HOH)
+H  (          ,                               ) [Total: 12, Protein: 10] : H60(TRP), H61(LYS), H63(PRO), H64(LEU), H65(ALA), H66(GLY), H67(GLU), H69(ARG), H72(ARG), H76(ARG), H305(HOH), H309(HOH)
+M  (          ,                               ) [Total: 18, Protein: 11] : M64(ARG), M75(TYR), M76(ILE), M80(LYS), M87(HIS), M88(SER), M89(PHE), M132(LEU), M133(LYS), M134(ARG), M198(GLN), M402(HOH), M405(HOH), M427(HOH), M434(HOH), M449(HOH), M452(HOH), M466(HOH)
+X  (          ,                               ) [Total: 11, Protein: 9] : X50(PHE), X53(ASN), X55(LYS), X56(ASN), X60(GLU), X61(ARG), X63(GLU), X96(LYS), X97(LEU), X304(HOH), X312(HOH)
+i  (          ,                               ) [Total: 4, Protein: 1] : i118(TYR), i312(HOH), i337(HOH), i342(HOH)
+q  (          ,                               ) [Total: 1, Protein: 1] : q55(ARG)
+
+

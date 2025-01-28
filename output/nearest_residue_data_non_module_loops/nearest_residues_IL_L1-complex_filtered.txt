@@ -1,0 +1,48 @@
+Filtered nearest residue data for IL_L1-complex loops:
+
+1MZP_B:19-22_31-44 (FASTA)
+1MZP_B:20-23_32-45 (PDB)
+
+B  (Archaea   , rRNA 23S fragment             )
+A  (Archaea   , 50s Ribo-Prot L1P             ) [Total: 23, Protein: 20] : A24(ARG), A25(ASN), A26(PHE), A29(SER), A31(GLU), A60(LYS), A62(LYS), A63(ARG), A97(LYS), A98(ARG), A101(LYS), A102(LYS), A105(ARG), A106(GLN), A130(PRO), A131(ARG), A167(VAL), A168(PHE), A206(LYS), A208(THR), A209(MSE), A244(HOH), A258(HOH)
+
+
+2HW8_B:8-11_20-27 (FASTA)
+2HW8_B:10-13_22-29 (PDB)
+
+B  (Bacteria  , L1-mRNA Complex, 36-MER       )
+A  (Bacteria  , 50S Ribo-Prot L1              ) [Total: 16, Protein: 11] : A6(ARG), A35(ALA), A36(LYS), A37(PHE), A40(THR), A42(GLU), A70(LYS), A174(PRO), A177(LYS), A216(THR), A217(THR), A218(MSE), A229(K), A234(HOH), A240(HOH), A251(HOH)
+
+
+5J7L_DA:81-84_96-103 (FASTA)
+5J7L_DA:82-85_97-104 (PDB)
+
+DA (Bacteria  , rRNA 23S                      )
+DV (Bacteria  , 50S Ribo-Prot L24             ) [Total: 8, Protein: 8] : DV2(ALA), DV3(ALA), DV5(ILE), DV6(ARG), DV7(ARG), DV28(VAL), DV91(LYS), DV92(LYS)
+DZ (Bacteria  , 50S Ribo-Prot L29             ) [Total: 5, Protein: 5] : DZ2(LYS), DZ3(ALA), DZ4(LYS), DZ7(ARG), DZ45(GLN)
+
+
+3U4M_B:19-22_56-69 (FASTA)
+3U4M_B:2124-2127_2161-2174 (PDB)
+
+B  (Bacteria  , protein L1 in complex         )
+A  (Bacteria  , 50S Ribo-Prot L1              ) [Total: 20, Protein: 14] : A6(ARG), A35(ALA), A36(LYS), A37(PHE), A40(THR), A42(GLU), A70(LYS), A129(ARG), A133(PRO), A134(ARG), A174(PRO), A177(LYS), A217(THR), A218(MET), A311(NA), A407(HOH), A428(HOH), A446(HOH), A454(HOH), A473(HOH)
+
+
+1U63_D:9-12_32-39 (FASTA)
+1U63_D:10-13_33-40 (PDB)
+
+D  (Archaea   , mRNA for L1, 49 nt fragemnt   )
+A  (Archaea   , 50S Ribo-Prot L1P             ) [Total: 3, Protein: 3] : A93(ARG), A94(LYS), A97(LYS)
+B  (          , 49 NT FRAGMENT OF MRNA FOR L1 ) [Total: 6, Protein: 0] : B29(A), B31(G), B32(C), B34(G), B35(A), B36(G)
+C  (Archaea   , 50S Ribo-Prot L1P             ) [Total: 14, Protein: 13] : C20(ARG), C21(ASN), C22(PHE), C25(SER), C26(PHE), C27(GLU), C93(ARG), C96(ARG), C97(LYS), C100(LYS), C126(ARG), C163(LEU), C204(THR), C205(MSE)
+
+
+2VPL_B:8-11_31-38 (FASTA)
+2VPL_B:10-13_33-40 (PDB)
+
+B  (Archaea   , L1-operon, Fragment of mRNA   )
+A  (Bacteria  , 50S Ribo-Prot L1              ) [Total: 17, Protein: 11] : A3(HIS), A6(ARG), A35(ALA), A36(LYS), A37(PHE), A40(THR), A42(GLU), A174(PRO), A177(LYS), A217(THR), A218(MET), A1229(K), A2004(HOH), A2033(HOH), A2040(HOH), A2050(HOH), A2051(HOH)
+D  (Archaea   , FRAGMENT OF MRNA FOR L1-OPERON ) [Total: 12, Protein: 0] : D29(A), D30(A), D31(G), D32(C), D34(G), D35(A), D36(G), D2034(HOH), D2035(HOH), D2038(HOH), D2039(HOH), D2040(HOH)
+
+

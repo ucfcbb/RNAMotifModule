@@ -1,0 +1,19 @@
+Filtered nearest residue data for "Module40" loops ('IL_C-loop', 'IL_Hook-turn', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+4V9F_0:2709-2713_2753-2755 (FASTA)
+4V9F_0:2717-2721_2761-2763 (PDB)
+
+4V9F_0:2716-2720_2746-2750 (FASTA)
+4V9F_0:2724-2728_2754-2758 (PDB)
+
+4V9F_0:2856-2861_2880-2884 (FASTA)
+4V9F_0:2864-2869_2888-2892 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+B  (Archaea   , 50S Ribo-Prot L3P             ) [Total: 34, Protein: 22] : B45(LYS), B48(MET), B49(THR), B50(HIS), B70(PRO), B206(THR), B207(LYS), B209(LYS), B285(VAL), B286(ASN), B300(SER), B301(VAL), B302(PRO), B303(GLY), B304(PRO), B305(ASP), B331(SER), B333(GLU), B334(SER), B335(ASN), B336(GLN), B337(GLY), B501(HOH), B502(HOH), B504(HOH), B513(HOH), B536(HOH), B555(HOH), B623(HOH), B636(HOH), B640(HOH), B649(HOH), B650(HOH), B651(HOH)
+K  (Archaea   , 50S Ribo-Prot L14P            ) [Total: 15, Protein: 7] : K8(VAL), K9(THR), K78(LYS), K79(PRO), K81(ARG), K85(GLY), K87(ARG), K308(HOH), K311(HOH), K320(HOH), K332(HOH), K335(HOH), K343(HOH), K344(HOH), K350(HOH)
+U  (Archaea   , 50S Ribo-Prot L24e            ) [Total: 22, Protein: 15] : U16(GLY), U17(THR), U18(GLY), U19(THR), U32(CYS), U34(SER), U35(LYS), U37(GLU), U38(ASN), U39(ASN), U42(LEU), U44(ARG), U50(GLU), U51(TRP), U56(ARG), U8501(HOH), U8506(HOH), U8510(HOH), U8512(HOH), U8514(HOH), U8521(HOH), U8522(HOH)
+X  (Archaea   , 50S Ribo-Prot L31e            ) [Total: 5, Protein: 3] : X18(ARG), X22(ASN), X25(ARG), X101(HOH), X109(HOH)
+
+

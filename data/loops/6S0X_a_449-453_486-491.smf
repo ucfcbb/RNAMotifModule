@@ -1,0 +1,16 @@
+>6S0X_a:449-453_486-491
+GGAAG...CGGUAC
+#info=basepair
+1-9,S/H,trans
+3-6,H/W,cis
+7-8,S/H,cis
+#info=stacking
+0-1,upward
+1-10,outward
+2-9,inward
+3-4,upward
+5-6,inward
+6-7,outward
+6-8,outward
+8-9,upward
+9-10,upward

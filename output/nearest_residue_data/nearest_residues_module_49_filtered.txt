@@ -1,0 +1,14 @@
+Filtered nearest residue data for "Module49" loops ('HL_GNGA', 'IL_E-loop'):
+
+Loop group: 1
+7A0S_X:1369-1373_1382-1386 (FASTA)
+7A0S_X:1370-1374_1383-1387 (PDB)
+
+7A0S_X:1796-1802 (FASTA)
+7A0S_X:1797-1803 (PDB)
+
+X  (          ,                               )
+A  (          ,                               ) [Total: 5, Protein: 5] : A45(ASN), A46(ARG), A48(ARG), A49(ILE), A50(THR)
+U  (          ,                               ) [Total: 3, Protein: 3] : U48(LYS), U49(LYS), U61(TRP)
+
+

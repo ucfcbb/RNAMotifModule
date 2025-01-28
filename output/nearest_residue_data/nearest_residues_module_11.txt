@@ -1,0 +1,64 @@
+Nearest residue data for "Module11" loops ('HL_GNAA', 'HL_GNGA'):
+
+Loop group: 1
+7RQB_1A:652-657 (FASTA)
+7RQB_1A:629-634 (PDB)
+
+7RQB_1A:664-670 (FASTA)
+7RQB_1A:641-647 (PDB)
+
+1A (          ,                               )
+16 (          ,                               ) [Total: 3, Protein: 3] : '16'39(TYR), '16'41(PRO), '16'44(ARG)
+18 (          ,                               ) [Total: 26, Protein: 21] : '18'10(ALA), '18'11(LYS), '18'12(LYS), '18'13(ARG), '18'14(VAL), '18'15(LYS), '18'16(ILE), '18'17(THR), '18'18(ALA), '18'19(SER), '18'20(GLY), '18'21(LYS), '18'23(VAL), '18'25(MET), '18'29(LYS), '18'42(ARG), '18'45(GLY), '18'46(ARG), '18'47(LYS), '18'62(LEU), '18'65(GLU), '18'104(MPD), '18'201(HOH), '18'223(HOH), '18'224(HOH), '18'225(HOH)
+1P (          ,                               ) [Total: 32, Protein: 26] : '1P'64(LYS), '1P'65(ARG), '1P'66(GLY), '1P'67(MET), '1P'68(GLN), '1P'77(ARG), '1P'78(PRO), '1P'79(ARG), '1P'80(TYR), '1P'81(GLN), '1P'82(GLY), '1P'83(VAL), '1P'106(LEU), '1P'110(TYR), '1P'111(ARG), '1P'112(LEU), '1P'113(LYS), '1P'114(ILE), '1P'115(LEU), '1P'116(GLY), '1P'129(ALA), '1P'130(PHE), '1P'131(SER), '1P'132(LYS), '1P'133(SER), '1P'134(ALA), '1P'303(HOH), '1P'306(HOH), '1P'326(HOH), '1P'348(HOH), '1P'349(HOH), '1P'362(HOH)
+2A (          ,                               ) [Total: 1, Protein: 0] : '2A'1169(G)
+
+
+Loop group: 2
+4LFB_A:1058-1063 (FASTA)
+4LFB_A:1076-1081 (PDB)
+
+4LFB_A:839-844 (FASTA)
+4LFB_A:862-867 (PDB)
+
+A  (Bacteria  , rRNA 16S                      )
+B  (Bacteria  , Ribo-Prot S2                  ) [Total: 8, Protein: 8] : B25(ASN), B26(PRO), B27(LYS), B175(ARG), B179(LYS), B181(PHE), B193(ASP), B195(ASP)
+E  (Bacteria  , Ribo-Prot S5                  ) [Total: 53, Protein: 53] : E14(ARG), E15(ARG), E16(THR), E17(ALA), E18(ARG), E19(MET), E25(ARG), E26(PHE), E27(ARG), E31(LEU), E43(LEU), E44(GLY), E45(PHE), E46(GLY), E47(LYS), E61(TYR), E64(ARG), E65(ASN), E66(MET), E67(VAL), E68(GLU), E82(VAL), E83(GLU), E84(PHE), E85(GLY), E86(ALA), E87(SER), E88(LYS), E89(ILE), E90(VAL), E105(VAL), E120(THR), E121(LYS), E122(GLU), E123(LEU), E124(GLY), E125(SER), E126(ARG), E127(ASN), E128(PRO), E129(ILE), E130(ASN), E131(ILE), E132(ALA), E133(TYR), E134(ALA), E135(THR), E136(MET), E137(GLU), E138(ALA), E139(LEU), E140(ARG), E141(GLN)
+H  (Bacteria  , Ribo-Prot S8                  ) [Total: 8, Protein: 8] : H19(VAL), H69(ARG), H70(GLN), H71(GLY), H72(PRO), H73(ASP), H74(PRO), H75(ARG)
+
+
+Loop group: 3
+4WF9_X:673-678 (FASTA)
+4WF9_X:674-679 (PDB)
+
+4WF9_X:685-691 (FASTA)
+4WF9_X:686-692 (PDB)
+
+X  (Bacteria  , rRNA 23S                      )
+3  (Bacteria  , 50S Ribo-Prot L35             ) [Total: 25, Protein: 25] : '3'12(LYS), '3'13(ARG), '3'14(VAL), '3'15(LYS), '3'16(ARG), '3'17(THR), '3'18(ALA), '3'19(SER), '3'20(GLY), '3'21(GLN), '3'22(LEU), '3'23(LYS), '3'24(ARG), '3'25(SER), '3'27(ALA), '3'28(PHE), '3'39(LYS), '3'40(GLN), '3'41(LYS), '3'42(ARG), '3'43(GLN), '3'44(LEU), '3'45(ARG), '3'46(LYS), '3'61(LEU)
+I  (Bacteria  , 50S Ribo-Prot L15             ) [Total: 20, Protein: 20] : I56(PRO), I57(LEU), I58(PHE), I59(ARG), I60(ARG), I61(LEU), I62(PRO), I63(LYS), I64(ARG), I65(GLY), I66(PHE), I68(ASN), I70(ASN), I96(LEU), I98(GLU), I99(SER), I100(GLY), I115(GLY), I116(SER), I117(LEU)
+
+
+Loop group: 4
+3IGI_A:273-278 (FASTA)
+3IGI_A:274-279 (PDB)
+
+3IGI_A:88-93 (FASTA)
+3IGI_A:89-94 (PDB)
+
+A  (Group IIC i, Group IIC intron              )
+
+
+Loop group: 5
+3KTW_C:22-27 (FASTA)
+3KTW_C:163-168 (PDB)
+
+3KTW_C:68-73 (FASTA)
+3KTW_C:209-214 (PDB)
+
+C  (Archaea   , SRP RNA                       )
+A  (Archaea   , Signal recognition particle 19 ) [Total: 75, Protein: 74] : A2(SER), A3(LEU), A4(ARG), A5(ASP), A6(LEU), A7(LYS), A8(GLU), A9(GLU), A10(ASN), A11(ARG), A12(ILE), A13(VAL), A14(ILE), A15(TRP), A16(PRO), A17(SER), A18(TYR), A19(PHE), A20(PHE), A21(SER), A25(SER), A26(LYS), A27(GLY), A28(ARG), A29(ARG), A30(LEU), A37(ILE), A38(LYS), A39(THR), A40(GLU), A41(GLU), A42(LEU), A43(VAL), A44(SER), A46(LEU), A51(LEU), A52(ASP), A53(PRO), A54(ILE), A55(VAL), A56(ILE), A57(GLU), A58(ASN), A59(LYS), A60(LYS), A61(TYR), A62(PRO), A63(ARG), A64(ASP), A65(ARG), A66(LYS), A67(ILE), A68(ASN), A69(PHE), A70(LEU), A71(ILE), A72(ALA), A73(VAL), A74(LYS), A75(LYS), A76(VAL), A77(LYS), A78(SER), A79(LYS), A80(ASN), A81(TYR), A82(THR), A83(LEU), A84(LYS), A85(ILE), A86(ILE), A87(HIS), A88(ASN), A90(LEU), A103(MG)
+B  (Archaea   , Signal recognition particle 19 ) [Total: 3, Protein: 3] : B60(LYS), B65(ARG), B66(LYS)
+D  (Archaea   , SRP RNA                       ) [Total: 19, Protein: 0] : D4(K), D196(A), D197(A), D198(C), D199(C), D201(G), D202(C), D203(C), D205(G), D206(G), D207(C), D208(C), D216(G), D217(A), D218(G), D219(C), D220(A), D221(A), D222(C)
+
+

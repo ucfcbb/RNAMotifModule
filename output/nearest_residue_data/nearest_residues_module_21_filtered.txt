@@ -1,0 +1,35 @@
+Filtered nearest residue data for "Module21" loops ('HL_T-loop', 'IL_E-loop'):
+
+Loop group: 1
+4V9F_0:1586-1592 (FASTA)
+4V9F_0:1594-1600 (PDB)
+
+4V9F_0:786-790_807-811 (FASTA)
+4V9F_0:794-798_815-819 (PDB)
+
+0  (Archaea   , rRNA 23S                      )
+A  (Archaea   , 50S Ribo-Prot L2P             ) [Total: 1, Protein: 1] : A171(LYS)
+P  (Archaea   , 50S Ribo-Prot L19e            ) [Total: 22, Protein: 16] : P90(SER), P91(LYS), P94(TRP), P95(GLU), P97(ARG), P98(ILE), P99(ARG), P102(ARG), P106(ARG), P109(ARG), P116(SER), P119(TYR), P120(ARG), P123(TYR), P124(ASP), P127(GLY), P207(HOH), P208(HOH), P221(HOH), P240(HOH), P252(HOH), P256(HOH)
+Z  (Archaea   , 50S Ribo-Prot L37Ae           ) [Total: 15, Protein: 11] : Z8(THR), Z9(GLY), Z10(SER), Z11(SER), Z12(GLY), Z13(ARG), Z14(PHE), Z17(ARG), Z18(TYR), Z34(ASN), Z46(ARG), Z213(HOH), Z218(HOH), Z225(HOH), Z226(HOH)
+
+
+Loop group: 2
+2A64_A:283-287_296-300 (FASTA)
+2A64_A:284-288_297-301 (PDB)
+
+2A64_A:68-75 (FASTA)
+2A64_A:69-76 (PDB)
+
+A  (Ribonucleas, ribonuclease P RNA            )
+
+
+Loop group: 3
+3DHS_A:134-138_147-151 (FASTA)
+3DHS_A:284-288_297-301 (PDB)
+
+3DHS_A:68-75 (FASTA)
+3DHS_A:69-76 (PDB)
+
+A  (Ribonucleas, RNase P RNA                   )
+
+

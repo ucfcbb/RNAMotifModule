@@ -1,0 +1,13 @@
+Filtered nearest residue data for "Module52" loops ('IL_E-loop', 'IL_Tetraloop-receptor'):
+
+Loop group: 1
+4LFB_A:757-761_787-788 (FASTA)
+4LFB_A:774-778_804-805 (PDB)
+
+4LFB_A:762-766_782-786 (FASTA)
+4LFB_A:779-783_799-803 (PDB)
+
+A  (Bacteria  , rRNA 16S                      )
+K  (Bacteria  , Ribo-Prot S11                 ) [Total: 6, Protein: 6] : K118(GLY), K119(CYS), K120(ARG), K121(PRO), K122(LYS), K123(LYS)
+
+

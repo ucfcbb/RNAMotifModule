@@ -1,0 +1,24 @@
+Filtered nearest residue data for "Module50" loops ('HL_GNAA', 'HL_GNGA', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+3J79_A:1692-1697 (FASTA)
+3J79_A:1693-1698 (PDB)
+
+3J79_A:31-36_45-51 (FASTA)
+3J79_A:32-37_46-52 (PDB)
+
+3J79_A:81-88_96-102 (FASTA)
+3J79_A:82-89_97-103 (PDB)
+
+3J79_A:89-95 (FASTA)
+3J79_A:90-96 (PDB)
+
+A  (malaria par, rRNA 28S                      )
+L  (Eukaryota , 60S Ribo-Prot eL13            ) [Total: 15, Protein: 15] : L10(ASN), L11(VAL), L12(HIS), L13(LEU), L14(HIS), L15(LYS), L16(TRP), L19(ARG), L59(CYS), L60(PRO), L61(THR), L63(ARG), L64(TYR), L67(ARG), L69(ARG)
+O  (Eukaryota , 60S Ribo-Prot uL15            ) [Total: 19, Protein: 19] : O32(ARG), O33(GLY), O34(LYS), O35(ALA), O37(GLY), O45(PHE), O52(TYR), O53(PHE), O54(GLY), O55(LYS), O58(MET), O59(ARG), O60(HIS), O61(LEU), O62(ASN), O63(LEU), O64(LEU), O65(LYS), O66(ASN)
+P  (Eukaryota , 60S Ribo-Prot eL15            ) [Total: 33, Protein: 33] : P35(VAL), P65(ARG), P67(ARG), P71(ARG), P73(LYS), P74(ARG), P80(VAL), P82(GLY), P83(LYS), P85(LYS), P86(HIS), P92(GLN), P93(LYS), P94(SER), P95(THR), P96(ARG), P101(VAL), P105(LYS), P108(LYS), P128(TYR), P162(LEU), P180(HIS), P183(ALA), P184(LYS), P189(ILE), P190(ARG), P192(ASN), P193(TRP), P195(ARG), P196(ARG), P197(GLN), P200(LYS), P202(ARG)
+S  (Eukaryota , 60S Ribo-Prot eL18            ) [Total: 5, Protein: 5] : S167(ARG), S168(SER), S171(ARG), S172(LYS), S173(PHE)
+c  (Eukaryota , 60S Ribo-Prot eL37            ) [Total: 3, Protein: 3] : c44(SER), c51(ASN), c52(TRP)
+i  (Eukaryota , 60S Ribo-Prot eL44            ) [Total: 5, Protein: 5] : i41(ARG), i45(LYS), i53(THR), i54(LYS), i55(PRO)
+
+

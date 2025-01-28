@@ -1,0 +1,115 @@
+G1	G2	G-G	upward
+G1	G69	G-C	W/W	cis
+G2	G3	G-G	upward
+G2	G68	G-C	W/W	cis
+G3	G4	G-A	upward
+G3	G67	G-C	W/W	cis
+G3	G68	G-C	outward
+G4	G5	A-G	upward
+G4	G66	A-U	W/W	cis
+G5	G6	G-U	upward
+G5	G65	G-C	W/W	cis
+G5	G66	G-U	outward
+G6	G7	U-A	upward
+G6	G64	U-A	W/W	cis
+G7	G8	A-C	upward
+G7	G63	A-U	W/W	cis
+G7	G64	A-A	outward
+G8	G9	C-G	upward
+G8	G62	C-G	W/W	cis
+G9	G10	G-G	upward
+G9	G61	G-C	W/W	cis
+G9	G62	G-G	outward
+G10	G11	G-U	upward
+G10	G60	G-C	W/W	cis
+G10	G61	G-C	outward
+G11	G12	U-G	upward
+G11	G59	U-U	W/W	cis
+G12	G13	G-A	upward
+G12	G58	G-C	W/W	cis
+G12	G59	G-U	outward
+G13	G14	A-G	upward
+G13	G57	A-G	W/W	cis
+G14	G47	G-U	inward
+G14	G57	G-G	outward
+G15	G16	G-G	upward
+G15	G18	G-C	downward
+G15	G19	G-G	W/H	cis
+G15	G46	G-G	upward
+G15	G47	G-U	outward
+G15	G49	G-G	H/W	cis
+G16	G19	G-G	downward
+G16	G20	G-G	W/H	cis
+G16	G46	G-G	H/W	cis
+G18	G19	C-G	upward
+G18	G55	C-G	W/W	cis
+G18	G56	C-G	outward
+G19	G20	G-G	upward
+G19	G53	G-G	W/H	cis
+G19	G55	G-G	outward
+G20	G21	G-G	upward
+G20	G51	G-G	W/H	cis
+G20	G53	G-G	downward
+G21	G22	G-U	upward
+G21	G51	G-G	downward
+G22	G23	U-C	upward
+G22	G45	U-A	W/W	cis
+G23	G24	C-C	upward
+G23	G44	C-G	W/W	cis
+G24	G25	C-A	upward
+G24	G41	C-G	W/W	cis
+G24	G44	C-G	outward
+G25	G26	A-G	upward
+G25	G40	A-U	W/W	cis
+G25	G41	A-G	outward
+G26	G27	G-U	upward
+G26	G39	G-C	W/W	cis
+G26	G40	G-U	outward
+G27	G28	U-A	upward
+G27	G38	U-A	W/W	cis
+G28	G29	A-G	upward
+G28	G37	A-U	W/W	cis
+G28	G38	A-A	outward
+G29	G30	G-G	upward
+G29	G36	G-C	W/W	cis
+G29	G37	G-U	outward
+G30	G31	G-U	upward
+G30	G35	G-C	W/W	cis
+G30	G36	G-C	outward
+G31	G33	U-C	inward
+G31	G34	U-G	S/W	trans
+G33	G34	C-G	inward
+G34	G35	G-C	outward
+G35	G36	C-C	upward
+G36	G37	C-U	upward
+G37	G38	U-A	upward
+G38	G39	A-C	upward
+G39	G40	C-U	upward
+G40	G41	U-G	upward
+G41	G44	G-G	upward
+G42	G44	U-G	downward
+G42	G45	U-A	W/H	cis
+G44	G45	G-A	upward
+G46	G49	G-G	downward
+G46	G51	G-G	H/W	cis
+G47	G49	U-G	outward
+G47	G54	U-U	W/W	trans
+G49	G51	G-G	upward
+G49	G53	G-G	H/W	cis
+G49	G54	G-U	outward
+G51	G53	G-G	downward
+G53	G55	G-G	outward
+G55	G56	G-G	upward
+G56	G57	G-G	upward
+G57	G58	G-C	upward
+G58	G59	C-U	upward
+G59	G60	U-C	upward
+G60	G61	C-C	upward
+G61	G62	C-G	upward
+G62	G63	G-U	upward
+G63	G64	U-A	upward
+G64	G65	A-C	upward
+G65	G66	C-U	upward
+G66	G67	U-C	upward
+G67	G68	C-C	upward
+G68	G69	C-C	upward

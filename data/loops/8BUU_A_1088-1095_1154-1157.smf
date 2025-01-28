@@ -1,0 +1,15 @@
+>8BUU_A:1088-1095_1154-1157
+CUUAGACA...CGAG
+#info=basepair
+0-5,S/S,cis
+4-10,S/H,trans
+#info=stacking
+0-1,upward
+1-11,outward
+2-4,outward
+2-10,downward
+4-9,inward
+5-6,upward
+5-10,outward
+6-7,upward
+8-9,upward

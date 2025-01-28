@@ -1,0 +1,13 @@
+>8FR8_A:1687-1690_1740-1744
+UAAG...UGAUG
+#info=basepair
+1-6,H/H,trans
+2-5,H/S,trans
+#info=stacking
+0-6,upward
+1-2,upward
+1-5,inward
+2-3,upward
+4-5,upward
+5-6,inward
+6-8,outward

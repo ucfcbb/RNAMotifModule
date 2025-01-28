@@ -1,0 +1,32 @@
+python3 main_small_HL_IL.py
+
+bedtools intersect -a dbr1_rep1_peaks.narrowPeak -b dbr1_rep2_peaks.narrowPeak > dbr1_consensus_peaks.bed
+bedtools intersect -a drn1_rep1_peaks.narrowPeak -b drn1_rep2_peaks.narrowPeak > drn1_consensus_peaks.bed
+
+macs2 bdgpeakcall -i dbr1_rep2_combined.bedgraph -o dbr1_rep2_peaks.narrowPeak
+macs2 bdgpeakcall -i dbr1_rep1_combined.bedgraph -o dbr1_rep1_peaks.narrowPeak
+macs2 bdgpeakcall -i drn1_rep2_combined.bedgraph -o drn1_rep2_peaks.narrowPeak
+macs2 bdgpeakcall -i drn1_rep1_combined.bedgraph -o drn1_rep1_peaks.narrowPeak
+
+./combine_strands.sh
+
+gunzip *.bedgraph.gz
+
+perl /media/mahfuz/DATA13/Research/MotifModule_Explore3/CLIP-seq_test/data/homer/.//configureHomer.pl -install sacCer1
+
+./bin/annotatePeaks.pl ../GSE44959_RAW/drn1_consensus_peaks.bed sacCer1 > ../GSE44959_RAW/drn1_annotated_peaks.txt
+
+python3 yeast_annotate.py GSE44959_RAW/drn1_consensus_peaks.bed GSE44959_RAW/drn1_annotated_peaks.txt
+
+python3 yeast_annotate.py drn1_consensus_peaks.bed drn1_annotated_peaks.txt
+
+
+./bin/annotatePeaks.pl ../GSE44959_RAW/drn1_consensus_peaks.bed sacCer2 > ../GSE44959_RAW/drn1_annotated_peaks.txt
+
+perl /media/mahfuz/DATA13/Research/MotifModule_Explore3/CLIP-seq_test/data/homer/.//configureHomer.pl -install sacCer2
+
+./bin/annotatePeaks.pl ../GSE44959_RAW/drn1_consensus_peaks.bed sacCer2 > ../GSE44959_RAW/drn1_annotated_peaks.txt
+./bin/annotatePeaks.pl ../GSE44959_RAW/dbr1_consensus_peaks.bed sacCer3 > ../GSE44959_RAW/dbr1_annotated_peaks.txt
+
+blastn -query drn1_peak_sequences.fa -subject 4V88_A6.fa -out drn1_alignment_results_4V88_A6.txt
+blastn -query dbr1_peak_sequences.fa -subject 4V88_A6.fa -out dbr1_alignment_results_4V88_A6.txt

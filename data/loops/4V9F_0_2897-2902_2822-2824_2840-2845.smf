@@ -1,0 +1,17 @@
+>4V9F_0:2897-2902_2822-2824_2840-2845
+AACAGA...UCC...GUCGAU
+#info=basepair
+4-7,W/W,cis
+3-8,W/S,cis
+1-12,H/S,trans
+#info=stacking
+0-1,upward
+2-3,upward
+3-4,upward
+4-5,upward
+6-7,upward
+7-8,upward
+5-7,outward
+10-12,outward
+1-10,upward
+1-14,outward

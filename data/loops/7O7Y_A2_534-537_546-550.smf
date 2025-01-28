@@ -1,0 +1,15 @@
+>7O7Y_A2:534-537_546-550
+GGAC...GGCCC
+#info=basepair
+1-7,W/W,cis
+2-5,W/W,cis
+4-6,S/W,trans
+#info=stacking
+0-1,upward
+1-2,upward
+1-8,outward
+2-3,upward
+4-5,upward
+5-6,downward
+5-7,upward
+7-8,upward

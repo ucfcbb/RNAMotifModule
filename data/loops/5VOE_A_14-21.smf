@@ -1,0 +1,10 @@
+>5VOE_A:14-21
+GAUAAUAC
+#info=basepair
+1-5,W/H,cis
+2-4,H/H,cis
+#info=stacking
+0-1,upward
+1-2,inward
+4-5,downward
+5-7,outward

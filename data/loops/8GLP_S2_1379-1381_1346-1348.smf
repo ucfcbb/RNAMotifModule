@@ -1,0 +1,10 @@
+>8GLP_S2:1379-1381_1346-1348
+CGA...UGG
+#info=basepair
+1-4,W/H,cis
+#info=stacking
+0-1,upward
+1-2,upward
+3-4,inward
+2-4,downward
+1-5,outward

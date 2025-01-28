@@ -1,0 +1,45 @@
+Filtered nearest residue data for "Module36" loops ('HL_GNGA', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin', 'IL_Sarcin-ricin'):
+
+Loop group: 1
+4V8P_D1:29-34_43-49 (FASTA)
+4V8P_D1:30-35_44-50 (PDB)
+
+4V8P_D1:80-86_94-99 (FASTA)
+4V8P_D1:81-87_95-100 (PDB)
+
+4V8P_D1:829-833_955-962 (FASTA)
+4V8P_D1:830-834_956-963 (PDB)
+
+4V8P_D1:87-93 (FASTA)
+4V8P_D1:88-94 (PDB)
+
+D1 (Ciliates(Pr, rRNA 26S                      )
+CC (Eukaryota , RPL4                          ) [Total: 9, Protein: 9] : CC65(MET), CC71(SER), CC80(ARG), CC81(ILE), CC82(PRO), CC97(PHE), CC105(ARG), CC107(PHE), CC109(PRO)
+CK (Eukaryota , 60S Ribo-Prot L27A            ) [Total: 23, Protein: 23] : CK26(ARG), CK27(LYS), CK28(GLY), CK29(GLY), CK30(CYS), CK31(ARG), CK34(ARG), CK35(GLY), CK36(LYS), CK37(ALA), CK40(MET), CK54(TYR), CK55(TYR), CK56(GLY), CK57(LYS), CK60(MET), CK61(ARG), CK62(THR), CK63(PHE), CK64(HIS), CK65(LEU), CK67(LYS), CK68(ASN)
+CL (Eukaryota , Ribo-Prot L15                 ) [Total: 16, Protein: 16] : CL71(ARG), CL73(ARG), CL74(PRO), CL81(TYR), CL82(GLY), CL83(LYS), CL86(SER), CL94(PHE), CL95(ALA), CL96(ARG), CL179(HIS), CL182(LYS), CL189(LYS), CL192(TRP), CL195(ARG), CL196(GLN)
+CN (Eukaryota , RPL18                         ) [Total: 6, Protein: 6] : CN168(ARG), CN169(SER), CN171(GLY), CN172(ARG), CN173(LYS), CN174(PHE)
+DA (Eukaryota , Ribo-Prot L37                 ) [Total: 3, Protein: 3] : DA49(GLY), DA50(TRP), DA52(GLN)
+DC (Eukaryota , 60S Ribo-Prot L36A            ) [Total: 4, Protein: 4] : DC40(ARG), DC44(LYS), DC53(LYS), DC54(PRO)
+DU (Eukaryota , RPL13                         ) [Total: 14, Protein: 14] : DU9(VAL), DU10(ALA), DU11(GLN), DU13(ARG), DU14(LYS), DU15(HIS), DU17(GLN), DU18(PHE), DU19(ARG), DU58(LYS), DU59(GLN), DU60(THR), DU62(ARG), DU63(TYR)
+
+
+Loop group: 2
+7A0S_X:164-169_178-184 (FASTA)
+7A0S_X:165-170_179-185 (PDB)
+
+7A0S_X:215-221_229-234 (FASTA)
+7A0S_X:216-222_230-235 (PDB)
+
+7A0S_X:222-228 (FASTA)
+7A0S_X:223-229 (PDB)
+
+7A0S_X:686-690_811-818 (FASTA)
+7A0S_X:687-691_812-819 (PDB)
+
+X  (          ,                               )
+3  (          ,                               ) [Total: 10, Protein: 10] : '3'2(PRO), '3'3(LYS), '3'4(MET), '3'5(LYS), '3'6(THR), '3'7(HIS), '3'8(LYS), '3'12(ARG), '3'62(LEU), '3'64(ARG)
+C  (          ,                               ) [Total: 11, Protein: 11] : C47(THR), C48(ARG), C49(ALA), C50(GLN), C57(LYS), C61(GLN), C68(ARG), C69(HIS), C70(GLY), C71(ASP), C74(VAL)
+I  (          ,                               ) [Total: 8, Protein: 7] : I35(LYS), I36(GLY), I37(GLN), I39(SER), I40(ARG), I56(LEU), I60(LEU), I201(MG)
+U  (          ,                               ) [Total: 3, Protein: 3] : U17(SER), U40(ARG), U42(GLN)
+
+

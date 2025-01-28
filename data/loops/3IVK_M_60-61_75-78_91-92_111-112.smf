@@ -1,0 +1,11 @@
+>3IVK_M:60-61_75-78_91-92_111-112
+AC...GCAG...CC...GU
+#info=basepair
+4-7,S/S,trans
+4-8,S/S,cis
+#info=stacking
+0-1,upward
+2-9,upward
+5-7,outward
+5-8,downward
+6-7,upward
