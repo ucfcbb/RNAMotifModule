@@ -339,16 +339,21 @@ def main():
 
 		filtered_nearest_residue_data_dict = {}
 
-		if utilize_pickle and os.path.isfile(pickle_fname):
-			pf = open(pickle_fname, 'rb')
-			filtered_nearest_residue_data_dict = pickle.load(pf)
-			pf.close()
-			# print(spatial_proximity_data)
-			# sys.exit()
-		else:
-			filtered_nearest_residue_data_dict = generate_nearest_residue_data(family_group_dict_with_ids, directories, distance_threshold_to_be_nearest_residue, output_dir)
-			pf = open(pickle_fname, 'wb')
-			pickle.dump(filtered_nearest_residue_data_dict, pf)
+		# if utilize_pickle and os.path.isfile(pickle_fname):
+		# 	pf = open(pickle_fname, 'rb')
+		# 	filtered_nearest_residue_data_dict = pickle.load(pf)
+		# 	pf.close()
+		# 	# print(spatial_proximity_data)
+		# 	# sys.exit()
+		# 	# generate_nearest_residue_data_write_only(filtered_nearest_residue_data_dict)
+		# else:
+		# 	filtered_nearest_residue_data_dict = generate_nearest_residue_data(family_group_dict_with_ids, directories, distance_threshold_to_be_nearest_residue, output_dir)
+		# 	pf = open(pickle_fname, 'wb')
+		# 	pickle.dump(filtered_nearest_residue_data_dict, pf)
+
+		filtered_nearest_residue_data_dict = generate_nearest_residue_data(family_group_dict_with_ids, directories, distance_threshold_to_be_nearest_residue, output_dir)
+		pf = open(pickle_fname, 'wb')
+		pickle.dump(filtered_nearest_residue_data_dict, pf)
 
 		if generate_nearest_res_stat:
 
@@ -603,6 +608,7 @@ def find_nearest_residue_data_for_non_module_loops(familywise_loops_non_module, 
 # 	return family_group_dict_with_ids
 
 def generate_partial_pdb_files_for_modules(directories, output_dir, family_group_dict_with_ids, loop_cif_extension, number_of_multiprocess):
+	logger.info('Generating partial PDB files for motif modules. (Loop extension being used: ' + str(loop_cif_extension) + ')')
 	pdbx_dir = directories.pdbx_dir
 	partial_pdbx_dir = os.path.join(output_dir, 'partial_pdb_for_modules')
 	create_directory(partial_pdbx_dir)
@@ -644,6 +650,29 @@ def generate_partial_pdb_files_for_modules(directories, output_dir, family_group
 
 # def _generate_partial_pdb_files_worker(p):
 #	 generate_partial_pdb_files_for_single_pdb(*p)
+
+# def generate_nearest_residue_data_write_only(filtered_nearest_residue_data_dict, output_dir):
+# 	nearest_residue_data_dir = os.path.join(output_dir, 'nearest_residue_data')
+
+# 	for module_id, family_group_tuple in filtered_nearest_residue_data_dict:
+# 		filtered_nearest_residue_fname = os.path.join(nearest_residue_data_dir, 'nearest_residues_module_' + str(module_id) +'_filtered.txt')
+# 		fp_output = open(filtered_nearest_residue_fname, 'w')
+# 		fp_output.write('Filtered nearest residue data for "Module' + str(module_id) + '" loops ' + str(family_group_tuple) + ':\n\n')
+# 		fp_output.close()
+
+# 		loop_list_of_lists = family_group_dict_with_ids[(module_id, family_group_tuple)]
+
+# 		for loop_group_id, loop_list in loop_list_of_lists:
+
+# 		for filtered_nearest_residue_data in filtered_nearest_residue_data_dict[(module_id, family_group_tuple)]:
+# 			fp_output = open(filtered_nearest_residue_fname, 'a')
+# 			fp_output.write('Loop group: ' + str(loop_group_id) + '\n')
+# 			for chain_id in filtered_nearest_residue_data:
+# 				for r in filtered_nearest_residue_data[chain_id]:
+# 			write_nearest_residue_data(directories, pdb_structure, pdb_id, fp_output, module_id, loop_group_id, loop_list, filtered_nearest_residue_data, pdb_organism_details, True)
+# 			fp_output.close()
+
+
 
 def generate_nearest_residue_data(family_group_dict_with_ids, directories, distance_threshold_to_be_nearest_residue, output_dir):
 	# generate_filtered_nearest_protein_info = True
@@ -695,12 +724,12 @@ def generate_nearest_residue_data(family_group_dict_with_ids, directories, dista
 
 			# commenting temporarily
 			fp_output = open(nearest_residue_fname, 'a')
-			write_nearest_residue_data(directories, pdb_structure, pdb_id, fp_output, module_id, loop_group_id, loop_list, nearest_residue_data, pdb_organism_details)
+			write_nearest_residue_data(directories, pdb_structure, pdb_id, fp_output, module_id, loop_group_id, loop_list, nearest_residue_data, pdb_organism_details, False)
 			fp_output.close()
 
 			# commenting temporarily
 			fp_output = open(filtered_nearest_residue_fname, 'a')
-			write_nearest_residue_data(directories, pdb_structure, pdb_id, fp_output, module_id, loop_group_id, loop_list, filtered_nearest_residue_data, pdb_organism_details, True)
+			write_nearest_residue_data(directories, pdb_structure, pdb_id, fp_output, module_id, loop_group_id, loop_list, filtered_nearest_residue_data, pdb_organism_details, True, True)
 			fp_output.close()
 
 		# module_id += 1
@@ -1300,7 +1329,7 @@ def is_atom_coord_in_box(point, box_coord, distance_threshold):
 
 	return False
 
-def write_nearest_residue_data(directories, pdb_structure, pdb_id, fp, module_id, loop_group_id, loops, nearest_data, pdb_organism_details, write_adj_info_file=False):
+def write_nearest_residue_data(directories, pdb_structure, pdb_id, fp, module_id, loop_group_id, loops, nearest_data, pdb_organism_details, is_filtered_data, write_adj_info_file=False):
 	extended_distance_threshold_to_be_nearest_rna = 10
 	extended_distance_threshold_to_be_nearest_protein = 20
 
@@ -1334,10 +1363,18 @@ def write_nearest_residue_data(directories, pdb_structure, pdb_id, fp, module_id
 		
 		org_type, RNA_Type = get_organism_info(pdb_chain, pdb_organism_details)
 
-		# str_data = list(map(lambda x: str(x[0]), sorted(nearest_data[chain_id], key=lambda x: x[0].index.seqnum)))
-		str_data = list(map(lambda x: str(x), sorted(nearest_data[chain_id], key=lambda x: x.index.seqnum)))
-		# protein_cnt = reduce(lambda count, item: count + (item[0].symbol in amino_acid_list), nearest_data[chain_id], 0)
-		protein_cnt = reduce(lambda count, item: count + (item.symbol in amino_acid_list), nearest_data[chain_id], 0)
+		# print(nearest_data[chain_id])
+
+		if is_filtered_data:
+			# str_data = list(map(lambda x: str(x[0]), sorted(nearest_data[chain_id], key=lambda x: x[0].index.seqnum)))
+			str_data = list(map(lambda x: str(x), sorted(nearest_data[chain_id], key=lambda x: x.index.seqnum)))
+			# protein_cnt = reduce(lambda count, item: count + (item[0].symbol in amino_acid_list), nearest_data[chain_id], 0)
+			protein_cnt = reduce(lambda count, item: count + (item.symbol in amino_acid_list), nearest_data[chain_id], 0)
+		else:
+			str_data = list(map(lambda x: str(x[0]), sorted(nearest_data[chain_id], key=lambda x: x[0].index.seqnum)))
+			# str_data = list(map(lambda x: str(x), sorted(nearest_data[chain_id], key=lambda x: x.index.seqnum)))
+			protein_cnt = reduce(lambda count, item: count + (item[0].symbol in amino_acid_list), nearest_data[chain_id], 0)
+			# protein_cnt = reduce(lambda count, item: count + (item.symbol in amino_acid_list), nearest_data[chain_id], 0)
 
 		if protein_cnt > adj_res_count:
 			adj_chain = chain_id
@@ -1347,96 +1384,109 @@ def write_nearest_residue_data(directories, pdb_structure, pdb_id, fp, module_id
 
 	# writing adjacent residue info for each loop in separate file
 	if adj_chain == None and write_adj_info_file == True:
-		 adjacent_info_fname = os.path.join(adjacent_info_dir, 'module' + str(module_id) + '_loopgroup' + str(loop_group_id) + '.adj_info')
-		 fp_adj_info = open(adjacent_info_fname, 'w')
-		 # fp_adj_info.write(pdb_loop + ',' + str(loop_extension) + '\n')
-		 fp_adj_info.write(str(pdb_loops) + '\n')
-		 fp_adj_info.write('\n\n')
-		 fp_adj_info.write('1,0.5')
-		 fp_adj_info.close()
+		adjacent_info_fname = os.path.join(adjacent_info_dir, 'module' + str(module_id) + '_loopgroup' + str(loop_group_id) + '.adj_info')
+		fp_adj_info = open(adjacent_info_fname, 'w')
+		# fp_adj_info.write(pdb_loop + ',' + str(loop_extension) + '\n')
+		fp_adj_info.write(str(pdb_loops) + '\n')
+		fp_adj_info.write('\n\n')
+		fp_adj_info.write('1,0.5')
+		fp_adj_info.close()
 
 	if adj_chain != None and write_adj_info_file == True:
-		 adjacent_info_fname = os.path.join(adjacent_info_dir, 'module' + str(module_id) + '_loopgroup' + str(loop_group_id) + '.adj_info')
-		 fp_adj_info = open(adjacent_info_fname, 'w')
-		 # fp_adj_info.write(pdb_loop + ',' + str(loop_extension) + '\n')
-		 fp_adj_info.write(str(pdb_loops) + '\n')
+		adjacent_info_fname = os.path.join(adjacent_info_dir, 'module' + str(module_id) + '_loopgroup' + str(loop_group_id) + '.adj_info')
+		fp_adj_info = open(adjacent_info_fname, 'w')
+		# fp_adj_info.write(pdb_loop + ',' + str(loop_extension) + '\n')
+		fp_adj_info.write(str(pdb_loops) + '\n')
 
-		 start_ind = min(list(map(lambda x: x[0].index.seqnum, nearest_data[adj_chain])))
-		 max_ind = max(list(map(lambda x: x[0].index.seqnum, nearest_data[adj_chain])))
-		 end_ind = min(start_ind + 5, max_ind)
-		 fp_adj_info.write(adj_chain + ':' + str(start_ind) + '-' + str(end_ind) + '\n')
+		if is_filtered_data:
+			start_ind = min(list(map(lambda x: x.index.seqnum, nearest_data[adj_chain])))
+			max_ind = max(list(map(lambda x: x.index.seqnum, nearest_data[adj_chain])))
+		else:
+			start_ind = min(list(map(lambda x: x[0].index.seqnum, nearest_data[adj_chain])))
+			max_ind = max(list(map(lambda x: x[0].index.seqnum, nearest_data[adj_chain])))
+		end_ind = min(start_ind + 5, max_ind)
+		fp_adj_info.write(adj_chain + ':' + str(start_ind) + '-' + str(end_ind) + '\n')
 
-		 nearest_rna_data = {}
-		 nearest_protein_data = {}
-		 for chain_id in nearest_data:
-			 if len(nearest_data[chain_id]) > 0:
-				 if nearest_data[chain_id][0][0].symbol in amino_acid_list:
-					 nearest_protein_data[chain_id] = nearest_data[chain_id]
-				 else:
-					 nearest_rna_data[chain_id] = nearest_data[chain_id]
+		nearest_rna_data = {}
+		nearest_protein_data = {}
+		for chain_id in nearest_data:
+			if len(nearest_data[chain_id]) > 0:
+				if is_filtered_data:
+					if nearest_data[chain_id][0].symbol in amino_acid_list:
+						nearest_protein_data[chain_id] = nearest_data[chain_id]
+					else:
+						nearest_rna_data[chain_id] = nearest_data[chain_id]
+				else:
+					if nearest_data[chain_id][0][0].symbol in amino_acid_list:
+						nearest_protein_data[chain_id] = nearest_data[chain_id]
+					else:
+						nearest_rna_data[chain_id] = nearest_data[chain_id]
 
-		 # print('nearest data')
-		 # lengths = []
-		 # for chain_id in nearest_data:
-		 #	 lengths.append(str(len(nearest_data[chain_id])))
-		 # print(','.join(sorted(lengths)))
+		# print('nearest data')
+		# lengths = []
+		# for chain_id in nearest_data:
+		#	 lengths.append(str(len(nearest_data[chain_id])))
+		# print(','.join(sorted(lengths)))
 
-		 # print('nearest rna data')
-		 # lengths = []
-		 # for chain_id in nearest_rna_data:
-		 #	 lengths.append(str(len(nearest_rna_data[chain_id])))
-		 # print(','.join(sorted(lengths)))
+		# print('nearest rna data')
+		# lengths = []
+		# for chain_id in nearest_rna_data:
+		#	 lengths.append(str(len(nearest_rna_data[chain_id])))
+		# print(','.join(sorted(lengths)))
 
-		 # print('nearest pretein data')
-		 # lengths = []
-		 # for chain_id in nearest_protein_data:
-		 #	 lengths.append(str(len(nearest_protein_data[chain_id])))
-		 # print(','.join(sorted(lengths)))
+		# print('nearest pretein data')
+		# lengths = []
+		# for chain_id in nearest_protein_data:
+		#	 lengths.append(str(len(nearest_protein_data[chain_id])))
+		# print(','.join(sorted(lengths)))
 
-		 loop_chain_id = loops[0].strip().split(':')[0].strip().split('_')[1]
-		 chain_structure = pdb_structure[0][loop_chain_id]
-		 box_coord, loops_all_res_list = get_loops_bounding_box_coord(loops, directories, chain_structure)
+		loop_chain_id = loops[0].strip().split(':')[0].strip().split('_')[1]
+		chain_structure = pdb_structure[0][loop_chain_id]
+		box_coord, loops_all_res_list = get_loops_bounding_box_coord(loops, directories, chain_structure)
 		 
 
-		 load_regions = []
-		 ####### Temporarily skipping RNA chains #######
-		 # if len(nearest_rna_data) > 0:
-		 #	 nearest_rna_data, pdb_structure = get_nearest_residue_data_from_bounding_box(pdb_id, loop_chain_id, box_coord, None, extended_distance_threshold_to_be_nearest_rna, nearest_rna_data.keys())
-		 #	 extended_nearest_rna_data = get_filtered_nearest_residue_data(loop_all_res_list, nearest_rna_data, extended_distance_threshold_to_be_nearest_rna)
+		load_regions = []
+		####### Temporarily skipping RNA chains #######
+		# if len(nearest_rna_data) > 0:
+		#	 nearest_rna_data, pdb_structure = get_nearest_residue_data_from_bounding_box(pdb_id, loop_chain_id, box_coord, None, extended_distance_threshold_to_be_nearest_rna, nearest_rna_data.keys())
+		#	 extended_nearest_rna_data = get_filtered_nearest_residue_data(loop_all_res_list, nearest_rna_data, extended_distance_threshold_to_be_nearest_rna)
 
-		 #	 for chain_id in extended_nearest_rna_data:
-		 #		 if len(extended_nearest_rna_data[chain_id]) > 0:
-		 #			 sorted_data = sorted(extended_nearest_rna_data[chain_id], key=lambda x: x[0].index.seqnum)
-		 #			 region_list = get_regions_list(sorted_data)
-		 #			 load_regions.append(chain_id + ':' + '_'.join(region_list))
+		#	 for chain_id in extended_nearest_rna_data:
+		#		 if len(extended_nearest_rna_data[chain_id]) > 0:
+		#			 sorted_data = sorted(extended_nearest_rna_data[chain_id], key=lambda x: x[0].index.seqnum)
+		#			 region_list = get_regions_list(sorted_data)
+		#			 load_regions.append(chain_id + ':' + '_'.join(region_list))
 
-		 if len(nearest_protein_data) > 0:
-			 nearest_protein_data = get_nearest_residue_data_from_bounding_box(directories, pdb_id, loop_chain_id, box_coord, None, extended_distance_threshold_to_be_nearest_protein, nearest_protein_data.keys())
-			 extended_nearest_protein_data = get_filtered_nearest_residue_data(loops_all_res_list, nearest_protein_data, extended_distance_threshold_to_be_nearest_protein)
+		if len(nearest_protein_data) > 0:
+			nearest_protein_data = get_nearest_residue_data_from_bounding_box(directories, pdb_id, loop_chain_id, box_coord, None, extended_distance_threshold_to_be_nearest_protein, nearest_protein_data.keys())
+			extended_nearest_protein_data = get_filtered_nearest_residue_data(loops_all_res_list, nearest_protein_data, extended_distance_threshold_to_be_nearest_protein)
 
-			 # print('extended nearest protein data')
-			 # lengths = []
-			 # for chain_id in extended_nearest_protein_data:
-			 #	 lengths.append(str(len(extended_nearest_protein_data[chain_id])))
-			 # print(','.join(sorted(lengths)))
+			# print('extended nearest protein data')
+			# lengths = []
+			# for chain_id in extended_nearest_protein_data:
+			#	 lengths.append(str(len(extended_nearest_protein_data[chain_id])))
+			# print(','.join(sorted(lengths)))
 
-			 for chain_id in extended_nearest_protein_data:
-				 if len(extended_nearest_protein_data[chain_id]) > 0:
-					 sorted_data = sorted(extended_nearest_protein_data[chain_id], key=lambda x: x[0].index.seqnum)
-					 # load_regions.append(chain_id + ':' + str(sorted_data[0][0].index.seqnum) + '-' + str(sorted_data[-1][0].index.seqnum))
-					 region_list = get_regions_list(sorted_data)
-					 load_regions.append(chain_id + ':' + '_'.join(region_list))
+			for chain_id in extended_nearest_protein_data:
+				if len(extended_nearest_protein_data[chain_id]) > 0:
+					if is_filtered_data:
+						sorted_data = sorted(extended_nearest_protein_data[chain_id], key=lambda x: x.index.seqnum)
+					else:
+						sorted_data = sorted(extended_nearest_protein_data[chain_id], key=lambda x: x[0].index.seqnum)
+					# load_regions.append(chain_id + ':' + str(sorted_data[0][0].index.seqnum) + '-' + str(sorted_data[-1][0].index.seqnum))
+					region_list = get_regions_list(sorted_data, is_filtered_data)
+					load_regions.append(chain_id + ':' + '_'.join(region_list))
 
-		 # print_a_dict_sorted(nearest_data)
-		 # print_a_dict_sorted(nearest_rna_data)
-		 # print_a_dict_sorted(nearest_protein_data)
-		 # print_a_dict_sorted(extended_nearest_rna_data)
-		 # print_a_dict_sorted(extended_nearest_protein_data)
+		# print_a_dict_sorted(nearest_data)
+		# print_a_dict_sorted(nearest_rna_data)
+		# print_a_dict_sorted(nearest_protein_data)
+		# print_a_dict_sorted(extended_nearest_rna_data)
+		# print_a_dict_sorted(extended_nearest_protein_data)
 
-		 # fp_adj_info.write(','.join(nearest_data.keys()) + '\n')
-		 fp_adj_info.write(','.join(load_regions) + '\n')
-		 fp_adj_info.write('1,0.5')
-		 fp_adj_info.close()
+		# fp_adj_info.write(','.join(nearest_data.keys()) + '\n')
+		fp_adj_info.write(','.join(load_regions) + '\n')
+		fp_adj_info.write('1,0.5')
+		fp_adj_info.close()
 
 	fp.write('\n\n')
 
@@ -1629,13 +1679,19 @@ def read_pdb_chain_organism_details(fname):
 	fp.close()
 	return pdb_organism_details
 
-def get_regions_list(sorted_data):
+def get_regions_list(sorted_data, is_filtered_data):
 	# print(sorted_data)
 	region_list = []
-	s = sorted_data[0][0].index.seqnum
+	if is_filtered_data:
+		s = sorted_data[0].index.seqnum
+	else:
+		s = sorted_data[0][0].index.seqnum
 	prev_i_seqnum = s
 	for i in range(1, len(sorted_data)):
-		i_seqnum = sorted_data[i][0].index.seqnum
+		if is_filtered_data:
+			i_seqnum = sorted_data[i].index.seqnum
+		else:
+			i_seqnum = sorted_data[i][0].index.seqnum
 		if i_seqnum - prev_i_seqnum > 5:
 			region_list.append((s, prev_i_seqnum))
 			s = i_seqnum
@@ -1777,6 +1833,7 @@ def load_spatial_proximity_data(pdb_chainwise_loops, directories, utilize_pickle
 		logger.info('Generating spatial proximity data.')
 		start_time = time.time()
 
+		pdb_count = len(pdb_chainwise_loops)
 		for i, pdb_id in enumerate(pdb_chainwise_loops):
 			# pdb_id = '8BUU'
 
