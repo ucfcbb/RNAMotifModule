@@ -28,22 +28,22 @@ pip install -r requirements.txt
 
 ### 2. Input Specifications
 
-RNAMotifModule takes input from one or more files. Default ones are located in the [RNAMotifModule/input/](input) directory. Each line in that file represents a motif family. Each line starts with the motif family name, followed by a comma-separated list of motifs (the indices for motifs are PDB index, but FASTA index can also be used by setting a parameter in the configuration file). Please check the default input files ([known_families_IL.csv](input/known_families_IL.csv)) and ([known_families_HL.csv](input/known_families_HL.csv)) provided in the [input](input) directory to look into the formatting of input data in detail.
+RNAMotifModule takes input from one or more files. Default ones are located in the [RNAMotifModule/input/](input) directory. Each line in that file represents a motif family. Each line starts with the motif family name, followed by a comma-separated list of motifs (the indices for motifs are PDB index, but FASTA index can also be used by setting a parameter in the configuration file). Please check the default input files [known_families_IL.csv](input/known_families_IL.csv) and [known_families_HL.csv](input/known_families_HL.csv) provided in the [input](input) directory to look into the formatting of input data in detail.
 
 ### 3. Commands for usage
 
 ```
 usage: python3 RNAMotifModule.py [-h] [-i I] [-d D] [-o O] [-s] [-x X] [-r] [-t] [-n] [-p] [-e E] [-k]
-I - <input_file_name> [Space separated list of input files.]
-D - <distance_threshold> [Distance threshold to be identified as spatially close. Default value: 5.0 Å.]
-O - <output_subdir> [Subdirectory inside the "output" directory to save the results.]
-X - <randomized_datasets> [Randomized dataset to generate to calculate expected frequency of the motif modules. Defaule value: 100.]
-E - <extension> [Residues to extend beyond loop boundary to generate the partial PDB (loop.cif) files. Default value: 0.]
+I - <input_file_name>     [Space separated list of input files.                                                  Default: input/known_families_IL.csv input/known_families_HL.csv]
+D - <distance_threshold>  [Distance threshold to be identified as spatially close.                               Default: 5.0 Å]
+O - <output_subdir>       [Subdirectory inside the "output" directory to save the results.                       Default: '']
+X - <randomized_datasets> [Randomized dataset to generate to calculate expected frequency of the motif modules.  Defaule: 100]
+E - <extension>           [Residues to extend beyond loop boundary to generate the partial PDB (loop.cif) files. Default: 0]
 ```
 
 **Examples:**
 
-To identify motif modules from ([sample_IL.csv](input/sample_IL.csv)), the following command can be used:
+To identify motif modules from [sample_IL.csv](input/sample_IL.csv), the following command can be used:
 
 ```
 python3 RNAMotifModule.py -i input/sample_IL.csv
@@ -63,7 +63,7 @@ python3 RNAMotifModule.py -i input/sample_IL.csv input/sample_HL.csv -d 1.0
 
 In order to save time while testing the process, we have pre-generated nearest residue data and spatial proximity data and saved them in corresponding pickle files. These pickle files can be utilized for the default input files using the -k parameter. Any runs without the -k param will generate the data from scratch and will replace the previous pickle files.
 
-To identify motif modules from the input data from ([known_families_IL.csv](input/known_families_IL.csv)) and ([known_families_HL.csv](input/known_families_HL.csv)), by utilizing pre-generated pickle files use the following command:
+To identify motif modules from the input data from [known_families_IL.csv](input/known_families_IL.csv) and [known_families_HL.csv](input/known_families_HL.csv), by utilizing pre-generated pickle files use the following command:
 
 ```
 python3 RNAMotifModule.py -k
@@ -114,7 +114,7 @@ While generating the partial PDB files, -e parameter can be utilized to extend t
 
 
 
-### 4. Output specification
+### 4. Output specifications
 
 By default, all the outputs will be generated inside the ‘output’ directory. A subdirectory will be created inside the ‘output’ directory if any subdirectory name is provided. Following are the possible output files and directories that can be found in the output directory:
 
