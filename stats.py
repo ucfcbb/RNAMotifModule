@@ -695,7 +695,8 @@ def create_bubble_plot(family_group_dict_with_ids, expected_freq_dict_r, p_value
 				obs_exp_ratios.append(np.nan)
 
 	# max_obs_exp_ratio = max(obs_exp_ratios)
-	max_obs_exp_ratio = max(r for r in obs_exp_ratios if not np.isnan(r))
+	# print(obs_exp_ratios)
+	max_obs_exp_ratio = max((r for r in obs_exp_ratios if not np.isnan(r)), default=3.0)
 
 	if max_obs_exp_ratio > 3.0:
 		max_obs_exp_ratio = 3.0

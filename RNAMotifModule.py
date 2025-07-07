@@ -744,7 +744,7 @@ def generate_nearest_residue_data(family_group_dict_with_ids, directories, dista
 			# commenting temporarily
 			fp_output = open(filtered_nearest_residue_fname, 'a')
 			is_filtered_residue_data = True
-			write_nearest_residue_data(directories, pdb_structure, pdb_id, fp_output, module_id, loop_group_id, loop_list, nearest_residue_data, is_filtered_residue_data, pdb_organism_details, True)
+			write_nearest_residue_data(directories, pdb_structure, pdb_id, fp_output, module_id, loop_group_id, loop_list, filtered_nearest_residue_data, is_filtered_residue_data, pdb_organism_details, True)
 			fp_output.close()
 
 		# module_id += 1
