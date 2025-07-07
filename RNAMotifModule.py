@@ -1344,8 +1344,7 @@ def is_atom_coord_in_box(point, box_coord, distance_threshold):
 
 	return False
 
-is_filtered_residue_data
-def write_nearest_residue_data(directories, pdb_structure, pdb_id, fp, module_id, loop_group_id, loops, nearest_data, is_filtered_residue_data, pdb_organism_details, write_adj_info_file=False)
+def write_nearest_residue_data(directories, pdb_structure, pdb_id, fp, module_id, loop_group_id, loops, nearest_data, is_filtered_residue_data, pdb_organism_details, write_adj_info_file=False):
 	extended_distance_threshold_to_be_nearest_rna = 10
 	extended_distance_threshold_to_be_nearest_protein = 20
 
@@ -1842,7 +1841,7 @@ def load_spatial_proximity_data(pdb_chainwise_loops, directories, atom_set_choic
 		# graphs = []
 		logger.info('Generating spatial proximity data.')
 		start_time = time.time()
-		
+
 		pdb_count = len(pdb_chainwise_loops)
 		for i, pdb_id in enumerate(pdb_chainwise_loops):
 			# pdb_id = '8BUU'
