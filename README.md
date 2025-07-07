@@ -33,12 +33,13 @@ RNAMotifModule takes input from one or more files. Default ones are located in t
 ### 3. Commands for usage
 
 ```
-usage: python3 RNAMotifModule.py [-h] [-i I] [-d D] [-o O] [-s] [-x X] [-r] [-t] [-n] [-p] [-e E] [-k]
+usage: python3 RNAMotifModule.py [-h] [-i I] [-d D] [-o O] [-s] [-c] [-x X] [-r] [-t] [-n] [-p] [-e E] [-k] [-a A]
 I - <input_file_name> [Space separated list of input files.]
 D - <distance_threshold> [Distance threshold to be identified as spatially close.]
 O - <output_subdir> [Subdirectory inside the "output" directory to save the results.]
 X - <randomized_datasets> [Randomized dataset to generate to calculate expected frequency of the motif modules.]
 E - <extension> [Residues to extend beyond loop boundary to generate the partial PDB (loop.cif) files.]
+A - <atom_set> [Atom set to use in calculating distance between residues (0: all, 1: backbone and sugar, 2: backbone).]
 ```
 
 **Examples:**
@@ -55,7 +56,7 @@ To include motif module statistics for the same dataset using pre-generated pick
 python3 RNAMotifModule.py -s -k
 ```
 
-We provided pre-generated data for 358 internal loop motifs from 10 families and 415 hairpin loop motifs from 3 families. For any new dataset, it will automatically download and/or generate required data files (e.g. *.cif, *.fasta, *.aln, etc.) which might take some time. Please make sure to provide valid (not obsolete) PDB number in the input data.
+We provided pre-generated data for 357 internal loop motifs from 10 families and 415 hairpin loop motifs from 3 families. For any new dataset, it will automatically download and/or generate required data files (e.g. *.cif, *.fasta, *.aln, etc.) which might take some time. Please make sure to provide valid (not obsolete) PDB number in the input data.
 
 ### 4. Output specification
 

@@ -4,6 +4,7 @@ import sys
 from graph_utils import *
 from functools import reduce
 from tqdm import tqdm
+from utils import *
 
 def get_pdb_index_list(directories, lp):
 	pdb_chain, regions = lp.split(':')
@@ -107,7 +108,7 @@ def find_minimum_distance_between_two_coords(coord1, coord2):
 
 
 
-def get_spatial_proximity_data_of_a_loop(loop1, loop_info_dict, loops):
+def get_spatial_proximity_data_of_a_loop(loop1, loop_info_dict, loops, atom_set_choice):
 	spatial_proximity_data_of_a_loop = {}
 
 	residue_list1 = loop_info_dict[loop1]
@@ -116,28 +117,44 @@ def get_spatial_proximity_data_of_a_loop(loop1, loop_info_dict, loops):
 		min_distance = 0
 		if loop1 != loop2:
 			residue_list2 = loop_info_dict[loop2]
-			min_distance = find_minimum_distance_between_two_residue_lists(residue_list1, residue_list2)
+			min_distance = find_minimum_distance_between_two_residue_lists(residue_list1, residue_list2, atom_set_choice)
 
 		spatial_proximity_data_of_a_loop[loop2] = min_distance
 
 	return spatial_proximity_data_of_a_loop
 
-def find_minimum_distance_between_two_residue_lists(residue_list1, residue_list2):
+def find_minimum_distance_between_two_residue_lists(residue_list1, residue_list2, atom_set_choice):
 	min_distance = 999999
 
 	for res1 in residue_list1:
 		for res2 in residue_list2:
-			distance = find_minimum_distance_between_two_residues(res1, res2)
+			distance = find_minimum_distance_between_two_residues(res1, res2, atom_set_choice)
+			# distance0 = find_minimum_distance_between_two_residues(res1, res2, 0)
+			# distance1 = find_minimum_distance_between_two_residues(res1, res2, 1)
+			# distance2 = find_minimum_distance_between_two_residues(res1, res2, 2)
+			# print(distance, distance0, distance1, distance2)
 			min_distance = min(min_distance, distance)
 
 	return min_distance
 
-def find_minimum_distance_between_two_residues(res1, res2):
+def find_minimum_distance_between_two_residues(res1, res2, atom_set_choice=0):
 	min_distance = 999999
 
+	backbone_atoms, sugar_atoms = get_backbone_and_sugar_atoms()
+
 	for atom1 in res1:
+		if atom_set_choice == 1 and not (atom1.name in backbone_atoms or atom1.name in sugar_atoms):
+			continue
+		elif atom_set_choice == 2 and atom1.name not in backbone_atoms:
+			continue
+
 		point1 = res1[atom1.name].get_vector()
 		for atom2 in res2:
+			if atom_set_choice == 1 and not (atom2.name in backbone_atoms or atom2.name in sugar_atoms):
+				continue
+			elif atom_set_choice == 2 and atom2.name not in backbone_atoms:
+				continue
+
 			point2 = res2[atom2.name].get_vector()
 			distance = distance_between_points(point1, point2)
 			min_distance = min(min_distance, distance)
@@ -170,11 +187,11 @@ def get_nearest_loop_list_v2(pdb_id, chain_id, pdb_chainwise_loops, loop1, spati
 
 	return nearest_loop_list
 
-def get_family_id(loop, families):
-	for family_id in families:
-		if loop in families[family_id]:
-			return family_id
-	return 'N/A'
+# def get_family_id(loop, families):
+# 	for family_id in families:
+# 		if loop in families[family_id]:
+# 			return family_id
+# 	return 'N/A'
 
 def get_motif_module_frequencies(spatial_proximity_data, families):
 	family_group_dict = {}

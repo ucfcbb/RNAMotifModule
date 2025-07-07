@@ -5,3 +5,4 @@ backup/
 
 src/my_lib/DSSR/
 __pycache__/
+CLIP-seq_test/

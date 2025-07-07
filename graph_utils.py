@@ -2,7 +2,7 @@ import networkx as nx
 import numpy
 
 from functools import reduce
-from Bio import SeqIO, pairwise2
+# from Bio import SeqIO, pairwise2
 from Bio.PDB import *
 
 import matplotlib.pyplot as plt
