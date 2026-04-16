@@ -7,6 +7,9 @@ import time
 import datetime
 import shutil
 
+import Bio
+from Bio import SeqIO, Align
+
 from logger import *
 from classes import *
 from interaction_utils import *
@@ -3284,6 +3287,24 @@ def get_loop_length(loop):
 
 	return loop_len, junc_cnt
 
+def get_loop_length_from_segments(segments):
+    # will not work properly for pdb index
+    loop_length = 0
+    for segment in segments:
+        pcs = segment.split("-")
+        if pcs[0][-1].isalpha():
+            s = int(pcs[0].strip().split(".")[0].strip())
+        else:
+            s = int(pcs[0].strip())
+        if pcs[1][-1].isalpha():
+            e = int(pcs[1].strip().split(".")[0].strip())
+        else:
+            e = int(pcs[1].strip())
+        # s = int(pieces[0])
+        # e = int(pieces[1])
+        loop_length += (e-s+1)
+    return loop_length
+
 def get_family_id(loop, families):
 	for family_id in families:
 		if loop in families[family_id]:
@@ -3386,3 +3407,65 @@ def print_input_stat(families):
 		# max_max_motif_len = max(max_max_motif_len, max_motif_len)
 		avg_motif_len = int(round(sum_motif_len / len(loops), 0))
 		print(str(len(loops)) + '\t' + str(avg_motif_len) + ' (' + str(min_motif_len) + '-' + str(max_motif_len) + ')')
+
+
+
+def count_overlap(a_start, a_end, b_start, b_end):
+	if a_start > b_end or b_start > a_end:
+		return 0
+	return (min(a_end, b_end) - max(a_start, b_start) + 1)
+
+# By default, the match is evaluated with reference to the length of item_b
+# If query_order == "reverse_query", it will be done with reference to item_a
+def isCommon_v2(item_a, item_b, threshold_percentage, query_order=""):
+	# print item_a
+	# print item_b
+	pieces_a = item_a.strip().split(":")
+	pieces_b = item_b.strip().split(":")
+	pdb_a = pieces_a[0].strip()
+	pdb_b = pieces_b[0].strip()
+	if pdb_a != pdb_b:
+		return False, 0.0
+	# return True
+	loops_a = pieces_a[1].strip().split("_")
+	loops_b = pieces_b[1].strip().split("_")
+	# if len(loops_a) != len(loops_b):
+	# 	return False
+
+	total_overlap = 0
+	for i in range(len(loops_a)):
+		pcs = loops_a[i].strip().split("-")
+		if pcs[0][-1].isalpha():
+			a_start = int(pcs[0].strip().split(".")[0].strip())
+		else:
+			a_start = int(pcs[0].strip())
+		if pcs[1][-1].isalpha():
+			a_end = int(pcs[1].strip().split(".")[0].strip())
+		else:
+			a_end = int(pcs[1].strip())
+
+		for j in range(len(loops_b)):
+			pcs = loops_b[j].strip().split("-")
+			if pcs[0][-1].isalpha():
+				print(pcs[0])
+				b_start = int(pcs[0].strip().split(".")[0].strip())
+			else:
+				b_start = int(pcs[0].strip())
+			if pcs[1][-1].isalpha():
+				b_end = int(pcs[1].strip().split(".")[0].strip())
+			else:
+				b_end = int(pcs[1].strip())		
+
+			total_overlap += count_overlap(a_start, a_end, b_start, b_end)
+
+	overlap_percentage = 0.0
+	if(query_order == "reverse_query"):
+		length_a = get_loop_length_from_segments(loops_a)
+		overlap_percentage = total_overlap * 100.0 / length_a
+	else:
+		length_b = get_loop_length_from_segments(loops_b)
+		overlap_percentage = total_overlap * 100.0 / length_b
+	
+	if overlap_percentage > threshold_percentage:
+		return True, overlap_percentage
+	return False, 0.0

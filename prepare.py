@@ -24,7 +24,7 @@ from utils import *
 from cif import *
 from ann_generator import *
 from ann_parser import *
-# from simplified_loopcut_helper import *
+from simplified_loopcut_helper import *
 
 def load_fasta_seq(pdb_id, chains, directories):
     fasta_seq_dict = {}
@@ -799,6 +799,28 @@ def prepare_loop_files(loop_node_list_str, directories, annotation_source, mp_nu
     generate_loop_files(pdb_loops, pdb_chains, directories, annotation_source, mp_number_of_process, env)  # generate mapping file first and the proceed to generating loop files
     wait_for_certain_time_according_to_wait_factor(pdb_count)
 
+def prepare_data_basic(pdb_chain_id_list, directories, annotation_source, content_download_attempts, mp_number_of_process):
+    pdb_chains = {}
+    for pdb_chain in pdb_chain_id_list:
+        print(pdb_chain)
+        pdb, chain = pdb_chain.strip().split('_')
+        if is_all_data_available(pdb, chain, directories, annotation_source):
+            continue
+        if pdb not in pdb_chains:
+            pdb_chains[pdb] = []
+        if chain not in pdb_chains[pdb]:
+            pdb_chains[pdb].append(chain)
+
+    pdb_list = pdb_chains.keys()
+    pdb_count = len(pdb_list)
+
+    pdbx_url, fasta_url, fr3d_url, dssr_url = get_urls()
+
+    get_pdbx_and_fasta_files(pdb_list, pdbx_url, fasta_url, directories, content_download_attempts)
+    get_annotation_files(pdb_list, directories, annotation_source, fr3d_url, dssr_url, mp_number_of_process, get_env())
+    generate_pdbx_fasta_mapping_files(pdb_chains, mp_number_of_process, directories)
+
+
 def prepare_data(families, directories, annotation_source, content_download_attempts, mp_number_of_process):
     pdb_chains = {}
     # pdb_loops = {}
@@ -839,7 +861,7 @@ def prepare_data_for_a_chain(pdb_chain_to_search, directories, annotation_source
         get_annotation_files(pdb_list, directories, annotation_source, fr3d_url, dssr_url, mp_number_of_process, get_env())
         generate_pdbx_fasta_mapping_files(pdb_chains, mp_number_of_process, directories)
 
-def get_loops_from_a_chain(pdb_chain_to_search, directories, ann_source, junction_count):
+def get_loops_from_a_chain(pdb_chain_to_search, directories, ann_source, junction_count=-1):
     pdb_id, chain_id = pdb_chain_to_search.strip().split('_')
     outlier_zscore_threshold = 2.5
     remove_empty_loops = True
@@ -849,5 +871,8 @@ def get_loops_from_a_chain(pdb_chain_to_search, directories, ann_source, junctio
     pdb_chain_dict[pdb_id].append(chain_id)
 
     junction_wise_filtered_loops = cut_loops(pdb_chain_dict, directories, ann_source, remove_empty_loops, outlier_zscore_threshold)
+
+    if junction_count == -1:
+        return junction_wise_filtered_loops
 
     return junction_wise_filtered_loops[junction_count]

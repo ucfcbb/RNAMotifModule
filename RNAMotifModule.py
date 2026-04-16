@@ -53,6 +53,9 @@ def main():
 
 	parser = argparse.ArgumentParser(description='Identify structural motif modules from corresponding RNA structures.')
 
+	parser.add_argument('-m', '--mode', nargs='?', default='basic', help='Mode of work; Available modes: basic, advanced.')
+	parser.add_argument('-b', '--pdb-chain', nargs='+', default=['4V9F_0'], help='PDB-Chain ID(s) to find modules in. Multiple chain allowed; Format <PDBID>_<ChainID>.')
+
 	parser.add_argument('-i', '--input', nargs='+', default=['input/known_families_IL.csv', 'input/known_families_HL.csv'], help='Space separated list of input files.')
 	parser.add_argument('-d', '--distance', nargs='?', default='5.0', help='Distance threshold to be identified as spatially close.')
 	parser.add_argument('-o', '--outputsubdir', nargs='?', default='', const='', help='Subdirectory inside the "output" directory to save the results.')
@@ -72,6 +75,9 @@ def main():
 	except Exception as e:
 		parser.print_help()
 		sys.exit()
+
+	mode = args.mode
+	pdb_chain_id_list = args.pdb_chain
 
 	input_files = args.input
 	distance_threshold_to_be_nearest_residue = float(args.distance)
@@ -102,11 +108,103 @@ def main():
 
 	# distance_threshold_to_be_nearest_residue = 5
 
+	if mode == 'basic':
+		logger.info('Working in Basic Mode.')
+		print('')
+
+	else:
+		logger.info('Working in Advanced Mode.')
+		print('')
+
 	directories = get_base_dir_names()
 	directories.partial_pdb_dir = directories.partial_pdb_dir.replace('*', str(loop_cif_extension))
 	create_required_directories(directories)
 
 	input_index_type, annotation_source, items_per_chunk, mp_number_of_process, content_download_attempts = get_misc_params()
+
+	if mode == 'basic':
+		if len(output_subdir_name) == 0:
+			output_subdir_name = 'modules_in_' + '_and_'.join(pdb_chain_id_list)
+			# print(output_subdir_name)
+			# sys.exit()
+		prepare_data_basic(pdb_chain_id_list, directories, annotation_source, content_download_attempts, mp_number_of_process)
+
+
+		# read annotated motif data
+		annotated_motif_data = {}
+		loop_list = []
+		for input_fname in input_files:
+			fp_input = open(input_fname)
+			loop_list += csv_to_list(fp_input.readlines())
+			fp_input.close()
+
+		for item in loop_list:
+			if len(item) > 1:
+				# families[item[0]] = map(lambda x: str(strToNode(x)), item[1:]) # item[1:]
+				way_counts = get_way_counts(item[1:])
+				loop_type = ''
+				if len(way_counts) == 1:
+					if way_counts[0] == 1:
+						loop_type = 'HL'
+					elif way_counts[0] == 2:
+						loop_type = 'IL'
+
+				annotated_motif_data[loop_type + '_' + item[0]] = item[1:]
+
+		if input_index_type == 'pdb':
+			annotated_motif_data = convert_a_cluster_from_PDB_to_FASTA(annotated_motif_data, directories)
+
+
+		# cut loops
+		b_families = {}
+		for pdb_chain in pdb_chain_id_list:
+			# getting fasta index from this 'get_loops_from_a_chain' function
+			junction_wise_filtered_loops = get_loops_from_a_chain(pdb_chain, directories, 'merged')
+			for junc_cnt in junction_wise_filtered_loops:
+				junction_wise_filtered_loops[junc_cnt] = list(set(list(map(lambda x: str(strToNode(x)), junction_wise_filtered_loops[junc_cnt]))))
+			# print(junction_wise_filtered_loops)
+
+			# loop_node_list_str = list(map(lambda x: str(strToNode(x)), loops_list))
+			# loop_node_list_str = sorted(list(set(loop_node_list_str)))
+		# label motifs
+			# b_families = {}
+
+			for junc_cnt in junction_wise_filtered_loops:
+				if junc_cnt == 1:
+					loop_type = 'HL'
+					continue
+				elif junc_cnt == 2:
+					loop_type = 'IL'
+				else:
+					loop_type = 'ML'
+					continue
+
+				# print(junction_wise_filtered_loops[junc_cnt])
+
+				k = 1
+				for loop in junction_wise_filtered_loops[junc_cnt]:
+					label = find_motif_annotation(loop, annotated_motif_data, 66.66)
+					if label == 'None':
+						label = loop_type + '_' + str(k)
+						k += 1
+
+					if label not in b_families:
+						b_families[label] = []
+					b_families[label].append(loop)
+			
+			# for family_id in b_families:
+			# 	print(family_id + ' (' + str(len(b_families[family_id])) + '):')
+			# 	for loop in b_families[family_id]:
+			# 		print(loop, ', ')
+			# 	print()
+		# status, percentage = isCommon_v2(loop_a, loop_b, 66.66)
+		# find modules
+		if input_index_type == 'pdb':
+			b_families = convert_a_cluster_from_FASTA_to_PDB(b_families, directories)
+		# input_index_type = 'fasta'
+
+		proceed_to_produce_modules(b_families, input_index_type, loop_cif_extension, directories, output_subdir_name, annotation_source, content_download_attempts, mp_number_of_process, utilize_pickle, generate_stat, generate_clusters, generate_nearest_res_data, generate_nearest_res_stat, generate_partial_pdb, include_non_module, atom_set_choice, distance_threshold_to_be_nearest_residue)
+		sys.exit()
 
 	# input_fname = 'input/known_families_IL.csv'
 	# # input_fname = 'input/Subcluster_output_IL_PDB.csv.in'
@@ -173,6 +271,9 @@ def main():
 
 	# print(families.keys())
 	# sys.exit()
+	proceed_to_produce_modules(families, input_index_type, loop_cif_extension, directories, output_subdir_name, annotation_source, content_download_attempts, mp_number_of_process, utilize_pickle, generate_stat, generate_clusters, generate_nearest_res_data, generate_nearest_res_stat, generate_partial_pdb, include_non_module, atom_set_choice, distance_threshold_to_be_nearest_residue)
+
+def proceed_to_produce_modules(families, input_index_type, loop_cif_extension, directories, output_subdir_name, annotation_source, content_download_attempts, mp_number_of_process, utilize_pickle, generate_stat, generate_clusters, generate_nearest_res_data, generate_nearest_res_stat, generate_partial_pdb, include_non_module, atom_set_choice, distance_threshold_to_be_nearest_residue):
 	prepare_data(families, directories, annotation_source, content_download_attempts, mp_number_of_process)
 	if input_index_type == 'pdb':
 		families = convert_a_cluster_from_PDB_to_FASTA(families, directories)
@@ -1911,6 +2012,20 @@ def load_spatial_proximity_data(pdb_chainwise_loops, directories, atom_set_choic
 		# sys.exit()
 
 	return spatial_proximity_data
+
+
+
+# basic mode codes
+def find_motif_annotation(q_loop, annotated_motif_data, threshold_percentage):
+	for family_id in annotated_motif_data:
+		loops = annotated_motif_data[family_id]
+		for loop in loops:
+			status, percentage = isCommon_v2(q_loop, loop, threshold_percentage)
+			if status:
+				return family_id
+	return 'None'
+
+
 
 if __name__ == '__main__':
 	main()
