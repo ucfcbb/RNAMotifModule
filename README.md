@@ -18,12 +18,36 @@ RNAMotifModule is a method to identify motif modules from RNA structure data. It
 
 All recent Linux systems normally come with python installed by default. If not, please install `python` and `pip` before proceeding to the next step.
 
+##### 1.1.a Python version
+
+**RNAMotifModule requires Python 3.6 or later.**
+
+RNAMotifModule also relies on the third-party utility `k2n_standalone` for pseudoknot removal. The current version of `k2n_standalone` is implemented in Python 2 and is invoked by RNAMotifModule through a Python 2 subprocess. Therefore, a **Python 2.7** installation is also required for the pseudoknot-removal step. 
+
+If `k2n_standalone` fails to execute, RNAMotifModule will terminate with an explicit error message indicating the cause of the failure.
+
 #### 1.2: Install required Python libraries
 
 It is required to install several python libraries to run RNAMotifModule. These libraries are included in the [requirements.txt](requirements.txt) file. To install all required python libraries, please navigate to the RNAMotifModule home directory in the terminal and execute the following command.
 
 ```
 pip install -r requirements.txt
+```
+Run the following command to verify the installation:
+
+```
+python3 RNAMotifModule.py -h
+```
+
+RNAMotifModule expects the Python 2 interpreter to be available through the command:
+
+```
+python2
+```
+
+You can verify this by running:
+```
+python2 --version
 ```
 
 ### 2. Input Specifications
