@@ -1,0 +1,54 @@
+(IL_E-loop,IL_Kink-turn)	rRNA 23S: 3, 23S Ribosomal RNA: 1, rRNA 18S: 3, RNA (2732-MER): 1, rRNA 16S: 1
+(HL_T-loop,IL_Kink-turn)	rRNA 23S: 4, 23S Ribosomal RNA: 1, rRNA 26S: 1, rRNA 25S: 1, RNA (2732-MER): 1
+(HL_GNAA,IL_Sarcin-ricin)	rRNA 23S: 4, 23S Ribosomal RNA: 1, RNA (2732-MER): 1, rRNA 28S: 1, Riboswitch: 1
+(HL_GNGA,IL_Sarcin-ricin,IL_Sarcin-ricin)	rRNA 23S: 2, 23S Ribosomal RNA: 1, rRNA 26S: 1, rRNA 25S: 1, RNA (2732-MER): 1, rRNA 28S: 1
+(HL_GNAA,HL_T-loop)	rRNA 16S: 2, rRNA 26S: 1, rRNA 18S: 2, rRNA 25S: 1, rRNA 23S: 1
+(IL_Sarcin-ricin,IL_Sarcin-ricin)	rRNA 23S: 2, rRNA 28S: 1, 23S Ribosomal RNA: 1, rRNA 26S: 1, RNA (2732-MER): 1
+(HL_T-loop,IL_E-loop,IL_Kink-turn)	rRNA 23S: 3, 23S Ribosomal RNA: 1, RNA (2732-MER): 1
+(HL_GNAA,HL_GNAA)	rRNA 23S: 1, rRNA 16S: 1, rRNA 18S: 2, Ribozyme, Ribonuclease P: 1
+(IL_Hook-turn,IL_Rope-sling)	rRNA 23S: 2, 23S Ribosomal RNA: 1, rRNA 26S: 1, RNA (2732-MER): 1
+(IL_Kink-turn,IL_Rope-sling)	rRNA 16S: 2, rRNA 18S: 3
+(HL_GNAA,HL_GNGA)	23S Ribosomal RNA: 1, rRNA 16S: 1, rRNA 23S: 1, Group IIC intron: 1, SRP RNA: 1
+(HL_GNAA,IL_Tetraloop-receptor)	RIBONUCLEASE P RNA: 1, Ribozyme, P4-P6 RNA Ribozyme Domain; Synthetic: 1, Group I Intron: 1, Group II intron: 1, U4 snRNP core, GAAA tetraloop: 1
+(IL_C-loop,IL_C-loop)	rRNA 23S: 2, rRNA 26S: 1, RNA (2732-MER): 1
+(IL_E-loop,IL_Sarcin-ricin)	rRNA 23S: 2, 23S Ribosomal RNA: 1, RNA (2732-MER): 1
+(HL_GNGA,IL_E-loop,IL_Sarcin-ricin,IL_Sarcin-ricin)	rRNA 23S: 2, 23S Ribosomal RNA: 1, RNA (2732-MER): 1
+(IL_Hook-turn,IL_Rope-sling,IL_reverse-Kink-turn)	rRNA 23S: 1, 23S Ribosomal RNA: 1, rRNA 26S: 1, RNA (2732-MER): 1
+(IL_Kink-turn,IL_Sarcin-ricin)	rRNA 16S: 1, rRNA 18S: 2, T-BOX RIBOSWITCH STEM I: 1
+(IL_Sarcin-ricin,IL_Tandem-shear)	rRNA 16S: 2, rRNA 18S: 1, Lysine Riboswitch: 1
+(HL_GNAA,IL_Kink-turn)	rRNA 26S: 1, Box C/D small nucleolar: 1, K-Turn, C/D RNA: 1, Box C/D small nucleolar, RNA (34-MER): 1
+(IL_E-loop,IL_Kink-turn,IL_Sarcin-ricin)	rRNA 18S: 3, rRNA 16S: 1
+(HL_T-loop,IL_E-loop)	rRNA 23S: 1, ribonuclease P RNA: 1, RNase P RNA: 1
+(HL_GNAA,HL_GNGA,IL_Sarcin-ricin,IL_Sarcin-ricin,IL_Sarcin-ricin)	rRNA 23S: 2, 23S Ribosomal RNA: 1
+(HL_GNGA,HL_T-loop)	rRNA 23S: 2, RNA (2732-MER): 1
+(HL_GNGA,IL_Tandem-shear)	rRNA 23S: 2, 23S Ribosomal RNA: 1
+(IL_Kink-turn,IL_Sarcin-ricin,IL_Tandem-shear)	rRNA 16S: 2, rRNA 18S: 1
+(IL_Rope-sling,IL_reverse-Kink-turn)	rRNA 28S: 1, 23S Ribosomal RNA: 1, RNA (2732-MER): 1
+(HL_GNAA,IL_E-loop)	rRNA 23S: 1, 23S Ribosomal RNA: 1
+(IL_Hook-turn,IL_Sarcin-ricin)	rRNA 23S: 2
+(HL_GNAA,HL_GNAA,IL_Sarcin-ricin)	rRNA 23S: 1, 23S Ribosomal RNA: 1
+(IL_Rope-sling,IL_Tandem-shear,IL_reverse-Kink-turn)	rRNA 23S: 1, rRNA 26S: 1
+(IL_Tandem-shear,IL_reverse-Kink-turn)	rRNA 23S: 1, rRNA 26S: 1
+(IL_Kink-turn,IL_Rope-sling,IL_Sarcin-ricin)	rRNA 16S: 2
+(IL_Rope-sling,IL_Sarcin-ricin)	rRNA 16S: 2
+(HL_GNGA,HL_T-loop,IL_C-loop)	23S Ribosomal RNA: 1, RNA (2732-MER): 1
+(HL_GNAA,HL_GNGA,IL_Tandem-shear)	23S Ribosomal RNA: 1, rRNA 23S: 1
+(HL_GNGA,IL_Sarcin-ricin,IL_Sarcin-ricin,IL_Sarcin-ricin)	rRNA 26S: 1, RNA (2732-MER): 1
+(IL_C-loop,IL_Sarcin-ricin)	rRNA 16S: 1, glyQS T box riboswitch: 1
+(IL_C-loop,IL_Hook-turn)	rRNA 23S: 1
+(IL_Hook-turn,IL_Rope-sling,IL_Sarcin-ricin)	rRNA 23S: 1
+(IL_C-loop,IL_Hook-turn,IL_Sarcin-ricin)	rRNA 23S: 1
+(HL_GNAA,IL_Hook-turn,IL_Rope-sling)	rRNA 23S: 1
+(HL_GNAA,IL_Tandem-shear)	rRNA 23S: 1
+(HL_GNAA,IL_Rope-sling)	rRNA 23S: 1
+(IL_Hook-turn,IL_reverse-Kink-turn)	rRNA 21S (Mitochondrial): 1
+(HL_GNAA,HL_GNAA,IL_E-loop)	23S Ribosomal RNA: 1
+(HL_GNAA,IL_C-loop,IL_C-loop)	rRNA 26S: 1
+(HL_GNAA,IL_C-loop)	rRNA 26S: 1
+(HL_GNGA,IL_C-loop)	RNA (2732-MER): 1
+(HL_GNGA,IL_E-loop)	RNA (2732-MER): 1
+(HL_GNAA,HL_GNGA,IL_Sarcin-ricin,IL_Sarcin-ricin)	rRNA 28S: 1
+(HL_T-loop,IL_Tandem-shear)	rRNA 18S: 1
+(IL_E-loop,IL_Tetraloop-receptor)	rRNA 16S: 1
+(HL_GNGA,IL_Sarcin-ricin)	16S mitochondrial rRNA: 1
+(HL_GNGA,IL_Sarcin-ricin,IL_Tandem-shear)	Lysine Riboswitch RNA: 1

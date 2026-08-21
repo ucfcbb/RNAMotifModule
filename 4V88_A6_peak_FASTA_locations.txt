@@ -1,0 +1,16 @@
+Hit with chr12:466689-467096
+FASTA locations: 1 - 181
+Hit with chr12:455698-456178
+FASTA locations: 1556 - 1800
+Hit with chr12:456227-457300
+FASTA locations: 434 - 1506
+Hit with chr12:457349-457831
+FASTA locations: 1 - 384
+Hit with chr12:464913-465316
+FASTA locations: 1555 - 1800
+Hit with chr12:465504-465895
+FASTA locations: 976 - 1366
+Hit with chr12:465942-466401
+FASTA locations: 470 - 928
+Hit with chr12:466450-466968
+FASTA locations: 1 - 420

@@ -9337,3 +9337,6 @@ Chain	RNA Types	Organism	Class	Type	Lineage
 3IWN_B	C-di-GMP riboswitch	N/A			
 3IWN_C	U1 small nuclear ribonucleoprotein A	Homo sapiens		Eukaryota	Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo;
 3IWN_D	U1 small nuclear ribonucleoprotein A	Homo sapiens		Eukaryota	Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo;
+7RQB_1A	23S Ribosomal RNA	Thermus thermophilus HB8		Bacteria	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus;
+7A0S_X	RNA (2732-MER)	Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539		Bacteria	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus;
+7QI4_A	16S mitochondrial rRNA	Homo sapiens		Eukaryota	Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo;

@@ -2,6 +2,8 @@ import os
 import sys
 import time
 import glob
+import shutil
+import subprocess
 import multiprocessing as mp
 import numpy
 from cif import *
@@ -120,11 +122,11 @@ def write_invalid_mapping_file(pdb_id, chain_id):
         fp = open(mapping_fname, 'w')
         fp.close()
 
-def get_valid_chain_list(pdb_id, chains, residue_dict, modified_residue_dict, ref_seq_dict):
+def get_valid_chain_list(lib_dir, pdb_id, chains, residue_dict, modified_residue_dict, ref_seq_dict):
     valid_chains = []
 
-    residue_abbreviation_dict = base_abbreviation('baselist.dat')     # baselist.bat downloaded from x3dna
-    amino_acid_list = amino_acid_collection('aminoacidlist.dat')
+    residue_abbreviation_dict = base_abbreviation(os.path.join(lib_dir, 'baselist.dat'))     # baselist.bat downloaded from x3dna
+    amino_acid_list = amino_acid_collection(os.path.join(lib_dir, 'aminoacidlist.dat'))
 
     for chain_id in chains:
         if chain_id not in ref_seq_dict:
@@ -199,7 +201,7 @@ def get_residue_reference_both_way_mapping_data_for_single_chain(residue_list, r
 
     return residue_list, ref_seq_replaced, residue_to_ref_mapping, ref_to_residue_mapping
 
-def generate_pdbx_fasta_mapping_files_for_single_pdb(pdb_id, chains, pdbx_dir, fasta_dir, pdb_fasta_mapping_dir):
+def generate_pdbx_fasta_mapping_files_for_single_pdb(pdb_id, chains, pdbx_dir, fasta_dir, pdb_fasta_mapping_dir, lib_dir):
     pdb_fn = os.path.join(pdbx_dir, pdb_id + '.cif')
     fasta_fn = os.path.join(fasta_dir, pdb_id + '.fasta')
 
@@ -219,7 +221,7 @@ def generate_pdbx_fasta_mapping_files_for_single_pdb(pdb_id, chains, pdbx_dir, f
     multi_seq_dict = {}
     multi_chain_mapping = {}
 
-    chains = get_valid_chain_list(pdb_id, chains, residue_dict, modified_residue_dict, ref_seq_dict)
+    chains = get_valid_chain_list(lib_dir, pdb_id, chains, residue_dict, modified_residue_dict, ref_seq_dict)
     all_mapping_file_exists = True
     for chain_id in chains:
         chain_id = get_modified_chain_id_if_any_lowercase_letter(chain_id)
@@ -276,7 +278,7 @@ def all_mapping_file_exists_for_single_pdb(pdb_id, chains, pdb_fasta_mapping_dir
 
     return True
 
-def generate_pdbx_fasta_mapping_files(pdb_chains, pdb_dir, fasta_dir, pdb_fasta_mapping_dir):
+def generate_pdbx_fasta_mapping_files(pdb_chains, pdb_dir, fasta_dir, pdb_fasta_mapping_dir, lib_dir):
     # if len(pdb_chains) == 0:
     #     print('Using existing PDBx-FASTA mapping files in ' + pdb_fasta_mapping_dir[base_path_len:] + '.')
     #     print('')
@@ -290,7 +292,7 @@ def generate_pdbx_fasta_mapping_files(pdb_chains, pdb_dir, fasta_dir, pdb_fasta_
         # print(pdb_id, pdb_chains[pdb_id])
         if all_mapping_file_exists_for_single_pdb(pdb_id, pdb_chains[pdb_id], pdb_fasta_mapping_dir) == False:
             # generate_pdbx_fasta_mapping_files_for_single_pdb(pdb_id, pdb_chains[pdb_id], pdb_dir, fasta_dir, pdb_fasta_mapping_dir)
-            parameter_list.append((pdb_id, pdb_chains[pdb_id], pdb_dir, fasta_dir, pdb_fasta_mapping_dir))
+            parameter_list.append((pdb_id, pdb_chains[pdb_id], pdb_dir, fasta_dir, pdb_fasta_mapping_dir, lib_dir))
 
     pool = mp.Pool(8)
     pool.map(_mapping_worker, parameter_list)
@@ -299,7 +301,7 @@ def generate_pdbx_fasta_mapping_files(pdb_chains, pdb_dir, fasta_dir, pdb_fasta_
     print('Done')
     print('Time taken: ' + str(round((time.time() - start_time), 3)) + ' seconds.\n')
 
-def get_pdbx_and_mapping_data(pdb_id, chains, pdbx_dir, fasta_dir):
+def get_pdbx_and_mapping_data(pdb_id, chains, pdbx_dir, fasta_dir, lib_dir):
     pdb_fn = os.path.join(pdbx_dir, pdb_id + '.cif')
     fasta_fn = os.path.join(fasta_dir, pdb_id + '.fasta')
 
@@ -312,7 +314,7 @@ def get_pdbx_and_mapping_data(pdb_id, chains, pdbx_dir, fasta_dir):
 
     ref_seq_dict = load_fasta_seq(pdb_id, chains, fasta_dir)
 
-    chains = get_valid_chain_list(pdb_id, chains, residue_dict, modified_residue_dict, ref_seq_dict)
+    chains = get_valid_chain_list(lib_dir, pdb_id, chains, residue_dict, modified_residue_dict, ref_seq_dict)
 
     res_to_ref = {}
     ref_to_res = {}
@@ -513,7 +515,31 @@ def get_knot_free_struct(pdb_id, chain_id, ref_seq, residue_list, residue_to_ref
 
         # if flag_remove_pseudoknots is True:
         #     os.system("../lib/k2n_standalone/knotted2nested.py %s > %s" % (input_path, output_path))
-        os.system("k2n_standalone/knotted2nested.py %s > %s" % (input_path, output_path))
+
+        python2 = shutil.which("python2")
+        if python2 is None:
+            raise RuntimeError(
+                "Python 2 interpreter not found. "
+                "k2n_standalone requires Python 2."
+            )
+
+        with open(output_path, "w") as outfile:
+            result = subprocess.run(
+                [
+                    "python2",
+                    "k2n_standalone/knotted2nested.py",
+                    input_path
+                ],
+                stdout=outfile,
+                stderr=subprocess.PIPE,
+                universal_newlines=True
+            )
+
+        if result.returncode != 0:
+            raise RuntimeError(
+                "k2n_standalone failed:\n%s" % result.stderr
+            )
+        # os.system("k2n_standalone/knotted2nested.py %s > %s" % (input_path, output_path))
 
         # ret = []
         # lineno = 0
@@ -779,7 +805,7 @@ def filter_empty_loops(loop_dir, loop_subdirs, flag_remove_empty_loops):
 
     return filtered_loops, empty_loops
 
-def loopcut(pdbx_dir, fasta_dir, pdb_fasta_mapping_dir, annotation_source, annotation_dir, loop_dir, pdb_id, chains, log_file_name):
+def loopcut(pdbx_dir, fasta_dir, pdb_fasta_mapping_dir, lib_dir, annotation_source, annotation_dir, loop_dir, pdb_id, chains, log_file_name):
     is_detailed_ann = True
     bp_item_len = 4
     stk_item_len = 3
@@ -817,7 +843,7 @@ def loopcut(pdbx_dir, fasta_dir, pdb_fasta_mapping_dir, annotation_source, annot
     loop_with_missing_res_dict = {}
     knot_free_cWW_annotations = {}
     # print(pdb_id, chains, pdbx_dir)
-    chains, residue_dict, ref_seq_dict, res_to_ref, ref_to_res, missing_residue_dict = get_pdbx_and_mapping_data(pdb_id, chains, pdbx_dir, fasta_dir)
+    chains, residue_dict, ref_seq_dict, res_to_ref, ref_to_res, missing_residue_dict = get_pdbx_and_mapping_data(pdb_id, chains, pdbx_dir, fasta_dir, lib_dir)
     residue_with_missing_base_dict = missing_residue_dict
 
     for chain_id in chains:
@@ -1040,6 +1066,7 @@ def cut_loops(pdb_chain_dict, directories, ann_source, remove_empty_loops, outli
     pdb_fasta_mapping_dir = directories.pdb_fasta_mapping_dir
     ann_dir = directories.annotation_dir
     # loop_dir = directories.loop_dir
+    lib_dir = directories.lib_dir
 
     # create_directory(pdb_fasta_mapping_dir)
     # generate_pdbx_fasta_mapping_files(pdb_chain_dict, pdb_dir, fasta_dir, pdb_fasta_mapping_dir)
@@ -1058,8 +1085,8 @@ def cut_loops(pdb_chain_dict, directories, ann_source, remove_empty_loops, outli
     parameter_list = []
     for pdb_id in pdb_chain_dict:
         chains = pdb_chain_dict[pdb_id]
-        loopcut(pdb_dir, fasta_dir, pdb_fasta_mapping_dir, ann_source, ann_dir, temp_loop_dir, pdb_id, chains, log_file_name)
-        # parameter_list.append((pdb_dir, fasta_dir, pdb_fasta_mapping_dir, ann_source, ann_dir, temp_loop_dir, pdb_id, chains, log_file_name))
+        loopcut(pdb_dir, fasta_dir, pdb_fasta_mapping_dir, lib_dir, ann_source, ann_dir, temp_loop_dir, pdb_id, chains, log_file_name)
+        # parameter_list.append((pdb_dir, fasta_dir, pdb_fasta_mapping_dir, lib_dir, ann_source, ann_dir, temp_loop_dir, pdb_id, chains, log_file_name))
     
     # print parameter_list
     pool = mp.Pool(8)

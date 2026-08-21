@@ -1,0 +1,58 @@
+Hit with chr12:454746-455033
+FASTA locations: 148 - 434
+Hit with chr12:463193-463613
+FASTA locations: 652 - 1071
+Hit with chr12:463884-464170
+FASTA locations: 148 - 433
+Hit with chr12:451779-452883
+FASTA locations: 2253 - 3149
+Hit with chr12:452932-453227
+FASTA locations: 1901 - 2058
+Hit with chr12:453276-454357
+FASTA locations: 771 - 1851
+Hit with chr12:454406-454932
+FASTA locations: 439 - 721
+Hit with chr12:454981-458435
+FASTA locations: 1 - 199
+Hit with chr12:461093-462020
+FASTA locations: 2253 - 2979
+Hit with chr12:462069-467572
+FASTA locations: 439 - 1901
+Hit with chr12:489908-490437
+FASTA locations: 2467 - 2995
+Hit with chr12:490491-499379
+FASTA locations: 2358 - 2412
+Hit with chr12:454743-455016
+FASTA locations: 165 - 437
+Hit with chr12:463880-464169
+FASTA locations: 149 - 437
+Hit with chr12:451509-452283
+FASTA locations: 2653 - 3149
+Hit with chr12:452692-453116
+FASTA locations: 1901 - 2256
+Hit with chr12:453165-453674
+FASTA locations: 1454 - 1901
+Hit with chr12:453723-454309
+FASTA locations: 819 - 1404
+Hit with chr12:454468-455597
+FASTA locations: 1 - 438
+Hit with chr12:459842-461041
+FASTA locations: 3032 - 3149
+Hit with chr12:461089-461582
+FASTA locations: 2491 - 2983
+Hit with chr12:461730-462253
+FASTA locations: 1901 - 2256
+Hit with chr12:462464-462811
+FASTA locations: 1454 - 1800
+Hit with chr12:462860-463127
+FASTA locations: 1138 - 1404
+Hit with chr12:463176-463556
+FASTA locations: 709 - 1088
+Hit with chr12:463605-463994
+FASTA locations: 439 - 659
+Hit with chr12:464116-464734
+FASTA locations: 1 - 201
+Hit with chr12:489472-489847
+FASTA locations: 3057 - 3149
+Hit with chr12:489916-494023
+FASTA locations: 2358 - 2986
